@@ -103,7 +103,7 @@ Bitte lesen Sie unsere [Beitragsrichtlinien](CONTRIBUTING.md), um loszulegen.
 Wir sind immer auf der Suche nach Erweiterung unserer Sprachunterstützung! Wenn Sie eine neue Sprache oder einen Dialekt hinzufügen möchten:
 1. Verwenden Sie die integrierte Funktion **Neue Sprache erstellen**
 2. Exportieren Sie Ihre Übersetzungsdatei
-3. Reichen Sie sie per Pull Request an `i18n/translations/` ein
+3. Reichen Sie sie per email ein
 
 ---
 
