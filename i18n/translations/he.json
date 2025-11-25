@@ -1,0 +1,336 @@
+{
+    "menu": {
+        "file": "קובץ",
+        "edit": "עריכה",
+        "view": "תצוגה",
+        "tools": "כלים",
+        "settings": "הגדרות",
+        "help": "עזרה",
+        "languages": "שפות",
+        "german_dialects": "גרמנית",
+        "system_monitor": "System Monitor",
+        "clock": "World Clock",
+        "network_traffic": "Network Traffic",
+        "gpu_monitor": "GPU Monitor",
+        "temperature": "Temperature",
+        "disk_io": "Disk I/O",
+        "media_controls": "Media Controls",
+        "video_screen": "Video Screen",
+        "media_explorer": "Media Explorer",
+        "stream": "Online Stream",
+        "equalizer": "Equalizer",
+        "file_manager": "File Manager",
+        "network_diag": "Network Diagnostics"
+    },
+    "menu_file": {
+        "new": "חדש",
+        "open": "פתח...",
+        "save": "שמור",
+        "exit": "יציאה"
+    },
+    "menu_edit": {
+        "undo": "בטל",
+        "redo": "בצע שוב"
+    },
+    "menu_view": {
+        "theme_light": "ערכת נושא בהירה",
+        "theme_dark": "ערכת נושא כהה"
+    },
+    "menu_tools": {
+        "cockpit": "תא טייס",
+        "media": "מדיה",
+        "tabs": "לשוניות",
+        "add_widget": "➕ הוסף יישומון...",
+        "system_monitor": "מוניטור מערכת",
+        "clock": "שעון עולמי",
+        "network_traffic": "תעבורת רשת",
+        "gpu_monitor": "מוניטור GPU",
+        "temperature": "טמפרטורה",
+        "disk_io": "קלט/פלט דיסק",
+        "media_controls": "בקרי מדיה",
+        "video_screen": "מסך וידאו",
+        "media_explorer": "סייר מדיה",
+        "stream": "שידור מקוון",
+        "equalizer": "אקולייזר",
+        "file_manager": "מנהל קבצים",
+        "network_diag": "אבחון רשת"
+    },
+    "widgets": {
+        "clock": "שעון עולמי",
+        "system_monitor": "מוניטור מערכת",
+        "network_monitor": "תעבורת רשת",
+        "gpu_monitor": "מוניטור GPU",
+        "temp_monitor": "טמפרטורה",
+        "disk_io_monitor": "קלט/פלט דיסק",
+        "directory_browser": "מנהל קבצים",
+        "quick_access": "גישה מהירה",
+        "file_stats": "סטטיסטיקה",
+        "recent_files": "קבצים אחרונים",
+        "ping": "פינג",
+        "connection_status": "חיבור",
+        "speed_test": "בדיקת מהירות",
+        "active_connections": "חיבורים פעילים",
+        "network_path": "נתיב רשת",
+        "directory_browser_title": "מנהל קבצים",
+        "quick_access_title": "גישה מהירה",
+        "file_stats_title": "סטטיסטיקה",
+        "file_stats_storage": "אחסון",
+        "recent_files_title": "קבצים אחרונים"
+    },
+    "dialogs": {
+        "about": {
+            "title": "אודות MacGyver Multi-Tool",
+            "version": "גרסה 1.0 (MVP Build)",
+            "description": "כלי שירות מודולרי בעיצוב macOS.",
+            "copyright": "© 2025 Jan Friske – כל הזכויות שמורות.",
+            "license": "רישיון חינמי (לא מסחרי)."
+        },
+        "widget_selector": {
+            "title": "הוסף יישומון",
+            "preview": "תצוגה מקדימה",
+            "size_select": "בחר גודל:",
+            "add_button": "הוסף ללוח",
+            "sizes": {
+                "compact": "קומפקטי",
+                "wide": "רחב",
+                "extra_wide": "רחב במיוחד",
+                "full_width": "רוחב מלא",
+                "tall": "גבוה",
+                "large": "גדול",
+                "extra_large": "גדול במיוחד",
+                "maximum": "מקסימום"
+            },
+            "scale": "קנה מידה",
+            "error": "שגיאת תצוגה מקדימה"
+        }
+    },
+    "tabs": {
+        "cockpit": "תא טייס",
+        "media_commander": "מפקד מדיה"
+    },
+    "weather": {
+        "loading": "טוען...",
+        "loading_data": "טוען נתוני מזג אוויר...",
+        "forecast": "תחזית ל-3 ימים",
+        "feels_like": "מרגיש כמו",
+        "humidity": "לחות",
+        "wind": "רוח",
+        "unknown": "לא ידוע"
+    },
+    "time": {
+        "zone": "אזור זמן",
+        "calendar_week": "שבוע בשנה",
+        "day_of_year": "יום בשנה",
+        "day_of_year_full": "יום {day} בשנה",
+        "summer_time": "שעון קיץ",
+        "winter_time": "שעון חורף",
+        "gmt_offset": "GMT: {time} ({offset})",
+        "timezone_label": "אזור זמן: {name}",
+        "week_day": "שבוע {week} • יום {day}"
+    },
+    "gauges": {
+        "cpu": "מעבד",
+        "ram": "זיכרון",
+        "upload": "העלאה",
+        "download": "הורדה",
+        "gpu": "GPU",
+        "system": "מערכת"
+    },
+    "disk_io": {
+        "disk_label": "דיסק: {name}",
+        "read": "ק",
+        "write": "כ"
+    },
+    "file_manager": {
+        "up": "⬆️ למעלה",
+        "folders": "תיקיות",
+        "files": "קבצים",
+        "headers": {
+            "name": "שם",
+            "size": "גודל",
+            "modified": "שונה"
+        },
+        "places": {
+            "desktop": "שולחן עבודה",
+            "documents": "מסמכים",
+            "downloads": "הורדות",
+            "pictures": "תמונות",
+            "music": "מוזיקה",
+            "videos": "סרטונים",
+            "home": "בית"
+        },
+        "stats": {
+            "files_count": "{count} קבצים",
+            "storage": "אחסון"
+        },
+        "up_button": "⬆️ מעלה"
+    },
+    "network": {
+        "ping": {
+            "btn": "🌐 פינג",
+            "placeholder": "שם מארח או IP",
+            "pinging": "מבצע פינג ל-{host}...",
+            "failed": "❌ הפינג נכשל",
+            "timeout": "❌ תם הזמן"
+        },
+        "connection": {
+            "checking": "בודק...",
+            "connected": "מחובר",
+            "disconnected": "מנותק",
+            "no_connection": "אין חיבור",
+            "ip_label": "IP: {ip}"
+        },
+        "speed_test": {
+            "btn": "🚀 בדוק מהירות",
+            "testing": "בודק...",
+            "download": "הורדה",
+            "upload": "העלאה"
+        },
+        "active_connections": {
+            "protocol": "פרוטוקול",
+            "refresh": "🔄 רענן",
+            "all": "הכל",
+            "headers": {
+                "process": "תהליך",
+                "protocol": "פרוטוקול",
+                "local": "מקומי",
+                "remote": "מרוחק",
+                "status": "מצב"
+            }
+        },
+        "trace": {
+            "target": "יעד:",
+            "btn": "🗺️ עקוב אחר מסלול",
+            "placeholder": "שם מארח או IP",
+            "tracing": "עוקב...",
+            "start_msg": "🗺️ המסלול ליעד יוצג כאן.\nהזן יעד ולחץ על 'עקוב אחר מסלול'.",
+            "loading": "⏳ קובע מסלול...",
+            "you": "🖥️ אתה",
+            "destination": "🎯 יעד",
+            "timeout": "תם הזמן: לא ניתן לקבוע מסלול מלא.",
+            "error": "שגיאה: {error}",
+            "no_route": "לא נמצא מסלול או שגיאת מעקב."
+        }
+    },
+    "units": {
+        "celsius": "°C",
+        "percent": "%",
+        "mbps": "Mbps",
+        "kbps": "KB/s",
+        "ms": "ms",
+        "bytes": "B",
+        "kilobytes": "KB",
+        "megabytes": "MB",
+        "gigabytes": "GB",
+        "terabytes": "TB"
+    },
+    "status": {
+        "loading": "טוען...",
+        "error": "שגיאה",
+        "unknown": "לא ידוע",
+        "timeout": "תם הזמן",
+        "local": "מקומי",
+        "checking": "בודק..."
+    },
+    "media": {
+        "open_button": "פתח",
+        "equalizer_preset_label": "קביעה מראש:",
+        "equalizer_presets": {
+            "flat": "שטוח",
+            "rock": "רוק",
+            "pop": "פופ",
+            "jazz": "ג'אז",
+            "classical": "קלאסי",
+            "bass_boost": "חיזוק בס"
+        }
+    },
+    "tooltips": {
+        "tooltips.menu_file": "Create, open, save, and manage your files and projects.",
+        "tooltips.menu_edit": "Edit content, undo and redo recent changes.",
+        "tooltips.menu_tools": "Access powerful utility tools including dashboard, media player, and more.",
+        "tooltips.menu_settings": "Configure application preferences, language, and appearance.",
+        "tooltips.menu_help": "Get help, view documentation, and learn about this application.",
+        "tooltips.menu_view": "Change the visual appearance and theme of the application.",
+        "tooltips.menu_languages": "Choose your preferred language from numerous options.",
+        "tooltips.menu_german_dialects": "Select a regional German dialect variant.",
+        "tooltips.menu_cockpit": "System monitoring dashboard with customizable widgets and real-time data.",
+        "tooltips.menu_media": "Media player with advanced controls, equalizer, and streaming support.",
+        "tooltips.menu_tabs": "Manage open tabs and organize your workspace efficiently.",
+        "tooltips.file_new": "Create a new file or start a fresh project from scratch.",
+        "tooltips.file_open": "Open and load an existing file from your filesystem.",
+        "tooltips.file_save": "Save all current changes to the active file.",
+        "tooltips.file_exit": "Close the application and exit completely.",
+        "tooltips.edit_undo": "Undo the most recent action or change.",
+        "tooltips.edit_redo": "Redo the last action that was undone.",
+        "tooltips.help_about": "Display version information and credits for this application.",
+        "tooltips.theme_light": "Switch to the bright, light-colored theme for daytime use.",
+        "tooltips.theme_dark": "Switch to the dark theme for reduced eye strain in low-light conditions.",
+        "tooltips.open_tool": "Open and activate the {tool} utility tool.",
+        "tooltips.add_widget": "Add a new customizable widget to your dashboard.",
+        "tooltips.widget_add": "Add a new widget to your dashboard.",
+        "tooltips.tab_close": "Close this tab."
+    },
+    "menu_languages": {
+        "german": "🇩🇪 German",
+        "main": "🌍 Main Languages",
+        "standard": "Standard & Historical",
+        "east": "East German",
+        "north": "North German",
+        "west": "West German",
+        "south": "South German",
+        "austria": "Austria & Switzerland",
+        "other": "Other",
+        "european": "European",
+        "asian": "Asian",
+        "middle_east": "Middle East & Africa",
+        "bonus": "Bonus",
+        "east_legacy": "East German (GDR Heritage)",
+        "historical_east": "Historical Eastern Territories",
+        "diaspora": "Diaspora & Emigrants",
+        "south_alpine": "South German / Alpine",
+        "north_west": "North / West German",
+        "urban": "Urban Dialects",
+        "abroad": "German Abroad (AT/CH/LU)"
+    },
+    "lang": {
+        "de": "Standard German",
+        "de_middlehigh": "Middle High German (1050-1350)",
+        "de_brandenburg": "Brandenburgish",
+        "de_thuringia": "Thuringian",
+        "de_uppersaxon": "Upper Saxon",
+        "de_lusatian": "Lusatian",
+        "de_pomeranian": "Pomeranian",
+        "de_sudeten": "Sudeten German",
+        "de_silesian": "Silesian",
+        "de_lowprussia": "Low Prussian",
+        "de_eastprussia": "High Prussian",
+        "de_volga": "Volga German",
+        "de_banat": "Banat Swabian",
+        "de_sathmar": "Sathmar Swabian",
+        "de_bavaria": "Bavarian",
+        "de_swabian": "Swabian",
+        "de_allgaeu": "Allgäu Dialect",
+        "de_southtyrol": "South Tyrolean",
+        "de_alemannic": "Alemannic",
+        "de_baden": "Baden Dialect",
+        "de_franconian": "Franconian",
+        "de_vorarlberg": "Vorarlberg Dialect",
+        "de_palatinate": "Palatine",
+        "de_lowgerman": "Low German",
+        "de_mecklenburg": "Mecklenburg Low German",
+        "de_holstein": "Holstein Low German",
+        "de_westphalian": "Westphalian",
+        "de_ripuarian": "Ripuarian / Colognian",
+        "de_moselfranken": "Moselle Franconian",
+        "de_ruhr": "Ruhr German",
+        "de_berlin": "Berlin Dialect",
+        "de_saxony": "Saxon",
+        "de_frankfurt": "Frankfurt Dialect",
+        "de_rhine": "Rhenish",
+        "de_hessian": "Hessian",
+        "de_at": "Austrian German",
+        "de_ch": "Swiss German",
+        "de_luxembourg": "Luxembourgish",
+        "de_transylvania": "Transylvanian Saxon"
+    }
+}

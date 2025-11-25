@@ -1,0 +1,391 @@
+{
+    "menu": {
+        "file": "Datei",
+        "edit": "Beorweide",
+        "view": "Oosicht",
+        "tools": "Werkzeisch",
+        "settings": "Eistellunge",
+        "help": "Hilf",
+        "languages": "Schprooche"
+    },
+    "menu_file": {
+        "new": "Nei",
+        "open": "Uffmache...",
+        "save": "Schbeischern",
+        "exit": "Zumache"
+    },
+    "menu_edit": {
+        "undo": "Rückgängisch mache",
+        "redo": "Nochemol"
+    },
+    "menu_view": {
+        "theme_light": "Helles Design",
+        "theme_dark": "Dunkles Design"
+    },
+    "menu_tools": {
+        "cockpit": "Cockpit",
+        "media": "Media",
+        "tabs": "Tabs",
+        "add_widget": "➕ Widget dazuduh...",
+        "system_monitor": "System Monitor",
+        "clock": "Weltzeituhr",
+        "network_traffic": "Netzwerk-Traffic",
+        "gpu_monitor": "GPU-Monitor",
+        "temperature": "Temperatur",
+        "disk_io": "Disk E/O",
+        "media_controls": "Medien-Steuerung",
+        "video_screen": "Video-Bildscherm",
+        "media_explorer": "Medien-Explorer",
+        "stream": "Online Stream",
+        "equalizer": "Equalizer",
+        "file_manager": "Dateiverwaltung",
+        "network_diag": "Netzwerk-Diagnose"
+    },
+    "widgets": {
+        "clock": "Weltzeituhr",
+        "system_monitor": "System Monitor",
+        "network_monitor": "Netzwerk-Traffic",
+        "gpu_monitor": "GPU-Monitor",
+        "temp_monitor": "Temperatur",
+        "disk_io_monitor": "Disk E/O",
+        "directory_browser": "Dateiverwaltung",
+        "quick_access": "Schneller Zugriff",
+        "file_stats": "Statistik",
+        "recent_files": "Letscht benutzt",
+        "ping": "Ping",
+        "connection_status": "Verbindung",
+        "speed_test": "Speed Test",
+        "active_connections": "Aktive Verbindunge",
+        "network_path": "Netzwerk-Pfad"
+    },
+    "dialogs": {
+        "about": {
+            "title": "Iwwer MacGyver Multi-Tool",
+            "version": "Version 1.0 (MVP-Build)",
+            "description": "En modulares Dienschtprogramm im macOS-Design.",
+            "copyright": "© 2025 Jan Friske – Alle Rechte vorbehalte.",
+            "license": "Freeware-Lizenz (net kommerziell)."
+        },
+        "widget_selector": {
+            "title": "Widget dazuduh",
+            "preview": "Vorschau",
+            "size_select": "Greeß auswähle:",
+            "add_button": "Zum Dashboard dazuduh",
+            "sizes": {
+                "compact": "Kompakt",
+                "wide": "Breit",
+                "extra_wide": "Extra Breit",
+                "full_width": "Volle Breite",
+                "tall": "Hoch",
+                "large": "Groß",
+                "extra_large": "Extra Groß",
+                "maximum": "Maximum"
+            },
+            "scale": "Skalierung",
+            "error": "Vorschau-Fehler"
+        }
+    },
+    "tabs": {
+        "cockpit": "Cockpit",
+        "media_commander": "Media Commander"
+    },
+    "weather": {
+        "loading": "Werd gelaade...",
+        "loading_data": "Wedderdaate wern gelaade...",
+        "forecast": "3-Daach-Vorhersaach",
+        "feels_like": "Fühlt sich oo wie",
+        "humidity": "Feischtischkeit",
+        "wind": "Wind",
+        "unknown": "Unbekannt"
+    },
+    "time": {
+        "zone": "Zeitzone",
+        "calendar_week": "Kalenderwoch",
+        "day_of_year": "Daach vum Johr",
+        "day_of_year_full": "{day}. Daach vum Johr",
+        "summer_time": "Summerzeit (MESZ)",
+        "winter_time": "Winterzeit (MEZ)",
+        "gmt_offset": "GMT: {time} ({offset})",
+        "timezone_label": "Zeitzone: {name}",
+        "week_day": "Kalenderwoch {week} • Daach {day}"
+    },
+    "gauges": {
+        "cpu": "CPU",
+        "ram": "RAM",
+        "upload": "Nufflaade",
+        "download": "Runnerlaade",
+        "gpu": "GPU",
+        "system": "System"
+    },
+    "disk_io": {
+        "disk_label": "Disk: {name}",
+        "read": "L",
+        "write": "S"
+    },
+    "file_manager": {
+        "up": "⬆️ Nuff",
+        "folders": "Ordner",
+        "files": "Dateie",
+        "headers": {
+            "name": "Nome",
+            "size": "Greeß",
+            "modified": "Geännert"
+        },
+        "places": {
+            "desktop": "Schreibdisch",
+            "documents": "Dokumente",
+            "downloads": "Downloads",
+            "pictures": "Bilder",
+            "music": "Musik",
+            "videos": "Videos",
+            "home": "Hoim"
+        },
+        "stats": {
+            "files_count": "{count} Dateie",
+            "storage": "Schbeischer"
+        }
+    },
+    "network": {
+        "ping": {
+            "btn": "🌐 Oobinge",
+            "placeholder": "Hostname odder IP",
+            "pinging": "Binge {host}...",
+            "failed": "❌ Ping net geklappt",
+            "timeout": "❌ Zeit owweloffe"
+        },
+        "connection": {
+            "checking": "Guck emol...",
+            "connected": "Verbunde",
+            "disconnected": "Getrennt",
+            "no_connection": "Kä Verbindung",
+            "ip_label": "IP: {ip}"
+        },
+        "speed_test": {
+            "btn": "🚀 Geschwindigkeit teschde",
+            "testing": "Teschd grad...",
+            "download": "Runnerlaade",
+            "upload": "Nufflaade"
+        },
+        "active_connections": {
+            "protocol": "Protokoll",
+            "refresh": "🔄 Uffrische",
+            "all": "Alle",
+            "headers": {
+                "process": "Prozess",
+                "kbps": "KB/s",
+                "ms": "ms",
+                "bytes": "B",
+                "kilobytes": "KB",
+                {
+                    "menu": {
+                        "file": "Datei",
+                        "edit": "Beorweide",
+                        "view": "Oosicht",
+                        "tools": "Werkzeisch",
+                        "settings": "Eistellunge",
+                        "help": "Hilf",
+                        "languages": "Schprooche"
+                    },
+                    "menu_file": {
+                        "new": "Nei",
+                        "open": "Uffmache...",
+                        "save": "Schbeischern",
+                        "exit": "Zumache"
+                    },
+                    "menu_edit": {
+                        "undo": "Rückgängisch mache",
+                        "redo": "Nochemol"
+                    },
+                    "menu_view": {
+                        "theme_light": "Helles Design",
+                        "theme_dark": "Dunkles Design"
+                    },
+                    "menu_tools": {
+                        "cockpit": "Cockpit",
+                        "media": "Media",
+                        "tabs": "Tabs",
+                        "add_widget": "➕ Widget dazuduh...",
+                        "system_monitor": "System Monitor",
+                        "clock": "Weltzeituhr",
+                        "network_traffic": "Netzwerk-Traffic",
+                        "gpu_monitor": "GPU-Monitor",
+                        "temperature": "Temperatur",
+                        "disk_io": "Disk E/O",
+                        "media_controls": "Medien-Steuerung",
+                        "video_screen": "Video-Bildscherm",
+                        "media_explorer": "Medien-Explorer",
+                        "stream": "Online Stream",
+                        "equalizer": "Equalizer",
+                        "file_manager": "Dateiverwaltung",
+                        "network_diag": "Netzwerk-Diagnose"
+                    },
+                    "widgets": {
+                        "clock": "Weltzeituhr",
+                        "system_monitor": "System Monitor",
+                        "network_monitor": "Netzwerk-Traffic",
+                        "gpu_monitor": "GPU-Monitor",
+                        "temp_monitor": "Temperatur",
+                        "disk_io_monitor": "Disk E/O",
+                        "directory_browser": "Dateiverwaltung",
+                        "quick_access": "Schneller Zugriff",
+                        "file_stats": "Statistik",
+                        "recent_files": "Letscht benutzt",
+                        "ping": "Ping",
+                        "connection_status": "Verbindung",
+                        "speed_test": "Speed Test",
+                        "active_connections": "Aktive Verbindunge",
+                        "network_path": "Netzwerk-Pfad"
+                    },
+                    "dialogs": {
+                        "about": {
+                            "title": "Iwwer MacGyver Multi-Tool",
+                            "version": "Version 1.0 (MVP-Build)",
+                            "description": "En modulares Dienschtprogramm im macOS-Design.",
+                            "copyright": "© 2025 Jan Friske – Alle Rechte vorbehalte.",
+                            "license": "Freeware-Lizenz (net kommerziell)."
+                        },
+                        "widget_selector": {
+                            "title": "Widget dazuduh",
+                            "preview": "Vorschau",
+                            "size_select": "Greeß auswähle:",
+                            "add_button": "Zum Dashboard dazuduh",
+                            "sizes": {
+                                "compact": "Kompakt",
+                                "wide": "Breit",
+                                "extra_wide": "Extra Breit",
+                                "full_width": "Volle Breite",
+                                "tall": "Hoch",
+                                "large": "Groß",
+                                "extra_large": "Extra Groß",
+                                "maximum": "Maximum"
+                            },
+                            "scale": "Skalierung",
+                            "error": "Vorschau-Fehler"
+                        }
+                    },
+                    "tabs": {
+                        "cockpit": "Cockpit",
+                        "media_commander": "Media Commander"
+                    },
+                    "weather": {
+                        "loading": "Werd gelaade...",
+                        "loading_data": "Wedderdaate wern gelaade...",
+                        "forecast": "3-Daach-Vorhersaach",
+                        "feels_like": "Fühlt sich oo wie",
+                        "humidity": "Feischtischkeit",
+                        "wind": "Wind",
+                        "unknown": "Unbekannt"
+                    },
+                    "time": {
+                        "zone": "Zeitzone",
+                        "calendar_week": "Kalenderwoch",
+                        "day_of_year": "Daach vum Johr",
+                        "day_of_year_full": "{day}. Daach vum Johr",
+                        "summer_time": "Summerzeit (MESZ)",
+                        "winter_time": "Winterzeit (MEZ)",
+                        "gmt_offset": "GMT: {time} ({offset})",
+                        "timezone_label": "Zeitzone: {name}",
+                        "week_day": "Kalenderwoch {week} • Daach {day}"
+                    },
+                    "gauges": {
+                        "cpu": "CPU",
+                        "ram": "RAM",
+                        "upload": "Nufflaade",
+                        "download": "Runnerlaade",
+                        "gpu": "GPU",
+                        "system": "System"
+                    },
+                    "disk_io": {
+                        "disk_label": "Disk: {name}",
+                        "read": "L",
+                        "write": "S"
+                    },
+                    "file_manager": {
+                        "up": "⬆️ Nuff",
+                        "folders": "Ordner",
+                        "files": "Dateie",
+                        "headers": {
+                            "name": "Nome",
+                            "size": "Greeß",
+                            "modified": "Geännert"
+                        },
+                        "places": {
+                            "desktop": "Schreibdisch",
+                            "documents": "Dokumente",
+                            "downloads": "Downloads",
+                            "pictures": "Bilder",
+                            "music": "Musik",
+                            "videos": "Videos",
+                            "home": "Hoim"
+                        },
+                        "stats": {
+                            "files_count": "{count} Dateie",
+                            "storage": "Schbeischer"
+                        }
+                    },
+                    "network": {
+                        "ping": {
+                            "btn": "🌐 Oobinge",
+                            "placeholder": "Hostname odder IP",
+                            "pinging": "Binge {host}...",
+                            "failed": "❌ Ping net geklappt",
+                            "timeout": "❌ Zeit owweloffe"
+                        },
+                        "connection": {
+                            "checking": "Guck emol...",
+                            "connected": "Verbunde",
+                            "disconnected": "Getrennt",
+                            "no_connection": "Kä Verbindung",
+                            "ip_label": "IP: {ip}"
+                        },
+                        "speed_test": {
+                            "btn": "🚀 Geschwindigkeit teschde",
+                            "testing": "Teschd grad...",
+                            "download": "Runnerlaade",
+                            "upload": "Nufflaade"
+                        },
+                        "active_connections": {
+                            "protocol": "Protokoll",
+                            "refresh": "🔄 Uffrische",
+                            "all": "Alle",
+                            "headers": {
+                                "process": "Prozess",
+                                "kbps": "KB/s",
+                                "ms": "ms",
+                                "bytes": "B",
+                                "kilobytes": "KB",
+                                "megabytes": "MB",
+                                "gigabytes": "GB",
+                                "terabytes": "TB"
+                            },
+                            "status": {
+                                "loading": "Werd gelaade...",
+                                "error": "Fehler",
+                                "unknown": "Unbekannt",
+                                "timeout": "Zeit owweloffe",
+                                "local": "Lokal",
+                                "checking": "Guck emol..."
+                            }
+                        }
+                    },
+                    "units": {
+                        "celsius": "°C",
+                        "percent": "%",
+                        "mbps": "Mbps",
+                        "kbps": "KB/s",
+                        "ms": "ms",
+                        "bytes": "B",
+                        "kilobytes": "KB",
+                        "megabytes": "MB",
+                        "gigabytes": "GB",
+                        "terabytes": "TB"
+                    },
+                    "status": {
+                        "loading": "Lädt...",
+                        "error": "Fehler",
+                        "unknown": "Unbekannt",
+                        "timeout": "Zeit owweloffe",
+                        "local": "Lokal",
+                        "checking": "Guck emol..."
+                    }
+                }

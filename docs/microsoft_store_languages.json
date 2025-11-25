@@ -1,0 +1,642 @@
+{
+    "metadata": {
+        "title": "Microsoft Store Supported Languages",
+        "description": "Complete list of all languages supported by the Microsoft Store for app submissions",
+        "last_updated": "2024-11-23",
+        "total_languages": 110,
+        "source": "Microsoft Learn Documentation & BCP-47 Standard",
+        "notes": "Apps must support at least one of these languages. Language codes follow BCP-47 standard."
+    },
+    "languages": [
+        {
+            "code": "af",
+            "name": "Afrikaans",
+            "native_name": "Afrikaans",
+            "bcp47": "af-ZA"
+        },
+        {
+            "code": "sq",
+            "name": "Albanian",
+            "native_name": "shqip",
+            "bcp47": "sq-AL"
+        },
+        {
+            "code": "am",
+            "name": "Amharic",
+            "native_name": "አማርኛ",
+            "bcp47": "am-ET"
+        },
+        {
+            "code": "ar",
+            "name": "Arabic",
+            "native_name": "العربية",
+            "bcp47": "ar-SA"
+        },
+        {
+            "code": "hy",
+            "name": "Armenian",
+            "native_name": "Հայերեն",
+            "bcp47": "hy-AM"
+        },
+        {
+            "code": "as",
+            "name": "Assamese",
+            "native_name": "অসমীয়া",
+            "bcp47": "as-IN"
+        },
+        {
+            "code": "az",
+            "name": "Azerbaijani (Latin)",
+            "native_name": "Azərbaycan",
+            "bcp47": "az-Latn-AZ"
+        },
+        {
+            "code": "eu",
+            "name": "Basque",
+            "native_name": "euskara",
+            "bcp47": "eu-ES"
+        },
+        {
+            "code": "be",
+            "name": "Belarusian",
+            "native_name": "беларуская",
+            "bcp47": "be-BY"
+        },
+        {
+            "code": "bn",
+            "name": "Bangla (India)",
+            "native_name": "বাংলা",
+            "bcp47": "bn-IN"
+        },
+        {
+            "code": "bs",
+            "name": "Bosnian (Latin)",
+            "native_name": "bosanski",
+            "bcp47": "bs-Latn-BA"
+        },
+        {
+            "code": "bg",
+            "name": "Bulgarian",
+            "native_name": "български",
+            "bcp47": "bg-BG"
+        },
+        {
+            "code": "ca",
+            "name": "Catalan",
+            "native_name": "català",
+            "bcp47": "ca-ES"
+        },
+        {
+            "code": "chr",
+            "name": "Cherokee",
+            "native_name": "ᏣᎳᎩ",
+            "bcp47": "chr-Cher-US"
+        },
+        {
+            "code": "zh-Hans",
+            "name": "Chinese (Simplified)",
+            "native_name": "中文(简体)",
+            "bcp47": "zh-CN"
+        },
+        {
+            "code": "zh-Hant",
+            "name": "Chinese (Traditional)",
+            "native_name": "中文(繁體)",
+            "bcp47": "zh-TW"
+        },
+        {
+            "code": "hr",
+            "name": "Croatian",
+            "native_name": "hrvatski",
+            "bcp47": "hr-HR"
+        },
+        {
+            "code": "cs",
+            "name": "Czech",
+            "native_name": "čeština",
+            "bcp47": "cs-CZ"
+        },
+        {
+            "code": "da",
+            "name": "Danish",
+            "native_name": "dansk",
+            "bcp47": "da-DK"
+        },
+        {
+            "code": "prs",
+            "name": "Dari",
+            "native_name": "دری",
+            "bcp47": "prs-AF"
+        },
+        {
+            "code": "nl",
+            "name": "Dutch",
+            "native_name": "Nederlands",
+            "bcp47": "nl-NL"
+        },
+        {
+            "code": "en",
+            "name": "English (United States)",
+            "native_name": "English",
+            "bcp47": "en-US"
+        },
+        {
+            "code": "en-GB",
+            "name": "English (United Kingdom)",
+            "native_name": "English (UK)",
+            "bcp47": "en-GB"
+        },
+        {
+            "code": "et",
+            "name": "Estonian",
+            "native_name": "eesti",
+            "bcp47": "et-EE"
+        },
+        {
+            "code": "fil",
+            "name": "Filipino",
+            "native_name": "Filipino",
+            "bcp47": "fil-PH"
+        },
+        {
+            "code": "fi",
+            "name": "Finnish",
+            "native_name": "suomi",
+            "bcp47": "fi-FI"
+        },
+        {
+            "code": "fr",
+            "name": "French (France)",
+            "native_name": "français",
+            "bcp47": "fr-FR"
+        },
+        {
+            "code": "fr-CA",
+            "name": "French (Canada)",
+            "native_name": "français (Canada)",
+            "bcp47": "fr-CA"
+        },
+        {
+            "code": "gl",
+            "name": "Galician",
+            "native_name": "galego",
+            "bcp47": "gl-ES"
+        },
+        {
+            "code": "ka",
+            "name": "Georgian",
+            "native_name": "ქართული",
+            "bcp47": "ka-GE"
+        },
+        {
+            "code": "de",
+            "name": "German",
+            "native_name": "Deutsch",
+            "bcp47": "de-DE"
+        },
+        {
+            "code": "el",
+            "name": "Greek",
+            "native_name": "Ελληνικά",
+            "bcp47": "el-GR"
+        },
+        {
+            "code": "gu",
+            "name": "Gujarati",
+            "native_name": "ગુજરાતી",
+            "bcp47": "gu-IN"
+        },
+        {
+            "code": "ha",
+            "name": "Hausa (Latin)",
+            "native_name": "Hausa",
+            "bcp47": "ha-Latn-NG"
+        },
+        {
+            "code": "he",
+            "name": "Hebrew",
+            "native_name": "עברית",
+            "bcp47": "he-IL"
+        },
+        {
+            "code": "hi",
+            "name": "Hindi",
+            "native_name": "हिंदी",
+            "bcp47": "hi-IN"
+        },
+        {
+            "code": "hu",
+            "name": "Hungarian",
+            "native_name": "magyar",
+            "bcp47": "hu-HU"
+        },
+        {
+            "code": "is",
+            "name": "Icelandic",
+            "native_name": "íslenska",
+            "bcp47": "is-IS"
+        },
+        {
+            "code": "ig",
+            "name": "Igbo",
+            "native_name": "Igbo",
+            "bcp47": "ig-NG"
+        },
+        {
+            "code": "id",
+            "name": "Indonesian",
+            "native_name": "Bahasa Indonesia",
+            "bcp47": "id-ID"
+        },
+        {
+            "code": "ga",
+            "name": "Irish",
+            "native_name": "Gaeilge",
+            "bcp47": "ga-IE"
+        },
+        {
+            "code": "it",
+            "name": "Italian",
+            "native_name": "italiano",
+            "bcp47": "it-IT"
+        },
+        {
+            "code": "ja",
+            "name": "Japanese",
+            "native_name": "日本語",
+            "bcp47": "ja-JP"
+        },
+        {
+            "code": "kn",
+            "name": "Kannada",
+            "native_name": "ಕನ್ನಡ",
+            "bcp47": "kn-IN"
+        },
+        {
+            "code": "kk",
+            "name": "Kazakh",
+            "native_name": "қазақ тілі",
+            "bcp47": "kk-KZ"
+        },
+        {
+            "code": "km",
+            "name": "Khmer",
+            "native_name": "ខ្មែរ",
+            "bcp47": "km-KH"
+        },
+        {
+            "code": "rw",
+            "name": "Kinyarwanda",
+            "native_name": "Kinyarwanda",
+            "bcp47": "rw-RW"
+        },
+        {
+            "code": "sw",
+            "name": "Kiswahili",
+            "native_name": "Kiswahili",
+            "bcp47": "sw-KE"
+        },
+        {
+            "code": "kok",
+            "name": "Konkani",
+            "native_name": "कोंकणी",
+            "bcp47": "kok-IN"
+        },
+        {
+            "code": "ko",
+            "name": "Korean",
+            "native_name": "한국어",
+            "bcp47": "ko-KR"
+        },
+        {
+            "code": "ku",
+            "name": "Kurdish (Arabic)",
+            "native_name": "کوردی",
+            "bcp47": "ku-Arab-IQ"
+        },
+        {
+            "code": "lo",
+            "name": "Lao",
+            "native_name": "ລາວ",
+            "bcp47": "lo-LA"
+        },
+        {
+            "code": "lv",
+            "name": "Latvian",
+            "native_name": "latviešu",
+            "bcp47": "lv-LV"
+        },
+        {
+            "code": "lt",
+            "name": "Lithuanian",
+            "native_name": "lietuvių",
+            "bcp47": "lt-LT"
+        },
+        {
+            "code": "lb",
+            "name": "Luxembourgish",
+            "native_name": "Lëtzebuergesch",
+            "bcp47": "lb-LU"
+        },
+        {
+            "code": "mk",
+            "name": "Macedonian",
+            "native_name": "македонски",
+            "bcp47": "mk-MK"
+        },
+        {
+            "code": "ms",
+            "name": "Malay",
+            "native_name": "Bahasa Melayu",
+            "bcp47": "ms-MY"
+        },
+        {
+            "code": "ml",
+            "name": "Malayalam",
+            "native_name": "മലയാളം",
+            "bcp47": "ml-IN"
+        },
+        {
+            "code": "mt",
+            "name": "Maltese",
+            "native_name": "Malti",
+            "bcp47": "mt-MT"
+        },
+        {
+            "code": "mi",
+            "name": "Maori",
+            "native_name": "te reo Māori",
+            "bcp47": "mi-NZ"
+        },
+        {
+            "code": "mr",
+            "name": "Marathi",
+            "native_name": "मराठी",
+            "bcp47": "mr-IN"
+        },
+        {
+            "code": "mn",
+            "name": "Mongolian (Cyrillic)",
+            "native_name": "монгол",
+            "bcp47": "mn-MN"
+        },
+        {
+            "code": "ne",
+            "name": "Nepali",
+            "native_name": "नेपाली",
+            "bcp47": "ne-NP"
+        },
+        {
+            "code": "nb",
+            "name": "Norwegian (Bokmål)",
+            "native_name": "norsk bokmål",
+            "bcp47": "nb-NO"
+        },
+        {
+            "code": "nn",
+            "name": "Norwegian (Nynorsk)",
+            "native_name": "nynorsk",
+            "bcp47": "nn-NO"
+        },
+        {
+            "code": "or",
+            "name": "Odia",
+            "native_name": "ଓଡ଼ିଆ",
+            "bcp47": "or-IN"
+        },
+        {
+            "code": "fa",
+            "name": "Persian",
+            "native_name": "فارسی",
+            "bcp47": "fa-IR"
+        },
+        {
+            "code": "pl",
+            "name": "Polish",
+            "native_name": "polski",
+            "bcp47": "pl-PL"
+        },
+        {
+            "code": "pt-BR",
+            "name": "Portuguese (Brazil)",
+            "native_name": "português (Brasil)",
+            "bcp47": "pt-BR"
+        },
+        {
+            "code": "pt-PT",
+            "name": "Portuguese (Portugal)",
+            "native_name": "português (Portugal)",
+            "bcp47": "pt-PT"
+        },
+        {
+            "code": "pa",
+            "name": "Punjabi",
+            "native_name": "ਪੰਜਾਬੀ",
+            "bcp47": "pa-IN"
+        },
+        {
+            "code": "quz",
+            "name": "Quechua",
+            "native_name": "Runasimi",
+            "bcp47": "quz-PE"
+        },
+        {
+            "code": "ro",
+            "name": "Romanian",
+            "native_name": "română",
+            "bcp47": "ro-RO"
+        },
+        {
+            "code": "ru",
+            "name": "Russian",
+            "native_name": "русский",
+            "bcp47": "ru-RU"
+        },
+        {
+            "code": "gd",
+            "name": "Scottish Gaelic",
+            "native_name": "Gàidhlig",
+            "bcp47": "gd-GB"
+        },
+        {
+            "code": "sr-Cyrl",
+            "name": "Serbian (Cyrillic)",
+            "native_name": "српски",
+            "bcp47": "sr-Cyrl-RS"
+        },
+        {
+            "code": "sr-Latn",
+            "name": "Serbian (Latin)",
+            "native_name": "srpski",
+            "bcp47": "sr-Latn-RS"
+        },
+        {
+            "code": "nso",
+            "name": "Sesotho sa Leboa",
+            "native_name": "Sesotho sa Leboa",
+            "bcp47": "nso-ZA"
+        },
+        {
+            "code": "tn",
+            "name": "Setswana",
+            "native_name": "Setswana",
+            "bcp47": "tn-ZA"
+        },
+        {
+            "code": "sd",
+            "name": "Sindhi (Arabic)",
+            "native_name": "سنڌي",
+            "bcp47": "sd-Arab-PK"
+        },
+        {
+            "code": "si",
+            "name": "Sinhala",
+            "native_name": "සිංහල",
+            "bcp47": "si-LK"
+        },
+        {
+            "code": "sk",
+            "name": "Slovak",
+            "native_name": "slovenčina",
+            "bcp47": "sk-SK"
+        },
+        {
+            "code": "sl",
+            "name": "Slovenian",
+            "native_name": "slovenščina",
+            "bcp47": "sl-SI"
+        },
+        {
+            "code": "es",
+            "name": "Spanish (Spain)",
+            "native_name": "español",
+            "bcp47": "es-ES"
+        },
+        {
+            "code": "es-MX",
+            "name": "Spanish (Mexico)",
+            "native_name": "español (México)",
+            "bcp47": "es-MX"
+        },
+        {
+            "code": "sv",
+            "name": "Swedish",
+            "native_name": "svenska",
+            "bcp47": "sv-SE"
+        },
+        {
+            "code": "tg",
+            "name": "Tajik (Cyrillic)",
+            "native_name": "тоҷикӣ",
+            "bcp47": "tg-Cyrl-TJ"
+        },
+        {
+            "code": "ta",
+            "name": "Tamil",
+            "native_name": "தமிழ்",
+            "bcp47": "ta-IN"
+        },
+        {
+            "code": "tt",
+            "name": "Tatar",
+            "native_name": "татар",
+            "bcp47": "tt-RU"
+        },
+        {
+            "code": "te",
+            "name": "Telugu",
+            "native_name": "తెలుగు",
+            "bcp47": "te-IN"
+        },
+        {
+            "code": "th",
+            "name": "Thai",
+            "native_name": "ไทย",
+            "bcp47": "th-TH"
+        },
+        {
+            "code": "ti",
+            "name": "Tigrinya",
+            "native_name": "ትግርኛ",
+            "bcp47": "ti-ET"
+        },
+        {
+            "code": "tr",
+            "name": "Turkish",
+            "native_name": "Türkçe",
+            "bcp47": "tr-TR"
+        },
+        {
+            "code": "tk",
+            "name": "Turkmen",
+            "native_name": "türkmen dili",
+            "bcp47": "tk-TM"
+        },
+        {
+            "code": "uk",
+            "name": "Ukrainian",
+            "native_name": "українська",
+            "bcp47": "uk-UA"
+        },
+        {
+            "code": "ur",
+            "name": "Urdu",
+            "native_name": "اردو",
+            "bcp47": "ur-PK"
+        },
+        {
+            "code": "ug",
+            "name": "Uyghur",
+            "native_name": "ئۇيغۇرچە",
+            "bcp47": "ug-CN"
+        },
+        {
+            "code": "uz",
+            "name": "Uzbek (Latin)",
+            "native_name": "o'zbek",
+            "bcp47": "uz-Latn-UZ"
+        },
+        {
+            "code": "ca-ES-valencia",
+            "name": "Valencian",
+            "native_name": "valencià",
+            "bcp47": "ca-ES-valencia"
+        },
+        {
+            "code": "vi",
+            "name": "Vietnamese",
+            "native_name": "Tiếng Việt",
+            "bcp47": "vi-VN"
+        },
+        {
+            "code": "cy",
+            "name": "Welsh",
+            "native_name": "Cymraeg",
+            "bcp47": "cy-GB"
+        },
+        {
+            "code": "wo",
+            "name": "Wolof",
+            "native_name": "Wolof",
+            "bcp47": "wo-SN"
+        },
+        {
+            "code": "xh",
+            "name": "isiXhosa",
+            "native_name": "isiXhosa",
+            "bcp47": "xh-ZA"
+        },
+        {
+            "code": "yo",
+            "name": "Yoruba",
+            "native_name": "Yorùbá",
+            "bcp47": "yo-NG"
+        },
+        {
+            "code": "zu",
+            "name": "isiZulu",
+            "native_name": "isiZulu",
+            "bcp47": "zu-ZA"
+        }
+    ]
+}

@@ -1,0 +1,336 @@
+{
+    "menu": {
+        "file": "Tệp",
+        "edit": "Chỉnh sửa",
+        "view": "Xem",
+        "tools": "Công cụ",
+        "settings": "Cài đặt",
+        "help": "Trợ giúp",
+        "languages": "Ngôn ngữ",
+        "german_dialects": "Tiếng Đức",
+        "system_monitor": "System Monitor",
+        "clock": "World Clock",
+        "network_traffic": "Network Traffic",
+        "gpu_monitor": "GPU Monitor",
+        "temperature": "Temperature",
+        "disk_io": "Disk I/O",
+        "media_controls": "Media Controls",
+        "video_screen": "Video Screen",
+        "media_explorer": "Media Explorer",
+        "stream": "Online Stream",
+        "equalizer": "Equalizer",
+        "file_manager": "File Manager",
+        "network_diag": "Network Diagnostics"
+    },
+    "menu_file": {
+        "new": "Mới",
+        "open": "Mở...",
+        "save": "Lưu",
+        "exit": "Thoát"
+    },
+    "menu_edit": {
+        "undo": "Hoàn tác",
+        "redo": "Làm lại"
+    },
+    "menu_view": {
+        "theme_light": "Giao diện Sáng",
+        "theme_dark": "Giao diện Tối"
+    },
+    "menu_tools": {
+        "cockpit": "Buồng lái",
+        "media": "Phương tiện",
+        "tabs": "Thẻ",
+        "add_widget": "➕ Thêm Widget...",
+        "system_monitor": "Giám sát hệ thống",
+        "clock": "Đồng hồ thế giới",
+        "network_traffic": "Lưu lượng mạng",
+        "gpu_monitor": "Giám sát GPU",
+        "temperature": "Nhiệt độ",
+        "disk_io": "Đĩa I/O",
+        "media_controls": "Điều khiển phương tiện",
+        "video_screen": "Màn hình Video",
+        "media_explorer": "Trình duyệt phương tiện",
+        "stream": "Luồng trực tuyến",
+        "equalizer": "Bộ cân bằng",
+        "file_manager": "Quản lý tệp",
+        "network_diag": "Chẩn đoán mạng"
+    },
+    "widgets": {
+        "clock": "Đồng hồ thế giới",
+        "system_monitor": "Giám sát hệ thống",
+        "network_monitor": "Lưu lượng mạng",
+        "gpu_monitor": "Giám sát GPU",
+        "temp_monitor": "Nhiệt độ",
+        "disk_io_monitor": "Đĩa I/O",
+        "directory_browser": "Quản lý tệp",
+        "quick_access": "Truy cập nhanh",
+        "file_stats": "Thống kê",
+        "recent_files": "Tệp gần đây",
+        "ping": "Ping",
+        "connection_status": "Kết nối",
+        "speed_test": "Kiểm tra tốc độ",
+        "active_connections": "Kết nối hoạt động",
+        "network_path": "Đường dẫn mạng",
+        "directory_browser_title": "Quản lý tệp",
+        "quick_access_title": "Truy cập nhanh",
+        "file_stats_title": "Thống kê",
+        "file_stats_storage": "Lưu trữ",
+        "recent_files_title": "Tệp gần đây"
+    },
+    "dialogs": {
+        "about": {
+            "title": "Về MacGyver Multi-Tool",
+            "version": "Phiên bản 1.0 (Bản dựng MVP)",
+            "description": "Một công cụ tiện ích mô-đun với thiết kế macOS.",
+            "copyright": "© 2025 Jan Friske – Đã đăng ký bản quyền.",
+            "license": "Giấy phép miễn phí (phi thương mại)."
+        },
+        "widget_selector": {
+            "title": "Thêm Widget",
+            "preview": "Xem trước",
+            "size_select": "Chọn kích thước:",
+            "add_button": "Thêm vào Bảng điều khiển",
+            "sizes": {
+                "compact": "Nhỏ gọn",
+                "wide": "Rộng",
+                "extra_wide": "Rất rộng",
+                "full_width": "Toàn chiều rộng",
+                "tall": "Cao",
+                "large": "Lớn",
+                "extra_large": "Rất lớn",
+                "maximum": "Tối đa"
+            },
+            "scale": "Tỷ lệ",
+            "error": "Lỗi xem trước"
+        }
+    },
+    "tabs": {
+        "cockpit": "Buồng lái",
+        "media_commander": "Chỉ huy phương tiện"
+    },
+    "weather": {
+        "loading": "Đang tải...",
+        "loading_data": "Đang tải dữ liệu thời tiết...",
+        "forecast": "Dự báo 3 ngày",
+        "feels_like": "Cảm giác như",
+        "humidity": "Độ ẩm",
+        "wind": "Gió",
+        "unknown": "Không rõ"
+    },
+    "time": {
+        "zone": "Múi giờ",
+        "calendar_week": "Tuần lịch",
+        "day_of_year": "Ngày trong năm",
+        "day_of_year_full": "Ngày thứ {day} trong năm",
+        "summer_time": "Giờ mùa hè",
+        "winter_time": "Giờ mùa đông",
+        "gmt_offset": "GMT: {time} ({offset})",
+        "timezone_label": "Múi giờ: {name}",
+        "week_day": "Tuần {week} • Ngày {day}"
+    },
+    "gauges": {
+        "cpu": "CPU",
+        "ram": "RAM",
+        "upload": "Tải lên",
+        "download": "Tải xuống",
+        "gpu": "GPU",
+        "system": "Hệ thống"
+    },
+    "disk_io": {
+        "disk_label": "Đĩa: {name}",
+        "read": "Đ",
+        "write": "G"
+    },
+    "file_manager": {
+        "up": "⬆️ Lên",
+        "folders": "Thư mục",
+        "files": "Tệp",
+        "headers": {
+            "name": "Tên",
+            "size": "Kích thước",
+            "modified": "Đã sửa đổi"
+        },
+        "places": {
+            "desktop": "Màn hình chính",
+            "documents": "Tài liệu",
+            "downloads": "Tải xuống",
+            "pictures": "Hình ảnh",
+            "music": "Nhạc",
+            "videos": "Video",
+            "home": "Trang chủ"
+        },
+        "stats": {
+            "files_count": "{count} tệp",
+            "storage": "Lưu trữ"
+        },
+        "up_button": "⬆️ Lên"
+    },
+    "network": {
+        "ping": {
+            "btn": "🌐 Ping",
+            "placeholder": "Tên máy chủ hoặc IP",
+            "pinging": "Đang ping {host}...",
+            "failed": "❌ Ping thất bại",
+            "timeout": "❌ Hết thời gian"
+        },
+        "connection": {
+            "checking": "Đang kiểm tra...",
+            "connected": "Đã kết nối",
+            "disconnected": "Đã ngắt kết nối",
+            "no_connection": "Không có kết nối",
+            "ip_label": "IP: {ip}"
+        },
+        "speed_test": {
+            "btn": "🚀 Kiểm tra tốc độ",
+            "testing": "Đang kiểm tra...",
+            "download": "Tải xuống",
+            "upload": "Tải lên"
+        },
+        "active_connections": {
+            "protocol": "Giao thức",
+            "refresh": "🔄 Làm mới",
+            "all": "Tất cả",
+            "headers": {
+                "process": "Tiến trình",
+                "protocol": "Giao thức",
+                "local": "Cục bộ",
+                "remote": "Từ xa",
+                "status": "Trạng thái"
+            }
+        },
+        "trace": {
+            "target": "Mục tiêu:",
+            "btn": "🗺️ Truy vết đường đi",
+            "placeholder": "Tên máy chủ hoặc IP",
+            "tracing": "Đang truy vết...",
+            "start_msg": "🗺️ Đường đi đến mục tiêu sẽ hiển thị ở đây.\nNhập mục tiêu và nhấp vào 'Truy vết đường đi'.",
+            "loading": "⏳ Đang xác định đường đi...",
+            "you": "🖥️ Bạn",
+            "destination": "🎯 Đích",
+            "timeout": "Hết thời gian: Không thể xác định đường đi đầy đủ.",
+            "error": "Lỗi: {error}",
+            "no_route": "Không tìm thấy đường đi hoặc lỗi truy vết."
+        }
+    },
+    "units": {
+        "celsius": "°C",
+        "percent": "%",
+        "mbps": "Mbps",
+        "kbps": "KB/s",
+        "ms": "ms",
+        "bytes": "B",
+        "kilobytes": "KB",
+        "megabytes": "MB",
+        "gigabytes": "GB",
+        "terabytes": "TB"
+    },
+    "status": {
+        "loading": "Đang tải...",
+        "error": "Lỗi",
+        "unknown": "Không rõ",
+        "timeout": "Hết thời gian",
+        "local": "Cục bộ",
+        "checking": "Đang kiểm tra..."
+    },
+    "media": {
+        "open_button": "Mở",
+        "equalizer_preset_label": "Cài đặt sẵn:",
+        "equalizer_presets": {
+            "flat": "Phẳng",
+            "rock": "Rock",
+            "pop": "Pop",
+            "jazz": "Jazz",
+            "classical": "Cổ điển",
+            "bass_boost": "Tăng cường Bass"
+        }
+    },
+    "tooltips": {
+        "tooltips.menu_file": "Create, open, save, and manage your files and projects.",
+        "tooltips.menu_edit": "Edit content, undo and redo recent changes.",
+        "tooltips.menu_tools": "Access powerful utility tools including dashboard, media player, and more.",
+        "tooltips.menu_settings": "Configure application preferences, language, and appearance.",
+        "tooltips.menu_help": "Get help, view documentation, and learn about this application.",
+        "tooltips.menu_view": "Change the visual appearance and theme of the application.",
+        "tooltips.menu_languages": "Choose your preferred language from numerous options.",
+        "tooltips.menu_german_dialects": "Select a regional German dialect variant.",
+        "tooltips.menu_cockpit": "System monitoring dashboard with customizable widgets and real-time data.",
+        "tooltips.menu_media": "Media player with advanced controls, equalizer, and streaming support.",
+        "tooltips.menu_tabs": "Manage open tabs and organize your workspace efficiently.",
+        "tooltips.file_new": "Create a new file or start a fresh project from scratch.",
+        "tooltips.file_open": "Open and load an existing file from your filesystem.",
+        "tooltips.file_save": "Save all current changes to the active file.",
+        "tooltips.file_exit": "Close the application and exit completely.",
+        "tooltips.edit_undo": "Undo the most recent action or change.",
+        "tooltips.edit_redo": "Redo the last action that was undone.",
+        "tooltips.help_about": "Display version information and credits for this application.",
+        "tooltips.theme_light": "Switch to the bright, light-colored theme for daytime use.",
+        "tooltips.theme_dark": "Switch to the dark theme for reduced eye strain in low-light conditions.",
+        "tooltips.open_tool": "Open and activate the {tool} utility tool.",
+        "tooltips.add_widget": "Add a new customizable widget to your dashboard.",
+        "tooltips.widget_add": "Add a new widget to your dashboard.",
+        "tooltips.tab_close": "Close this tab."
+    },
+    "menu_languages": {
+        "german": "🇩🇪 German",
+        "main": "🌍 Main Languages",
+        "standard": "Standard & Historical",
+        "east": "East German",
+        "north": "North German",
+        "west": "West German",
+        "south": "South German",
+        "austria": "Austria & Switzerland",
+        "other": "Other",
+        "european": "European",
+        "asian": "Asian",
+        "middle_east": "Middle East & Africa",
+        "bonus": "Bonus",
+        "east_legacy": "East German (GDR Heritage)",
+        "historical_east": "Historical Eastern Territories",
+        "diaspora": "Diaspora & Emigrants",
+        "south_alpine": "South German / Alpine",
+        "north_west": "North / West German",
+        "urban": "Urban Dialects",
+        "abroad": "German Abroad (AT/CH/LU)"
+    },
+    "lang": {
+        "de": "Standard German",
+        "de_middlehigh": "Middle High German (1050-1350)",
+        "de_brandenburg": "Brandenburgish",
+        "de_thuringia": "Thuringian",
+        "de_uppersaxon": "Upper Saxon",
+        "de_lusatian": "Lusatian",
+        "de_pomeranian": "Pomeranian",
+        "de_sudeten": "Sudeten German",
+        "de_silesian": "Silesian",
+        "de_lowprussia": "Low Prussian",
+        "de_eastprussia": "High Prussian",
+        "de_volga": "Volga German",
+        "de_banat": "Banat Swabian",
+        "de_sathmar": "Sathmar Swabian",
+        "de_bavaria": "Bavarian",
+        "de_swabian": "Swabian",
+        "de_allgaeu": "Allgäu Dialect",
+        "de_southtyrol": "South Tyrolean",
+        "de_alemannic": "Alemannic",
+        "de_baden": "Baden Dialect",
+        "de_franconian": "Franconian",
+        "de_vorarlberg": "Vorarlberg Dialect",
+        "de_palatinate": "Palatine",
+        "de_lowgerman": "Low German",
+        "de_mecklenburg": "Mecklenburg Low German",
+        "de_holstein": "Holstein Low German",
+        "de_westphalian": "Westphalian",
+        "de_ripuarian": "Ripuarian / Colognian",
+        "de_moselfranken": "Moselle Franconian",
+        "de_ruhr": "Ruhr German",
+        "de_berlin": "Berlin Dialect",
+        "de_saxony": "Saxon",
+        "de_frankfurt": "Frankfurt Dialect",
+        "de_rhine": "Rhenish",
+        "de_hessian": "Hessian",
+        "de_at": "Austrian German",
+        "de_ch": "Swiss German",
+        "de_luxembourg": "Luxembourgish",
+        "de_transylvania": "Transylvanian Saxon"
+    }
+}

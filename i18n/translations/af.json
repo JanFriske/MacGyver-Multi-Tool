@@ -1,0 +1,336 @@
+{
+    "menu": {
+        "file": "Lêer",
+        "edit": "Redigeer",
+        "view": "Aansig",
+        "tools": "Gereedskap",
+        "settings": "Instellings",
+        "help": "Hulp",
+        "languages": "Tale",
+        "german_dialects": "Duits",
+        "system_monitor": "System Monitor",
+        "clock": "World Clock",
+        "network_traffic": "Network Traffic",
+        "gpu_monitor": "GPU Monitor",
+        "temperature": "Temperature",
+        "disk_io": "Disk I/O",
+        "media_controls": "Media Controls",
+        "video_screen": "Video Screen",
+        "media_explorer": "Media Explorer",
+        "stream": "Online Stream",
+        "equalizer": "Equalizer",
+        "file_manager": "File Manager",
+        "network_diag": "Network Diagnostics"
+    },
+    "menu_file": {
+        "new": "Nuut",
+        "open": "Maak oop...",
+        "save": "Stoor",
+        "exit": "Verlaat"
+    },
+    "menu_edit": {
+        "undo": "Ontdoen",
+        "redo": "Herdoen"
+    },
+    "menu_view": {
+        "theme_light": "Ligte Tema",
+        "theme_dark": "Donker Tema"
+    },
+    "menu_tools": {
+        "cockpit": "Kajuit",
+        "media": "Media",
+        "tabs": "Oortjies",
+        "add_widget": "➕ Voeg Widget by...",
+        "system_monitor": "Stelselmonitor",
+        "clock": "Wêreldklok",
+        "network_traffic": "Netwerkverkeer",
+        "gpu_monitor": "GPU Monitor",
+        "temperature": "Temperatuur",
+        "disk_io": "Skyf I/O",
+        "media_controls": "Mediabeheer",
+        "video_screen": "Videoskerm",
+        "media_explorer": "Mediaverkenner",
+        "stream": "Aanlyn Stroom",
+        "equalizer": "Gelykmaker",
+        "file_manager": "Lêerbestuurder",
+        "network_diag": "Netwerkdiagnostiek"
+    },
+    "widgets": {
+        "clock": "Wêreldklok",
+        "system_monitor": "Stelselmonitor",
+        "network_monitor": "Netwerkverkeer",
+        "gpu_monitor": "GPU Monitor",
+        "temp_monitor": "Temperatuur",
+        "disk_io_monitor": "Skyf I/O",
+        "directory_browser": "Lêerbestuurder",
+        "quick_access": "Vinnige Toegang",
+        "file_stats": "Statistiek",
+        "recent_files": "Onlangse Lêers",
+        "ping": "Ping",
+        "connection_status": "Verbinding",
+        "speed_test": "Spoedtoets",
+        "active_connections": "Aktiewe Verbindings",
+        "network_path": "Netwerkpad",
+        "directory_browser_title": "Lêerbestuurder",
+        "quick_access_title": "Vinnige Toegang",
+        "file_stats_title": "Statistiek",
+        "file_stats_storage": "Stoorplek",
+        "recent_files_title": "Onlangse Lêers"
+    },
+    "dialogs": {
+        "about": {
+            "title": "Oor MacGyver Multi-Tool",
+            "version": "Weergawe 1.0 (MVP Bou)",
+            "description": "'n Modulêre nutsprogram met macOS-ontwerp.",
+            "copyright": "© 2025 Jan Friske – Alle regte voorbehou.",
+            "license": "Gratisware Lisensie (nie-kommersieel)."
+        },
+        "widget_selector": {
+            "title": "Voeg Widget by",
+            "preview": "Voorskou",
+            "size_select": "Kies Grootte:",
+            "add_button": "Voeg by Paneelbord",
+            "sizes": {
+                "compact": "Kompak",
+                "wide": "Wyd",
+                "extra_wide": "Ekstra Wyd",
+                "full_width": "Volle Breedte",
+                "tall": "Hoog",
+                "large": "Groot",
+                "extra_large": "Ekstra Groot",
+                "maximum": "Maksimum"
+            },
+            "scale": "Skaal",
+            "error": "Voorskou Fout"
+        }
+    },
+    "tabs": {
+        "cockpit": "Kajuit",
+        "media_commander": "Media Bevelvoerder"
+    },
+    "weather": {
+        "loading": "Laai...",
+        "loading_data": "Laai weerdata...",
+        "forecast": "3-Dag Voorspelling",
+        "feels_like": "Voel soos",
+        "humidity": "Humiditeit",
+        "wind": "Wind",
+        "unknown": "Onbekend"
+    },
+    "time": {
+        "zone": "Tydsone",
+        "calendar_week": "Kalenderweek",
+        "day_of_year": "Dag van die Jaar",
+        "day_of_year_full": "Dag {day} van die Jaar",
+        "summer_time": "Somertyd",
+        "winter_time": "Wintertyd",
+        "gmt_offset": "GMT: {time} ({offset})",
+        "timezone_label": "Tydsone: {name}",
+        "week_day": "Week {week} • Dag {day}"
+    },
+    "gauges": {
+        "cpu": "SVE",
+        "ram": "RAM",
+        "upload": "Oplaai",
+        "download": "Aflaai",
+        "gpu": "GPU",
+        "system": "Stelsel"
+    },
+    "disk_io": {
+        "disk_label": "Skyf: {name}",
+        "read": "L",
+        "write": "S"
+    },
+    "file_manager": {
+        "up": "⬆️ Op",
+        "folders": "Vouers",
+        "files": "Lêers",
+        "headers": {
+            "name": "Naam",
+            "size": "Grootte",
+            "modified": "Gewysig"
+        },
+        "places": {
+            "desktop": "Werkskerm",
+            "documents": "Dokumente",
+            "downloads": "Aflaaie",
+            "pictures": "Prente",
+            "music": "Musiek",
+            "videos": "Video's",
+            "home": "Tuis"
+        },
+        "stats": {
+            "files_count": "{count} lêers",
+            "storage": "Stoorplek"
+        },
+        "up_button": "⬆️ Op"
+    },
+    "network": {
+        "ping": {
+            "btn": "🌐 Ping",
+            "placeholder": "Gasheernaam of IP",
+            "pinging": "Ping {host}...",
+            "failed": "❌ Ping misluk",
+            "timeout": "❌ Tyd verstreke"
+        },
+        "connection": {
+            "checking": "Kontroleer...",
+            "connected": "Gekoppel",
+            "disconnected": "Ontkoppel",
+            "no_connection": "Geen Verbinding",
+            "ip_label": "IP: {ip}"
+        },
+        "speed_test": {
+            "btn": "🚀 Spoedtoets",
+            "testing": "Toets...",
+            "download": "Aflaai",
+            "upload": "Oplaai"
+        },
+        "active_connections": {
+            "protocol": "Protokol",
+            "refresh": "🔄 Verfris",
+            "all": "Alles",
+            "headers": {
+                "process": "Proses",
+                "protocol": "Protokol",
+                "local": "Plaaslik",
+                "remote": "Afgeleë",
+                "status": "Status"
+            }
+        },
+        "trace": {
+            "target": "Teiken:",
+            "btn": "🗺️ Volg Roete",
+            "placeholder": "Gasheernaam of IP",
+            "tracing": "Volg...",
+            "start_msg": "🗺️ Roete na teiken sal hier vertoon word.\nVoer 'n teiken in en klik 'Volg Roete'.",
+            "loading": "⏳ Bepaal roete...",
+            "you": "🖥️ Jy",
+            "destination": "🎯 Bestemming",
+            "timeout": "Tyd verstreke: Kon nie volledige roete bepaal nie.",
+            "error": "Fout: {error}",
+            "no_route": "Geen roete gevind of volg fout."
+        }
+    },
+    "units": {
+        "celsius": "°C",
+        "percent": "%",
+        "mbps": "Mbps",
+        "kbps": "KB/s",
+        "ms": "ms",
+        "bytes": "B",
+        "kilobytes": "KB",
+        "megabytes": "MB",
+        "gigabytes": "GB",
+        "terabytes": "TB"
+    },
+    "status": {
+        "loading": "Laai...",
+        "error": "Fout",
+        "unknown": "Onbekend",
+        "timeout": "Tyd verstreke",
+        "local": "Plaaslik",
+        "checking": "Kontroleer..."
+    },
+    "media": {
+        "open_button": "Maak oop",
+        "equalizer_preset_label": "Voorafinstelling:",
+        "equalizer_presets": {
+            "flat": "Plat",
+            "rock": "Rock",
+            "pop": "Pop",
+            "jazz": "Jazz",
+            "classical": "Klassiek",
+            "bass_boost": "Bas Versterking"
+        }
+    },
+    "tooltips": {
+        "tooltips.menu_file": "Create, open, save, and manage your files and projects.",
+        "tooltips.menu_edit": "Edit content, undo and redo recent changes.",
+        "tooltips.menu_tools": "Access powerful utility tools including dashboard, media player, and more.",
+        "tooltips.menu_settings": "Configure application preferences, language, and appearance.",
+        "tooltips.menu_help": "Get help, view documentation, and learn about this application.",
+        "tooltips.menu_view": "Change the visual appearance and theme of the application.",
+        "tooltips.menu_languages": "Choose your preferred language from numerous options.",
+        "tooltips.menu_german_dialects": "Select a regional German dialect variant.",
+        "tooltips.menu_cockpit": "System monitoring dashboard with customizable widgets and real-time data.",
+        "tooltips.menu_media": "Media player with advanced controls, equalizer, and streaming support.",
+        "tooltips.menu_tabs": "Manage open tabs and organize your workspace efficiently.",
+        "tooltips.file_new": "Create a new file or start a fresh project from scratch.",
+        "tooltips.file_open": "Open and load an existing file from your filesystem.",
+        "tooltips.file_save": "Save all current changes to the active file.",
+        "tooltips.file_exit": "Close the application and exit completely.",
+        "tooltips.edit_undo": "Undo the most recent action or change.",
+        "tooltips.edit_redo": "Redo the last action that was undone.",
+        "tooltips.help_about": "Display version information and credits for this application.",
+        "tooltips.theme_light": "Switch to the bright, light-colored theme for daytime use.",
+        "tooltips.theme_dark": "Switch to the dark theme for reduced eye strain in low-light conditions.",
+        "tooltips.open_tool": "Open and activate the {tool} utility tool.",
+        "tooltips.add_widget": "Add a new customizable widget to your dashboard.",
+        "tooltips.widget_add": "Add a new widget to your dashboard.",
+        "tooltips.tab_close": "Close this tab."
+    },
+    "menu_languages": {
+        "german": "🇩🇪 German",
+        "main": "🌍 Main Languages",
+        "standard": "Standard & Historical",
+        "east": "East German",
+        "north": "North German",
+        "west": "West German",
+        "south": "South German",
+        "austria": "Austria & Switzerland",
+        "other": "Other",
+        "european": "European",
+        "asian": "Asian",
+        "middle_east": "Middle East & Africa",
+        "bonus": "Bonus",
+        "east_legacy": "East German (GDR Heritage)",
+        "historical_east": "Historical Eastern Territories",
+        "diaspora": "Diaspora & Emigrants",
+        "south_alpine": "South German / Alpine",
+        "north_west": "North / West German",
+        "urban": "Urban Dialects",
+        "abroad": "German Abroad (AT/CH/LU)"
+    },
+    "lang": {
+        "de": "Standard German",
+        "de_middlehigh": "Middle High German (1050-1350)",
+        "de_brandenburg": "Brandenburgish",
+        "de_thuringia": "Thuringian",
+        "de_uppersaxon": "Upper Saxon",
+        "de_lusatian": "Lusatian",
+        "de_pomeranian": "Pomeranian",
+        "de_sudeten": "Sudeten German",
+        "de_silesian": "Silesian",
+        "de_lowprussia": "Low Prussian",
+        "de_eastprussia": "High Prussian",
+        "de_volga": "Volga German",
+        "de_banat": "Banat Swabian",
+        "de_sathmar": "Sathmar Swabian",
+        "de_bavaria": "Bavarian",
+        "de_swabian": "Swabian",
+        "de_allgaeu": "Allgäu Dialect",
+        "de_southtyrol": "South Tyrolean",
+        "de_alemannic": "Alemannic",
+        "de_baden": "Baden Dialect",
+        "de_franconian": "Franconian",
+        "de_vorarlberg": "Vorarlberg Dialect",
+        "de_palatinate": "Palatine",
+        "de_lowgerman": "Low German",
+        "de_mecklenburg": "Mecklenburg Low German",
+        "de_holstein": "Holstein Low German",
+        "de_westphalian": "Westphalian",
+        "de_ripuarian": "Ripuarian / Colognian",
+        "de_moselfranken": "Moselle Franconian",
+        "de_ruhr": "Ruhr German",
+        "de_berlin": "Berlin Dialect",
+        "de_saxony": "Saxon",
+        "de_frankfurt": "Frankfurt Dialect",
+        "de_rhine": "Rhenish",
+        "de_hessian": "Hessian",
+        "de_at": "Austrian German",
+        "de_ch": "Swiss German",
+        "de_luxembourg": "Luxembourgish",
+        "de_transylvania": "Transylvanian Saxon"
+    }
+}

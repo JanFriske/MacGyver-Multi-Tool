@@ -1,0 +1,345 @@
+{
+    "menu": {
+        "file": "Fișier",
+        "edit": "Editare",
+        "view": "Vizualizare",
+        "tools": "Instrumente",
+        "settings": "Setări",
+        "help": "Ajutor",
+        "languages": "Limbi",
+        "german_dialects": "Germană",
+        "system_monitor": "System Monitor",
+        "clock": "World Clock",
+        "network_traffic": "Network Traffic",
+        "gpu_monitor": "GPU Monitor",
+        "temperature": "Temperature",
+        "disk_io": "Disk I/O",
+        "media_controls": "Media Controls",
+        "video_screen": "Video Screen",
+        "media_explorer": "Media Explorer",
+        "stream": "Online Stream",
+        "equalizer": "Equalizer",
+        "file_manager": "File Manager",
+        "network_diag": "Network Diagnostics"
+    },
+    "menu_file": {
+        "new": "Nou",
+        "open": "Deschide...",
+        "save": "Salvează",
+        "exit": "Ieșire"
+    },
+    "menu_edit": {
+        "undo": "Anulare",
+        "redo": "Refacere"
+    },
+    "menu_view": {
+        "theme_light": "Temă Luminoasă",
+        "theme_dark": "Temă Întunecată"
+    },
+    "menu_tools": {
+        "cockpit": "Cockpit",
+        "media": "Media",
+        "tabs": "File",
+        "add_widget": "➕ Adaugă Widget...",
+        "system_monitor": "Monitor Sistem",
+        "clock": "Ceas Global",
+        "network_traffic": "Trafic Rețea",
+        "gpu_monitor": "Monitor GPU",
+        "temperature": "Temperatură",
+        "disk_io": "Disc I/O",
+        "media_controls": "Control Media",
+        "video_screen": "Ecran Video",
+        "media_explorer": "Explorator Media",
+        "stream": "Flux Online",
+        "equalizer": "Egalizator",
+        "file_manager": "Manager Fișiere",
+        "network_diag": "Diag. Rețea"
+    },
+    "widgets": {
+        "clock": "Ceas Global",
+        "system_monitor": "Monitor Sistem",
+        "network_monitor": "Trafic Rețea",
+        "gpu_monitor": "Monitor GPU",
+        "temp_monitor": "Temperatură",
+        "disk_io_monitor": "Disc I/O",
+        "directory_browser": "Manager Fișiere",
+        "quick_access": "Acces Rapid",
+        "file_stats": "Statistici",
+        "recent_files": "Fișiere Recente",
+        "ping": "Ping",
+        "connection_status": "Conexiune",
+        "speed_test": "Test Viteză",
+        "active_connections": "Conexiuni Active",
+        "network_path": "Cale Rețea",
+        "directory_browser_title": "Manager Fișiere",
+        "quick_access_title": "Acces Rapid",
+        "file_stats_title": "Statistici",
+        "file_stats_storage": "Stocare",
+        "recent_files_title": "Fișiere Recente"
+    },
+    "dialogs": {
+        "about": {
+            "title": "Despre MacGyver Multi-Tool",
+            "version": "Versiunea 1.0 (Build MVP)",
+            "description": "Un utilitar modular cu design macOS.",
+            "copyright": "© 2025 Jan Friske – Toate drepturile rezervate.",
+            "license": "Licență Gratuită (necomercială)."
+        },
+        "widget_selector": {
+            "title": "Adaugă Widget",
+            "preview": "Previzualizare",
+            "size_select": "Alege Dimensiunea:",
+            "add_button": "Adaugă la Panou",
+            "sizes": {
+                "compact": "Compact",
+                "wide": "Lat",
+                "extra_wide": "Extra Lat",
+                "full_width": "Lățime Completă",
+                "tall": "Înalt",
+                "large": "Mare",
+                "extra_large": "Extra Mare",
+                "maximum": "Maxim"
+            },
+            "scale": "Scară",
+            "error": "Eroare Previzualizare"
+        }
+    },
+    "tabs": {
+        "cockpit": "Cockpit",
+        "media_commander": "Comandant Media"
+    },
+    "weather": {
+        "loading": "Se încarcă...",
+        "loading_data": "Se încarcă datele meteo...",
+        "forecast": "Prognoză 3 zile",
+        "feels_like": "Se simte ca",
+        "humidity": "Umiditate",
+        "wind": "Vânt",
+        "unknown": "Necunoscut"
+    },
+    "time": {
+        "zone": "Fus Orar",
+        "calendar_week": "Săptămâna",
+        "day_of_year": "Ziua din an",
+        "day_of_year_full": "Ziua {day} din an",
+        "summer_time": "Ora de vară",
+        "winter_time": "Ora de iarnă",
+        "gmt_offset": "GMT: {time} ({offset})",
+        "timezone_label": "Fus: {name}",
+        "week_day": "Săpt {week} • Ziua {day}"
+    },
+    "gauges": {
+        "cpu": "CPU",
+        "ram": "RAM",
+        "upload": "Încărcare",
+        "download": "Descărcare",
+        "gpu": "GPU",
+        "system": "Sistem"
+    },
+    "disk_io": {
+        "disk_label": "Disc: {name}",
+        "read": "C",
+        "write": "S"
+    },
+    "file_manager": {
+        "up": "⬆️ Sus",
+        "folders": "Dosare",
+        "files": "Fișiere",
+        "headers": {
+            "name": "Nume",
+            "size": "Mărime",
+            "modified": "Modificat"
+        },
+        "places": {
+            "desktop": "Desktop",
+            "documents": "Documente",
+            "downloads": "Descărcări",
+            "pictures": "Imagini",
+            "music": "Muzică",
+            "videos": "Video",
+            "home": "Acasă"
+        },
+        "stats": {
+            "files_count": "{count} fișiere",
+            "storage": "Stocare"
+        },
+        "up_button": "⬆️ Sus"
+    },
+    "network": {
+        "ping": {
+            "btn": "🌐 Ping",
+            "placeholder": "Nume gazdă sau IP",
+            "pinging": "Se dă ping la {host}...",
+            "failed": "❌ Ping eșuat",
+            "timeout": "❌ Timp expirat"
+        },
+        "connection": {
+            "checking": "Se verifică...",
+            "connected": "Conectat",
+            "disconnected": "Deconectat",
+            "no_connection": "Fără conexiune",
+            "ip_label": "IP: {ip}"
+        },
+        "speed_test": {
+            "btn": "🚀 Test Viteză",
+            "testing": "Se testează...",
+            "download": "Descărcare",
+            "upload": "Încărcare"
+        },
+        "active_connections": {
+            "protocol": "Protocol",
+            "refresh": "🔄 Reîmprospătare",
+            "all": "Toate",
+            "headers": {
+                "process": "Proces",
+                "protocol": "Protocol",
+                "local": "Local",
+                "remote": "Distanță",
+                "status": "Stare"
+            }
+        },
+        "trace": {
+            "target": "Țintă:",
+            "btn": "🗺️ Urmărire Rută",
+            "placeholder": "Nume gazdă sau IP",
+            "tracing": "Se urmărește...",
+            "start_msg": "🗺️ Ruta către țintă va apărea aici.\nIntroduceți o țintă și apăsați 'Urmărire Rută'.",
+            "loading": "⏳ Se determină ruta...",
+            "you": "🖥️ Tu",
+            "destination": "🎯 Destinație",
+            "timeout": "Timp expirat: Nu s-a putut determina ruta completă.",
+            "error": "Eroare: {error}",
+            "no_route": "Nu s-a găsit ruta sau eroare de urmărire."
+        }
+    },
+    "units": {
+        "celsius": "°C",
+        "percent": "%",
+        "mbps": "Mbps",
+        "kbps": "KB/s",
+        "ms": "ms",
+        "bytes": "B",
+        "kilobytes": "KB",
+        "megabytes": "MB",
+        "gigabytes": "GB",
+        "terabytes": "TB"
+    },
+    "status": {
+        "loading": "Se încarcă...",
+        "error": "Eroare",
+        "unknown": "Necunoscut",
+        "timeout": "Timp expirat",
+        "local": "Local",
+        "checking": "Se verifică..."
+    },
+    "media": {
+        "open_button": "Deschide",
+        "equalizer_preset_label": "Presetare:",
+        "equalizer_presets": {
+            "flat": "Plat",
+            "rock": "Rock",
+            "pop": "Pop",
+            "jazz": "Jazz",
+            "classical": "Clasic",
+            "bass_boost": "Bass Boost"
+        }
+    },
+    "tooltips": {
+        "file_new": "Creează un fișier nou sau un proiect nou.",
+        "file_open": "Deschide un fișier existent.",
+        "file_save": "Salvează modificările curente.",
+        "file_exit": "Închide aplicația.",
+        "edit_undo": "Anulează ultima acțiune.",
+        "edit_redo": "Reface ultima acțiune anulată.",
+        "help_about": "Afișează informații despre aplicație.",
+        "theme_light": "Comută la tema luminoasă.",
+        "theme_dark": "Comută la tema întunecată.",
+        "tooltips.menu_file": "Creați, deschideți, salvați și gestionați fișierele și proiectele dvs.",
+        "tooltips.menu_edit": "Editați conținut, anulați și refaceți modificările recente.",
+        "tooltips.menu_tools": "Accesați instrumente utilitare puternice, inclusiv tablou de bord, player media și multe altele.",
+        "tooltips.menu_settings": "Configurați preferințele aplicației, limba și aspectul.",
+        "tooltips.menu_help": "Obțineți ajutor, vizualizați documentația și aflați despre această aplicație.",
+        "tooltips.menu_view": "Schimbați aspectul vizual și tema aplicației.",
+        "tooltips.menu_languages": "Alegeți limba preferată din numeroase opțiuni.",
+        "tooltips.menu_german_dialects": "Selectați o variantă dialectală germană regională.",
+        "tooltips.menu_cockpit": "Tablou de bord de monitorizare a sistemului cu widget-uri personalizabile și date în timp real.",
+        "tooltips.menu_media": "Player media cu controale avansate, egalizator și suport pentru streaming.",
+        "tooltips.menu_tabs": "Gestionați filele deschise și organizați-vă spațiul de lucru eficient.",
+        "tooltips.file_new": "Creați un fișier nou sau începeți un proiect nou de la zero.",
+        "tooltips.file_open": "Deschideți și încărcați un fișier existent din sistemul dvs. de fișiere.",
+        "tooltips.file_save": "Salvați toate modificările curente în fișierul activ.",
+        "tooltips.file_exit": "Închideți aplicația și ieșiți complet.",
+        "tooltips.edit_undo": "Anulați cea mai recentă acțiune sau modificare.",
+        "tooltips.edit_redo": "Refaceți ultima acțiune anulată.",
+        "tooltips.help_about": "Afișați informații despre versiune și credite pentru această aplicație.",
+        "tooltips.theme_light": "Comutați la tema luminoasă și deschisă pentru utilizarea în timpul zilei.",
+        "tooltips.theme_dark": "Comutați la tema întunecată pentru a reduce oboseala ochilor în condiții de lumină scăzută.",
+        "tooltips.open_tool": "Deschideți și activați instrumentul utilitar {tool}.",
+        "tooltips.add_widget": "Adăugați un widget nou personalizabil la tabloul dvs. de bord.",
+        "tooltips.widget_add": "Add a new widget to your dashboard.",
+        "tooltips.tab_close": "Close this tab."
+    },
+    "menu_languages": {
+        "german": "🇩🇪 German",
+        "main": "🌍 Main Languages",
+        "standard": "Standard & Historical",
+        "east": "East German",
+        "north": "North German",
+        "west": "West German",
+        "south": "South German",
+        "austria": "Austria & Switzerland",
+        "other": "Other",
+        "european": "European",
+        "asian": "Asian",
+        "middle_east": "Middle East & Africa",
+        "bonus": "Bonus",
+        "east_legacy": "East German (GDR Heritage)",
+        "historical_east": "Historical Eastern Territories",
+        "diaspora": "Diaspora & Emigrants",
+        "south_alpine": "South German / Alpine",
+        "north_west": "North / West German",
+        "urban": "Urban Dialects",
+        "abroad": "German Abroad (AT/CH/LU)"
+    },
+    "lang": {
+        "de": "Standard German",
+        "de_middlehigh": "Middle High German (1050-1350)",
+        "de_brandenburg": "Brandenburgish",
+        "de_thuringia": "Thuringian",
+        "de_uppersaxon": "Upper Saxon",
+        "de_lusatian": "Lusatian",
+        "de_pomeranian": "Pomeranian",
+        "de_sudeten": "Sudeten German",
+        "de_silesian": "Silesian",
+        "de_lowprussia": "Low Prussian",
+        "de_eastprussia": "High Prussian",
+        "de_volga": "Volga German",
+        "de_banat": "Banat Swabian",
+        "de_sathmar": "Sathmar Swabian",
+        "de_bavaria": "Bavarian",
+        "de_swabian": "Swabian",
+        "de_allgaeu": "Allgäu Dialect",
+        "de_southtyrol": "South Tyrolean",
+        "de_alemannic": "Alemannic",
+        "de_baden": "Baden Dialect",
+        "de_franconian": "Franconian",
+        "de_vorarlberg": "Vorarlberg Dialect",
+        "de_palatinate": "Palatine",
+        "de_lowgerman": "Low German",
+        "de_mecklenburg": "Mecklenburg Low German",
+        "de_holstein": "Holstein Low German",
+        "de_westphalian": "Westphalian",
+        "de_ripuarian": "Ripuarian / Colognian",
+        "de_moselfranken": "Moselle Franconian",
+        "de_ruhr": "Ruhr German",
+        "de_berlin": "Berlin Dialect",
+        "de_saxony": "Saxon",
+        "de_frankfurt": "Frankfurt Dialect",
+        "de_rhine": "Rhenish",
+        "de_hessian": "Hessian",
+        "de_at": "Austrian German",
+        "de_ch": "Swiss German",
+        "de_luxembourg": "Luxembourgish",
+        "de_transylvania": "Transylvanian Saxon"
+    }
+}

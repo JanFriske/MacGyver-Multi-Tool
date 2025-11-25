@@ -1,0 +1,2354 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "last_updated": "2025-11-23T12:38:44.079159",
+    "total_keys": 260,
+    "supported_languages": [
+      "en",
+      "de"
+    ],
+    "description": "Central translation database - Source of truth for MacGyver Multi-Tool"
+  },
+  "translations": {
+    "dialogs.about.copyright": {
+      "context": "Translation for 'dialogs.about.copyright'",
+      "category": "ui.dialog",
+      "priority": "critical",
+      "values": {
+        "en": "© 2025 Jan Friske – All rights reserved.",
+        "de": "© 2025 Jan Friske – Alle Rechte vorbehalten."
+      }
+    },
+    "dialogs.about.description": {
+      "context": "Translation for 'dialogs.about.description'",
+      "category": "ui.dialog",
+      "priority": "critical",
+      "values": {
+        "en": "A modular utility tool with macOS design.",
+        "de": "Ein modulares Dienstprogramm im macOS-Design."
+      }
+    },
+    "dialogs.about.license": {
+      "context": "Translation for 'dialogs.about.license'",
+      "category": "ui.dialog",
+      "priority": "critical",
+      "values": {
+        "en": "Freeware License (non-commercial).",
+        "de": "Freeware-Lizenz (nicht kommerziell)."
+      }
+    },
+    "dialogs.about.title": {
+      "context": "Translation for 'dialogs.about.title'",
+      "category": "ui.dialog",
+      "priority": "critical",
+      "values": {
+        "en": "About MacGyver Multi-Tool",
+        "de": "Über MacGyver Multi-Tool"
+      }
+    },
+    "dialogs.about.version": {
+      "context": "Translation for 'dialogs.about.version'",
+      "category": "ui.dialog",
+      "priority": "critical",
+      "values": {
+        "en": "Version 1.0 (MVP Build)",
+        "de": "Version 1.0 (MVP-Build)"
+      }
+    },
+    "dialogs.widget_selector.add_button": {
+      "context": "Translation for 'dialogs.widget_selector.add_button'",
+      "category": "ui.dialog",
+      "priority": "critical",
+      "values": {
+        "en": "Add to Dashboard",
+        "de": "Zum Dashboard hinzufügen"
+      }
+    },
+    "dialogs.widget_selector.error": {
+      "context": "Translation for 'dialogs.widget_selector.error'",
+      "category": "ui.dialog",
+      "priority": "critical",
+      "values": {
+        "en": "Preview Error",
+        "de": "Vorschau-Fehler"
+      }
+    },
+    "dialogs.widget_selector.preview": {
+      "context": "Translation for 'dialogs.widget_selector.preview'",
+      "category": "ui.dialog",
+      "priority": "critical",
+      "values": {
+        "en": "Preview",
+        "de": "Vorschau"
+      }
+    },
+    "dialogs.widget_selector.scale": {
+      "context": "Translation for 'dialogs.widget_selector.scale'",
+      "category": "ui.dialog",
+      "priority": "critical",
+      "values": {
+        "en": "Scale",
+        "de": "Skalierung"
+      }
+    },
+    "dialogs.widget_selector.size_select": {
+      "context": "Translation for 'dialogs.widget_selector.size_select'",
+      "category": "ui.dialog",
+      "priority": "critical",
+      "values": {
+        "en": "Select Size:",
+        "de": "Größe wählen:"
+      }
+    },
+    "dialogs.widget_selector.sizes.compact": {
+      "context": "Translation for 'dialogs.widget_selector.sizes.compact'",
+      "category": "ui.dialog",
+      "priority": "critical",
+      "values": {
+        "en": "Compact",
+        "de": "Kompakt"
+      }
+    },
+    "dialogs.widget_selector.sizes.extra_large": {
+      "context": "Translation for 'dialogs.widget_selector.sizes.extra_large'",
+      "category": "ui.dialog",
+      "priority": "critical",
+      "values": {
+        "en": "Extra Large",
+        "de": "Extra Groß"
+      }
+    },
+    "dialogs.widget_selector.sizes.extra_wide": {
+      "context": "Translation for 'dialogs.widget_selector.sizes.extra_wide'",
+      "category": "ui.dialog",
+      "priority": "critical",
+      "values": {
+        "en": "Extra Wide",
+        "de": "Extra Breit"
+      }
+    },
+    "dialogs.widget_selector.sizes.full_width": {
+      "context": "Translation for 'dialogs.widget_selector.sizes.full_width'",
+      "category": "ui.dialog",
+      "priority": "critical",
+      "values": {
+        "en": "Full Width",
+        "de": "Volle Breite"
+      }
+    },
+    "dialogs.widget_selector.sizes.large": {
+      "context": "Translation for 'dialogs.widget_selector.sizes.large'",
+      "category": "ui.dialog",
+      "priority": "critical",
+      "values": {
+        "en": "Large",
+        "de": "Groß"
+      }
+    },
+    "dialogs.widget_selector.sizes.maximum": {
+      "context": "Translation for 'dialogs.widget_selector.sizes.maximum'",
+      "category": "ui.dialog",
+      "priority": "critical",
+      "values": {
+        "en": "Maximum",
+        "de": "Maximum"
+      }
+    },
+    "dialogs.widget_selector.sizes.tall": {
+      "context": "Translation for 'dialogs.widget_selector.sizes.tall'",
+      "category": "ui.dialog",
+      "priority": "critical",
+      "values": {
+        "en": "Tall",
+        "de": "Hoch"
+      }
+    },
+    "dialogs.widget_selector.sizes.wide": {
+      "context": "Translation for 'dialogs.widget_selector.sizes.wide'",
+      "category": "ui.dialog",
+      "priority": "critical",
+      "values": {
+        "en": "Wide",
+        "de": "Breit"
+      }
+    },
+    "dialogs.widget_selector.title": {
+      "context": "Translation for 'dialogs.widget_selector.title'",
+      "category": "ui.dialog",
+      "priority": "critical",
+      "values": {
+        "en": "Add Widget",
+        "de": "Widget hinzufügen"
+      }
+    },
+    "disk_io.disk_label": {
+      "context": "Translation for 'disk_io.disk_label'",
+      "category": "feature.disk_io",
+      "priority": "normal",
+      "values": {
+        "en": "Disk: {name}",
+        "de": "Disk: {name}"
+      }
+    },
+    "disk_io.read": {
+      "context": "Translation for 'disk_io.read'",
+      "category": "feature.disk_io",
+      "priority": "normal",
+      "values": {
+        "en": "R",
+        "de": "L"
+      }
+    },
+    "disk_io.write": {
+      "context": "Translation for 'disk_io.write'",
+      "category": "feature.disk_io",
+      "priority": "normal",
+      "values": {
+        "en": "W",
+        "de": "S"
+      }
+    },
+    "file_manager.files": {
+      "context": "Translation for 'file_manager.files'",
+      "category": "feature.file_manager",
+      "priority": "normal",
+      "values": {
+        "en": "Files",
+        "de": "Dateien"
+      }
+    },
+    "file_manager.folders": {
+      "context": "Translation for 'file_manager.folders'",
+      "category": "feature.file_manager",
+      "priority": "normal",
+      "values": {
+        "en": "Folders",
+        "de": "Ordner"
+      }
+    },
+    "file_manager.headers.modified": {
+      "context": "Translation for 'file_manager.headers.modified'",
+      "category": "feature.file_manager",
+      "priority": "normal",
+      "values": {
+        "en": "Modified",
+        "de": "Geändert"
+      }
+    },
+    "file_manager.headers.name": {
+      "context": "Translation for 'file_manager.headers.name'",
+      "category": "feature.file_manager",
+      "priority": "normal",
+      "values": {
+        "en": "Name",
+        "de": "Name"
+      }
+    },
+    "file_manager.headers.size": {
+      "context": "Translation for 'file_manager.headers.size'",
+      "category": "feature.file_manager",
+      "priority": "normal",
+      "values": {
+        "en": "Size",
+        "de": "Größe"
+      }
+    },
+    "file_manager.places.desktop": {
+      "context": "Translation for 'file_manager.places.desktop'",
+      "category": "feature.file_manager",
+      "priority": "normal",
+      "values": {
+        "en": "Desktop",
+        "de": "Desktop"
+      }
+    },
+    "file_manager.places.documents": {
+      "context": "Translation for 'file_manager.places.documents'",
+      "category": "feature.file_manager",
+      "priority": "normal",
+      "values": {
+        "en": "Documents",
+        "de": "Dokumente"
+      }
+    },
+    "file_manager.places.downloads": {
+      "context": "Translation for 'file_manager.places.downloads'",
+      "category": "feature.file_manager",
+      "priority": "normal",
+      "values": {
+        "en": "Downloads",
+        "de": "Downloads"
+      }
+    },
+    "file_manager.places.home": {
+      "context": "Translation for 'file_manager.places.home'",
+      "category": "feature.file_manager",
+      "priority": "normal",
+      "values": {
+        "en": "Home",
+        "de": "Benutzer"
+      }
+    },
+    "file_manager.places.music": {
+      "context": "Translation for 'file_manager.places.music'",
+      "category": "feature.file_manager",
+      "priority": "normal",
+      "values": {
+        "en": "Music",
+        "de": "Musik"
+      }
+    },
+    "file_manager.places.pictures": {
+      "context": "Translation for 'file_manager.places.pictures'",
+      "category": "feature.file_manager",
+      "priority": "normal",
+      "values": {
+        "en": "Pictures",
+        "de": "Bilder"
+      }
+    },
+    "file_manager.places.videos": {
+      "context": "Translation for 'file_manager.places.videos'",
+      "category": "feature.file_manager",
+      "priority": "normal",
+      "values": {
+        "en": "Videos",
+        "de": "Videos"
+      }
+    },
+    "file_manager.stats.files_count": {
+      "context": "Translation for 'file_manager.stats.files_count'",
+      "category": "feature.file_manager",
+      "priority": "normal",
+      "values": {
+        "en": "{count} files",
+        "de": "{count} Dateien"
+      }
+    },
+    "file_manager.stats.storage": {
+      "context": "Translation for 'file_manager.stats.storage'",
+      "category": "feature.file_manager",
+      "priority": "normal",
+      "values": {
+        "en": "Storage",
+        "de": "Speicher"
+      }
+    },
+    "file_manager.up": {
+      "context": "Translation for 'file_manager.up'",
+      "category": "feature.file_manager",
+      "priority": "normal",
+      "values": {
+        "en": "⬆️ Up",
+        "de": "⬆️ Hoch"
+      }
+    },
+    "file_manager.up_button": {
+      "context": "Translation for 'file_manager.up_button'",
+      "category": "feature.file_manager",
+      "priority": "normal",
+      "values": {
+        "en": "⬆️ Up",
+        "de": "⬆️ Hoch"
+      }
+    },
+    "gauges.cpu": {
+      "context": "Translation for 'gauges.cpu'",
+      "category": "ui.gauge",
+      "priority": "normal",
+      "values": {
+        "en": "CPU",
+        "de": "CPU"
+      }
+    },
+    "gauges.download": {
+      "context": "Translation for 'gauges.download'",
+      "category": "ui.gauge",
+      "priority": "normal",
+      "values": {
+        "en": "Download",
+        "de": "Download"
+      }
+    },
+    "gauges.gpu": {
+      "context": "Translation for 'gauges.gpu'",
+      "category": "ui.gauge",
+      "priority": "normal",
+      "values": {
+        "en": "GPU",
+        "de": "GPU"
+      }
+    },
+    "gauges.ram": {
+      "context": "Translation for 'gauges.ram'",
+      "category": "ui.gauge",
+      "priority": "normal",
+      "values": {
+        "en": "RAM",
+        "de": "RAM"
+      }
+    },
+    "gauges.system": {
+      "context": "Translation for 'gauges.system'",
+      "category": "ui.gauge",
+      "priority": "normal",
+      "values": {
+        "en": "System",
+        "de": "System"
+      }
+    },
+    "gauges.upload": {
+      "context": "Translation for 'gauges.upload'",
+      "category": "ui.gauge",
+      "priority": "normal",
+      "values": {
+        "en": "Upload",
+        "de": "Upload"
+      }
+    },
+    "lang.de": {
+      "context": "Translation for 'lang.de'",
+      "category": "meta.language_names",
+      "priority": "normal",
+      "values": {
+        "en": "Standard German",
+        "de": "Hochdeutsch"
+      }
+    },
+    "lang.de_alemannic": {
+      "context": "Translation for 'lang.de_alemannic'",
+      "category": "meta.language_names",
+      "priority": "normal",
+      "values": {
+        "en": "Alemannic",
+        "de": "Alemannisch"
+      }
+    },
+    "lang.de_allgaeu": {
+      "context": "Translation for 'lang.de_allgaeu'",
+      "category": "meta.language_names",
+      "priority": "normal",
+      "values": {
+        "en": "Allgäu Dialect",
+        "de": "Allgäuerisch"
+      }
+    },
+    "lang.de_at": {
+      "context": "Translation for 'lang.de_at'",
+      "category": "meta.language_names",
+      "priority": "normal",
+      "values": {
+        "en": "Austrian German",
+        "de": "Österreichisch 🇦🇹"
+      }
+    },
+    "lang.de_baden": {
+      "context": "Translation for 'lang.de_baden'",
+      "category": "meta.language_names",
+      "priority": "normal",
+      "values": {
+        "en": "Baden Dialect",
+        "de": "Badisch"
+      }
+    },
+    "lang.de_banat": {
+      "context": "Translation for 'lang.de_banat'",
+      "category": "meta.language_names",
+      "priority": "normal",
+      "values": {
+        "en": "Banat Swabian",
+        "de": "Banater Schwäbisch"
+      }
+    },
+    "lang.de_bavaria": {
+      "context": "Translation for 'lang.de_bavaria'",
+      "category": "meta.language_names",
+      "priority": "normal",
+      "values": {
+        "en": "Bavarian",
+        "de": "Bairisch"
+      }
+    },
+    "lang.de_berlin": {
+      "context": "Translation for 'lang.de_berlin'",
+      "category": "meta.language_names",
+      "priority": "normal",
+      "values": {
+        "en": "Berlin Dialect",
+        "de": "Berlinerisch"
+      }
+    },
+    "lang.de_brandenburg": {
+      "context": "Translation for 'lang.de_brandenburg'",
+      "category": "meta.language_names",
+      "priority": "normal",
+      "values": {
+        "en": "Brandenburgish",
+        "de": "Brandenburgisch"
+      }
+    },
+    "lang.de_ch": {
+      "context": "Translation for 'lang.de_ch'",
+      "category": "meta.language_names",
+      "priority": "normal",
+      "values": {
+        "en": "Swiss German",
+        "de": "Schwitzerdütsch 🇨🇭"
+      }
+    },
+    "lang.de_eastprussia": {
+      "context": "Translation for 'lang.de_eastprussia'",
+      "category": "meta.language_names",
+      "priority": "normal",
+      "values": {
+        "en": "High Prussian",
+        "de": "Hochpreußisch 🔴"
+      }
+    },
+    "lang.de_franconian": {
+      "context": "Translation for 'lang.de_franconian'",
+      "category": "meta.language_names",
+      "priority": "normal",
+      "values": {
+        "en": "Franconian",
+        "de": "Fränkisch"
+      }
+    },
+    "lang.de_frankfurt": {
+      "context": "Translation for 'lang.de_frankfurt'",
+      "category": "meta.language_names",
+      "priority": "normal",
+      "values": {
+        "en": "Frankfurt Dialect",
+        "de": "Frankfurterisch 🍎"
+      }
+    },
+    "lang.de_hessian": {
+      "context": "Translation for 'lang.de_hessian'",
+      "category": "meta.language_names",
+      "priority": "normal",
+      "values": {
+        "en": "Hessian",
+        "de": "Hessisch"
+      }
+    },
+    "lang.de_holstein": {
+      "context": "Translation for 'lang.de_holstein'",
+      "category": "meta.language_names",
+      "priority": "normal",
+      "values": {
+        "en": "Holstein Low German",
+        "de": "Holsteiner Platt"
+      }
+    },
+    "lang.de_lowgerman": {
+      "context": "Translation for 'lang.de_lowgerman'",
+      "category": "meta.language_names",
+      "priority": "normal",
+      "values": {
+        "en": "Low German",
+        "de": "Plattdeutsch"
+      }
+    },
+    "lang.de_lowprussia": {
+      "context": "Translation for 'lang.de_lowprussia'",
+      "category": "meta.language_names",
+      "priority": "normal",
+      "values": {
+        "en": "Low Prussian",
+        "de": "Niederpreußisch 💀"
+      }
+    },
+    "lang.de_lusatian": {
+      "context": "Translation for 'lang.de_lusatian'",
+      "category": "meta.language_names",
+      "priority": "normal",
+      "values": {
+        "en": "Lusatian",
+        "de": "Lausitzisch 🔴"
+      }
+    },
+    "lang.de_luxembourg": {
+      "context": "Translation for 'lang.de_luxembourg'",
+      "category": "meta.language_names",
+      "priority": "normal",
+      "values": {
+        "en": "Luxembourgish",
+        "de": "Luxemburgisch 🇱🇺"
+      }
+    },
+    "lang.de_mecklenburg": {
+      "context": "Translation for 'lang.de_mecklenburg'",
+      "category": "meta.language_names",
+      "priority": "normal",
+      "values": {
+        "en": "Mecklenburg Low German",
+        "de": "Mecklenburger Platt"
+      }
+    },
+    "lang.de_middlehigh": {
+      "context": "Translation for 'lang.de_middlehigh'",
+      "category": "meta.language_names",
+      "priority": "normal",
+      "values": {
+        "en": "Middle High German (1050-1350)",
+        "de": "🕰️ Mittelhochdeutsch (1050-1350)"
+      }
+    },
+    "lang.de_moselfranken": {
+      "context": "Translation for 'lang.de_moselfranken'",
+      "category": "meta.language_names",
+      "priority": "normal",
+      "values": {
+        "en": "Moselle Franconian",
+        "de": "Moselfränkisch"
+      }
+    },
+    "lang.de_palatinate": {
+      "context": "Translation for 'lang.de_palatinate'",
+      "category": "meta.language_names",
+      "priority": "normal",
+      "values": {
+        "en": "Palatine",
+        "de": "Pfälzisch"
+      }
+    },
+    "lang.de_pomeranian": {
+      "context": "Translation for 'lang.de_pomeranian'",
+      "category": "meta.language_names",
+      "priority": "normal",
+      "values": {
+        "en": "Pomeranian",
+        "de": "Pommersch 🔴"
+      }
+    },
+    "lang.de_rhine": {
+      "context": "Translation for 'lang.de_rhine'",
+      "category": "meta.language_names",
+      "priority": "normal",
+      "values": {
+        "en": "Rhenish",
+        "de": "Rheinisch"
+      }
+    },
+    "lang.de_ripuarian": {
+      "context": "Translation for 'lang.de_ripuarian'",
+      "category": "meta.language_names",
+      "priority": "normal",
+      "values": {
+        "en": "Ripuarian / Colognian",
+        "de": "Ripuarisch/Kölsch 🎭"
+      }
+    },
+    "lang.de_ruhr": {
+      "context": "Translation for 'lang.de_ruhr'",
+      "category": "meta.language_names",
+      "priority": "normal",
+      "values": {
+        "en": "Ruhr German",
+        "de": "Ruhrdeutsch"
+      }
+    },
+    "lang.de_sathmar": {
+      "context": "Translation for 'lang.de_sathmar'",
+      "category": "meta.language_names",
+      "priority": "normal",
+      "values": {
+        "en": "Sathmar Swabian",
+        "de": "Sathmarisch 💀"
+      }
+    },
+    "lang.de_saxony": {
+      "context": "Translation for 'lang.de_saxony'",
+      "category": "meta.language_names",
+      "priority": "normal",
+      "values": {
+        "en": "Saxon",
+        "de": "Sächsisch"
+      }
+    },
+    "lang.de_silesian": {
+      "context": "Translation for 'lang.de_silesian'",
+      "category": "meta.language_names",
+      "priority": "normal",
+      "values": {
+        "en": "Silesian",
+        "de": "Schlesisch 💀"
+      }
+    },
+    "lang.de_southtyrol": {
+      "context": "Translation for 'lang.de_southtyrol'",
+      "category": "meta.language_names",
+      "priority": "normal",
+      "values": {
+        "en": "South Tyrolean",
+        "de": "Südtirolerisch"
+      }
+    },
+    "lang.de_sudeten": {
+      "context": "Translation for 'lang.de_sudeten'",
+      "category": "meta.language_names",
+      "priority": "normal",
+      "values": {
+        "en": "Sudeten German",
+        "de": "Sudetendeutsch 💀"
+      }
+    },
+    "lang.de_swabian": {
+      "context": "Translation for 'lang.de_swabian'",
+      "category": "meta.language_names",
+      "priority": "normal",
+      "values": {
+        "en": "Swabian",
+        "de": "Schwäbisch"
+      }
+    },
+    "lang.de_thuringia": {
+      "context": "Translation for 'lang.de_thuringia'",
+      "category": "meta.language_names",
+      "priority": "normal",
+      "values": {
+        "en": "Thuringian",
+        "de": "Thüringisch"
+      }
+    },
+    "lang.de_transylvania": {
+      "context": "Translation for 'lang.de_transylvania'",
+      "category": "meta.language_names",
+      "priority": "normal",
+      "values": {
+        "en": "Transylvanian Saxon",
+        "de": "Siebenbürgisch-Sächsisch"
+      }
+    },
+    "lang.de_uppersaxon": {
+      "context": "Translation for 'lang.de_uppersaxon'",
+      "category": "meta.language_names",
+      "priority": "normal",
+      "values": {
+        "en": "Upper Saxon",
+        "de": "Obersächsisch"
+      }
+    },
+    "lang.de_volga": {
+      "context": "Translation for 'lang.de_volga'",
+      "category": "meta.language_names",
+      "priority": "normal",
+      "values": {
+        "en": "Volga German",
+        "de": "Wolgadeutsch 🔴"
+      }
+    },
+    "lang.de_vorarlberg": {
+      "context": "Translation for 'lang.de_vorarlberg'",
+      "category": "meta.language_names",
+      "priority": "normal",
+      "values": {
+        "en": "Vorarlberg Dialect",
+        "de": "Vorarlbergisch"
+      }
+    },
+    "lang.de_westphalian": {
+      "context": "Translation for 'lang.de_westphalian'",
+      "category": "meta.language_names",
+      "priority": "normal",
+      "values": {
+        "en": "Westphalian",
+        "de": "Westfälisch"
+      }
+    },
+    "media.equalizer_preset_label": {
+      "context": "Translation for 'media.equalizer_preset_label'",
+      "category": "feature.media",
+      "priority": "normal",
+      "values": {
+        "en": "Preset:",
+        "de": "Voreinstellung:"
+      }
+    },
+    "media.equalizer_presets.bass_boost": {
+      "context": "Translation for 'media.equalizer_presets.bass_boost'",
+      "category": "feature.media",
+      "priority": "normal",
+      "values": {
+        "en": "Bass Boost",
+        "de": "Bass Verstärkung"
+      }
+    },
+    "media.equalizer_presets.classical": {
+      "context": "Translation for 'media.equalizer_presets.classical'",
+      "category": "feature.media",
+      "priority": "normal",
+      "values": {
+        "en": "Classical",
+        "de": "Klassisch"
+      }
+    },
+    "media.equalizer_presets.flat": {
+      "context": "Translation for 'media.equalizer_presets.flat'",
+      "category": "feature.media",
+      "priority": "normal",
+      "values": {
+        "en": "Flat",
+        "de": "Flach"
+      }
+    },
+    "media.equalizer_presets.jazz": {
+      "context": "Translation for 'media.equalizer_presets.jazz'",
+      "category": "feature.media",
+      "priority": "normal",
+      "values": {
+        "en": "Jazz",
+        "de": "Jazz"
+      }
+    },
+    "media.equalizer_presets.pop": {
+      "context": "Translation for 'media.equalizer_presets.pop'",
+      "category": "feature.media",
+      "priority": "normal",
+      "values": {
+        "en": "Pop",
+        "de": "Pop"
+      }
+    },
+    "media.equalizer_presets.rock": {
+      "context": "Translation for 'media.equalizer_presets.rock'",
+      "category": "feature.media",
+      "priority": "normal",
+      "values": {
+        "en": "Rock",
+        "de": "Rock"
+      }
+    },
+    "media.open_button": {
+      "context": "Translation for 'media.open_button'",
+      "category": "feature.media",
+      "priority": "normal",
+      "values": {
+        "en": "Open",
+        "de": "Öffnen"
+      }
+    },
+    "menu.clock": {
+      "context": "Translation for 'menu.clock'",
+      "category": "ui.menu",
+      "priority": "critical",
+      "values": {
+        "en": "World Clock",
+        "de": "Weltzeituhr"
+      }
+    },
+    "menu.disk_io": {
+      "context": "Translation for 'menu.disk_io'",
+      "category": "ui.menu",
+      "priority": "critical",
+      "values": {
+        "en": "Disk I/O",
+        "de": "Datenträger I/O"
+      }
+    },
+    "menu.edit": {
+      "context": "Translation for 'menu.edit'",
+      "category": "ui.menu",
+      "priority": "critical",
+      "values": {
+        "en": "Edit",
+        "de": "Bearbeiten"
+      }
+    },
+    "menu.equalizer": {
+      "context": "Translation for 'menu.equalizer'",
+      "category": "ui.menu",
+      "priority": "critical",
+      "values": {
+        "en": "Equalizer",
+        "de": "Equalizer"
+      }
+    },
+    "menu.file": {
+      "context": "Translation for 'menu.file'",
+      "category": "ui.menu",
+      "priority": "critical",
+      "values": {
+        "en": "File",
+        "de": "Datei"
+      }
+    },
+    "menu.file_manager": {
+      "context": "Translation for 'menu.file_manager'",
+      "category": "ui.menu",
+      "priority": "critical",
+      "values": {
+        "en": "File Manager",
+        "de": "Dateiverwaltung"
+      }
+    },
+    "menu.german_dialects": {
+      "context": "Translation for 'menu.german_dialects'",
+      "category": "ui.menu",
+      "priority": "critical",
+      "values": {
+        "en": "German Dialects",
+        "de": "Deutsche Dialekte"
+      }
+    },
+    "menu.gpu_monitor": {
+      "context": "Translation for 'menu.gpu_monitor'",
+      "category": "ui.menu",
+      "priority": "critical",
+      "values": {
+        "en": "GPU Monitor",
+        "de": "GPU-Monitor"
+      }
+    },
+    "menu.help": {
+      "context": "Translation for 'menu.help'",
+      "category": "ui.menu",
+      "priority": "critical",
+      "values": {
+        "en": "Help",
+        "de": "Hilfe"
+      }
+    },
+    "menu.languages": {
+      "context": "Translation for 'menu.languages'",
+      "category": "ui.menu",
+      "priority": "critical",
+      "values": {
+        "en": "Languages",
+        "de": "Sprachen"
+      }
+    },
+    "menu.media_controls": {
+      "context": "Translation for 'menu.media_controls'",
+      "category": "ui.menu",
+      "priority": "critical",
+      "values": {
+        "en": "Media Controls",
+        "de": "Medien-Steuerung"
+      }
+    },
+    "menu.media_explorer": {
+      "context": "Translation for 'menu.media_explorer'",
+      "category": "ui.menu",
+      "priority": "critical",
+      "values": {
+        "en": "Media Explorer",
+        "de": "Medien-Explorer"
+      }
+    },
+    "menu.network_diag": {
+      "context": "Translation for 'menu.network_diag'",
+      "category": "ui.menu",
+      "priority": "critical",
+      "values": {
+        "en": "Network Diagnostics",
+        "de": "Netzwerkdiagnose"
+      }
+    },
+    "menu.network_traffic": {
+      "context": "Translation for 'menu.network_traffic'",
+      "category": "ui.menu",
+      "priority": "critical",
+      "values": {
+        "en": "Network Traffic",
+        "de": "Netzwerk-Traffic"
+      }
+    },
+    "menu.settings": {
+      "context": "Translation for 'menu.settings'",
+      "category": "ui.menu",
+      "priority": "critical",
+      "values": {
+        "en": "Settings",
+        "de": "Einstellungen"
+      }
+    },
+    "menu.stream": {
+      "context": "Translation for 'menu.stream'",
+      "category": "ui.menu",
+      "priority": "critical",
+      "values": {
+        "en": "Online Stream",
+        "de": "Online Stream"
+      }
+    },
+    "menu.system_monitor": {
+      "context": "Translation for 'menu.system_monitor'",
+      "category": "ui.menu",
+      "priority": "critical",
+      "values": {
+        "en": "System Monitor",
+        "de": "System Monitor"
+      }
+    },
+    "menu.temperature": {
+      "context": "Translation for 'menu.temperature'",
+      "category": "ui.menu",
+      "priority": "critical",
+      "values": {
+        "en": "Temperature",
+        "de": "Temperatur"
+      }
+    },
+    "menu.tools": {
+      "context": "Translation for 'menu.tools'",
+      "category": "ui.menu",
+      "priority": "critical",
+      "values": {
+        "en": "Tools",
+        "de": "Werkzeuge"
+      }
+    },
+    "menu.video_screen": {
+      "context": "Translation for 'menu.video_screen'",
+      "category": "ui.menu",
+      "priority": "critical",
+      "values": {
+        "en": "Video Screen",
+        "de": "Video-Screen"
+      }
+    },
+    "menu.view": {
+      "context": "Translation for 'menu.view'",
+      "category": "ui.menu",
+      "priority": "critical",
+      "values": {
+        "en": "View",
+        "de": "Ansicht"
+      }
+    },
+    "menu_edit.redo": {
+      "context": "Translation for 'menu_edit.redo'",
+      "category": "ui.menu",
+      "priority": "critical",
+      "values": {
+        "en": "Redo",
+        "de": "Wiederholen"
+      }
+    },
+    "menu_edit.undo": {
+      "context": "Translation for 'menu_edit.undo'",
+      "category": "ui.menu",
+      "priority": "critical",
+      "values": {
+        "en": "Undo",
+        "de": "Rückgängig"
+      }
+    },
+    "menu_file.exit": {
+      "context": "Translation for 'menu_file.exit'",
+      "category": "ui.menu",
+      "priority": "critical",
+      "values": {
+        "en": "Exit",
+        "de": "Beenden"
+      }
+    },
+    "menu_file.new": {
+      "context": "Translation for 'menu_file.new'",
+      "category": "ui.menu",
+      "priority": "critical",
+      "values": {
+        "en": "New",
+        "de": "Neu"
+      }
+    },
+    "menu_file.open": {
+      "context": "Translation for 'menu_file.open'",
+      "category": "ui.menu",
+      "priority": "critical",
+      "values": {
+        "en": "Open...",
+        "de": "Öffnen..."
+      }
+    },
+    "menu_file.save": {
+      "context": "Translation for 'menu_file.save'",
+      "category": "ui.menu",
+      "priority": "critical",
+      "values": {
+        "en": "Save",
+        "de": "Speichern"
+      }
+    },
+    "menu_languages.abroad": {
+      "context": "Translation for 'menu_languages.abroad'",
+      "category": "ui.menu",
+      "priority": "critical",
+      "values": {
+        "en": "German Abroad (AT/CH/LU)",
+        "de": "Deutsch im Ausland (AT/CH/LU)"
+      }
+    },
+    "menu_languages.asian": {
+      "context": "Translation for 'menu_languages.asian'",
+      "category": "ui.menu",
+      "priority": "critical",
+      "values": {
+        "en": "Asian",
+        "de": "Asiatisch"
+      }
+    },
+    "menu_languages.bonus": {
+      "context": "Translation for 'menu_languages.bonus'",
+      "category": "ui.menu",
+      "priority": "critical",
+      "values": {
+        "en": "Bonus Languages",
+        "de": "Bonus"
+      }
+    },
+    "menu_languages.diaspora": {
+      "context": "Translation for 'menu_languages.diaspora'",
+      "category": "ui.menu",
+      "priority": "critical",
+      "values": {
+        "en": "Diaspora & Emigrants",
+        "de": "Diaspora & Auswanderer"
+      }
+    },
+    "menu_languages.east_legacy": {
+      "context": "Translation for 'menu_languages.east_legacy'",
+      "category": "ui.menu",
+      "priority": "critical",
+      "values": {
+        "en": "East German (GDR Heritage)",
+        "de": "Ostdeutsch (DDR-Erbe)"
+      }
+    },
+    "menu_languages.european": {
+      "context": "Translation for 'menu_languages.european'",
+      "category": "ui.menu",
+      "priority": "critical",
+      "values": {
+        "en": "European",
+        "de": "Europäisch"
+      }
+    },
+    "menu_languages.german": {
+      "context": "Translation for 'menu_languages.german'",
+      "category": "ui.menu",
+      "priority": "critical",
+      "values": {
+        "en": "🇩🇪 German Dialects",
+        "de": "🇩🇪 Deutsch"
+      }
+    },
+    "menu_languages.historical_east": {
+      "context": "Translation for 'menu_languages.historical_east'",
+      "category": "ui.menu",
+      "priority": "critical",
+      "values": {
+        "en": "Historical Eastern Territories",
+        "de": "Historische Ostgebiete"
+      }
+    },
+    "menu_languages.main": {
+      "context": "Translation for 'menu_languages.main'",
+      "category": "ui.menu",
+      "priority": "critical",
+      "values": {
+        "en": "🌍 Main Languages",
+        "de": "🌍 Hauptsprachen"
+      }
+    },
+    "menu_languages.middle_east": {
+      "context": "Translation for 'menu_languages.middle_east'",
+      "category": "ui.menu",
+      "priority": "critical",
+      "values": {
+        "en": "Middle East & Africa",
+        "de": "Naher Osten & Afrika"
+      }
+    },
+    "menu_languages.north_west": {
+      "context": "Translation for 'menu_languages.north_west'",
+      "category": "ui.menu",
+      "priority": "critical",
+      "values": {
+        "en": "North / West German",
+        "de": "Nord- / Westdeutsch"
+      }
+    },
+    "menu_languages.other": {
+      "context": "Translation for 'menu_languages.other'",
+      "category": "ui.menu",
+      "priority": "critical",
+      "values": {
+        "en": "Other",
+        "de": "Sonstige"
+      }
+    },
+    "menu_languages.south_alpine": {
+      "context": "Translation for 'menu_languages.south_alpine'",
+      "category": "ui.menu",
+      "priority": "critical",
+      "values": {
+        "en": "South German / Alpine",
+        "de": "Süddeutsch / Alpenraum"
+      }
+    },
+    "menu_languages.standard": {
+      "context": "Translation for 'menu_languages.standard'",
+      "category": "ui.menu",
+      "priority": "critical",
+      "values": {
+        "en": "Standard & Historical",
+        "de": "Standard & Historisch"
+      }
+    },
+    "menu_languages.urban": {
+      "context": "Translation for 'menu_languages.urban'",
+      "category": "ui.menu",
+      "priority": "critical",
+      "values": {
+        "en": "Urban Dialects",
+        "de": "Stadtdialekte"
+      }
+    },
+    "menu_tools.add_widget": {
+      "context": "Translation for 'menu_tools.add_widget'",
+      "category": "ui.menu",
+      "priority": "critical",
+      "values": {
+        "en": "Add Widget...",
+        "de": "Widget hinzufügen..."
+      }
+    },
+    "menu_tools.clock": {
+      "context": "Translation for 'menu_tools.clock'",
+      "category": "ui.menu",
+      "priority": "critical",
+      "values": {
+        "en": "World Clock",
+        "de": "Weltzeituhr"
+      }
+    },
+    "menu_tools.cockpit": {
+      "context": "Translation for 'menu_tools.cockpit'",
+      "category": "ui.menu",
+      "priority": "critical",
+      "values": {
+        "en": "Cockpit",
+        "de": "Cockpit"
+      }
+    },
+    "menu_tools.disk_io": {
+      "context": "Translation for 'menu_tools.disk_io'",
+      "category": "ui.menu",
+      "priority": "critical",
+      "values": {
+        "en": "Disk I/O",
+        "de": "Datenträger I/O"
+      }
+    },
+    "menu_tools.equalizer": {
+      "context": "Translation for 'menu_tools.equalizer'",
+      "category": "ui.menu",
+      "priority": "critical",
+      "values": {
+        "en": "Equalizer",
+        "de": "Equalizer"
+      }
+    },
+    "menu_tools.file_manager": {
+      "context": "Translation for 'menu_tools.file_manager'",
+      "category": "ui.menu",
+      "priority": "critical",
+      "values": {
+        "en": "File Manager",
+        "de": "Dateiverwaltung"
+      }
+    },
+    "menu_tools.gpu_monitor": {
+      "context": "Translation for 'menu_tools.gpu_monitor'",
+      "category": "ui.menu",
+      "priority": "critical",
+      "values": {
+        "en": "GPU Monitor",
+        "de": "GPU-Monitor"
+      }
+    },
+    "menu_tools.media": {
+      "context": "Translation for 'menu_tools.media'",
+      "category": "ui.menu",
+      "priority": "critical",
+      "values": {
+        "en": "Media",
+        "de": "Medien"
+      }
+    },
+    "menu_tools.media_controls": {
+      "context": "Translation for 'menu_tools.media_controls'",
+      "category": "ui.menu",
+      "priority": "critical",
+      "values": {
+        "en": "Media Controls",
+        "de": "Medien-Steuerung"
+      }
+    },
+    "menu_tools.media_explorer": {
+      "context": "Translation for 'menu_tools.media_explorer'",
+      "category": "ui.menu",
+      "priority": "critical",
+      "values": {
+        "en": "Media Explorer",
+        "de": "Medien-Explorer"
+      }
+    },
+    "menu_tools.network_diag": {
+      "context": "Translation for 'menu_tools.network_diag'",
+      "category": "ui.menu",
+      "priority": "critical",
+      "values": {
+        "en": "Network Diagnostics",
+        "de": "Netzwerkdiagnose"
+      }
+    },
+    "menu_tools.network_traffic": {
+      "context": "Translation for 'menu_tools.network_traffic'",
+      "category": "ui.menu",
+      "priority": "critical",
+      "values": {
+        "en": "Network Traffic",
+        "de": "Netzwerk-Traffic"
+      }
+    },
+    "menu_tools.stream": {
+      "context": "Translation for 'menu_tools.stream'",
+      "category": "ui.menu",
+      "priority": "critical",
+      "values": {
+        "en": "Online Stream",
+        "de": "Online Stream"
+      }
+    },
+    "menu_tools.system_monitor": {
+      "context": "Translation for 'menu_tools.system_monitor'",
+      "category": "ui.menu",
+      "priority": "critical",
+      "values": {
+        "en": "System Monitor",
+        "de": "System Monitor"
+      }
+    },
+    "menu_tools.tabs": {
+      "context": "Translation for 'menu_tools.tabs'",
+      "category": "ui.menu",
+      "priority": "critical",
+      "values": {
+        "en": "Tabs",
+        "de": "Tabs"
+      }
+    },
+    "menu_tools.temperature": {
+      "context": "Translation for 'menu_tools.temperature'",
+      "category": "ui.menu",
+      "priority": "critical",
+      "values": {
+        "en": "Temperature",
+        "de": "Temperatur"
+      }
+    },
+    "menu_tools.video_screen": {
+      "context": "Translation for 'menu_tools.video_screen'",
+      "category": "ui.menu",
+      "priority": "critical",
+      "values": {
+        "en": "Video Screen",
+        "de": "Video-Screen"
+      }
+    },
+    "menu_view.theme_dark": {
+      "context": "Translation for 'menu_view.theme_dark'",
+      "category": "ui.menu",
+      "priority": "critical",
+      "values": {
+        "en": "Dark Theme",
+        "de": "Dunkles Design"
+      }
+    },
+    "menu_view.theme_light": {
+      "context": "Translation for 'menu_view.theme_light'",
+      "category": "ui.menu",
+      "priority": "critical",
+      "values": {
+        "en": "Light Theme",
+        "de": "Helles Design"
+      }
+    },
+    "network.active_connections.all": {
+      "context": "Translation for 'network.active_connections.all'",
+      "category": "data.network",
+      "priority": "normal",
+      "values": {
+        "en": "All",
+        "de": "Alle"
+      }
+    },
+    "network.active_connections.headers.local": {
+      "context": "Translation for 'network.active_connections.headers.local'",
+      "category": "data.network",
+      "priority": "normal",
+      "values": {
+        "en": "Local",
+        "de": "Lokal"
+      }
+    },
+    "network.active_connections.headers.process": {
+      "context": "Translation for 'network.active_connections.headers.process'",
+      "category": "data.network",
+      "priority": "normal",
+      "values": {
+        "en": "Process",
+        "de": "Prozess"
+      }
+    },
+    "network.active_connections.headers.protocol": {
+      "context": "Translation for 'network.active_connections.headers.protocol'",
+      "category": "data.network",
+      "priority": "normal",
+      "values": {
+        "en": "Protocol",
+        "de": "Protokoll"
+      }
+    },
+    "network.active_connections.headers.remote": {
+      "context": "Translation for 'network.active_connections.headers.remote'",
+      "category": "data.network",
+      "priority": "normal",
+      "values": {
+        "en": "Remote",
+        "de": "Remote"
+      }
+    },
+    "network.active_connections.headers.status": {
+      "context": "Translation for 'network.active_connections.headers.status'",
+      "category": "data.network",
+      "priority": "normal",
+      "values": {
+        "en": "Status",
+        "de": "Status"
+      }
+    },
+    "network.active_connections.protocol": {
+      "context": "Translation for 'network.active_connections.protocol'",
+      "category": "data.network",
+      "priority": "normal",
+      "values": {
+        "en": "Protocol",
+        "de": "Protokoll"
+      }
+    },
+    "network.active_connections.refresh": {
+      "context": "Translation for 'network.active_connections.refresh'",
+      "category": "data.network",
+      "priority": "normal",
+      "values": {
+        "en": "🔄 Refresh",
+        "de": "🔄 Aktualisieren"
+      }
+    },
+    "network.connection.checking": {
+      "context": "Translation for 'network.connection.checking'",
+      "category": "data.network",
+      "priority": "normal",
+      "values": {
+        "en": "Checking...",
+        "de": "Prüfe..."
+      }
+    },
+    "network.connection.connected": {
+      "context": "Translation for 'network.connection.connected'",
+      "category": "data.network",
+      "priority": "normal",
+      "values": {
+        "en": "Connected",
+        "de": "Verbunden"
+      }
+    },
+    "network.connection.disconnected": {
+      "context": "Translation for 'network.connection.disconnected'",
+      "category": "data.network",
+      "priority": "normal",
+      "values": {
+        "en": "Disconnected",
+        "de": "Getrennt"
+      }
+    },
+    "network.connection.ip_label": {
+      "context": "Translation for 'network.connection.ip_label'",
+      "category": "data.network",
+      "priority": "normal",
+      "values": {
+        "en": "IP: {ip}",
+        "de": "IP: {ip}"
+      }
+    },
+    "network.connection.no_connection": {
+      "context": "Translation for 'network.connection.no_connection'",
+      "category": "data.network",
+      "priority": "normal",
+      "values": {
+        "en": "No Connection",
+        "de": "Keine Verbindung"
+      }
+    },
+    "network.ping.btn": {
+      "context": "Translation for 'network.ping.btn'",
+      "category": "data.network",
+      "priority": "normal",
+      "values": {
+        "en": "🌐 Ping",
+        "de": "🌐 Ping"
+      }
+    },
+    "network.ping.failed": {
+      "context": "Translation for 'network.ping.failed'",
+      "category": "data.network",
+      "priority": "normal",
+      "values": {
+        "en": "❌ Ping failed",
+        "de": "❌ Ping fehlgeschlagen"
+      }
+    },
+    "network.ping.pinging": {
+      "context": "Translation for 'network.ping.pinging'",
+      "category": "data.network",
+      "priority": "normal",
+      "values": {
+        "en": "Pinging {host}...",
+        "de": "Pinge {host}..."
+      }
+    },
+    "network.ping.placeholder": {
+      "context": "Translation for 'network.ping.placeholder'",
+      "category": "data.network",
+      "priority": "normal",
+      "values": {
+        "en": "Hostname or IP",
+        "de": "Hostname oder IP"
+      }
+    },
+    "network.ping.timeout": {
+      "context": "Translation for 'network.ping.timeout'",
+      "category": "data.network",
+      "priority": "normal",
+      "values": {
+        "en": "❌ Timeout",
+        "de": "❌ Zeitüberschreitung"
+      }
+    },
+    "network.speed_test.btn": {
+      "context": "Translation for 'network.speed_test.btn'",
+      "category": "data.network",
+      "priority": "normal",
+      "values": {
+        "en": "🚀 Test Speed",
+        "de": "🚀 Speed testen"
+      }
+    },
+    "network.speed_test.download": {
+      "context": "Translation for 'network.speed_test.download'",
+      "category": "data.network",
+      "priority": "normal",
+      "values": {
+        "en": "Download",
+        "de": "Download"
+      }
+    },
+    "network.speed_test.testing": {
+      "context": "Translation for 'network.speed_test.testing'",
+      "category": "data.network",
+      "priority": "normal",
+      "values": {
+        "en": "Testing...",
+        "de": "Teste..."
+      }
+    },
+    "network.speed_test.upload": {
+      "context": "Translation for 'network.speed_test.upload'",
+      "category": "data.network",
+      "priority": "normal",
+      "values": {
+        "en": "Upload",
+        "de": "Upload"
+      }
+    },
+    "network.trace.btn": {
+      "context": "Translation for 'network.trace.btn'",
+      "category": "data.network",
+      "priority": "normal",
+      "values": {
+        "en": "🗺️ Trace Route",
+        "de": "🗺️ Route verfolgen"
+      }
+    },
+    "network.trace.destination": {
+      "context": "Translation for 'network.trace.destination'",
+      "category": "data.network",
+      "priority": "normal",
+      "values": {
+        "en": "🎯 Destination",
+        "de": "🎯 Ziel"
+      }
+    },
+    "network.trace.error": {
+      "context": "Translation for 'network.trace.error'",
+      "category": "data.network",
+      "priority": "normal",
+      "values": {
+        "en": "Error: {error}",
+        "de": "Fehler: {error}"
+      }
+    },
+    "network.trace.loading": {
+      "context": "Translation for 'network.trace.loading'",
+      "category": "data.network",
+      "priority": "normal",
+      "values": {
+        "en": "⏳ Determining route...",
+        "de": "⏳ Route wird ermittelt..."
+      }
+    },
+    "network.trace.no_route": {
+      "context": "Translation for 'network.trace.no_route'",
+      "category": "data.network",
+      "priority": "normal",
+      "values": {
+        "en": "No route found or trace error.",
+        "de": "Keine Route gefunden oder Fehler beim Tracen."
+      }
+    },
+    "network.trace.placeholder": {
+      "context": "Translation for 'network.trace.placeholder'",
+      "category": "data.network",
+      "priority": "normal",
+      "values": {
+        "en": "Hostname or IP",
+        "de": "Hostname oder IP"
+      }
+    },
+    "network.trace.start_msg": {
+      "context": "Translation for 'network.trace.start_msg'",
+      "category": "data.network",
+      "priority": "normal",
+      "values": {
+        "en": "🗺️ Route to target will be displayed here.\nEnter a target and click 'Trace Route'.",
+        "de": "🗺️ Route zum Ziel wird hier angezeigt.\nGeben Sie ein Ziel ein und klicken Sie auf 'Route verfolgen'."
+      }
+    },
+    "network.trace.target": {
+      "context": "Translation for 'network.trace.target'",
+      "category": "data.network",
+      "priority": "normal",
+      "values": {
+        "en": "Target:",
+        "de": "Ziel:"
+      }
+    },
+    "network.trace.timeout": {
+      "context": "Translation for 'network.trace.timeout'",
+      "category": "data.network",
+      "priority": "normal",
+      "values": {
+        "en": "Timeout: Could not determine complete route.",
+        "de": "Timeout: Route konnte nicht vollständig ermittelt werden."
+      }
+    },
+    "network.trace.tracing": {
+      "context": "Translation for 'network.trace.tracing'",
+      "category": "data.network",
+      "priority": "normal",
+      "values": {
+        "en": "Tracing...",
+        "de": "Verfolge..."
+      }
+    },
+    "network.trace.you": {
+      "context": "Translation for 'network.trace.you'",
+      "category": "data.network",
+      "priority": "normal",
+      "values": {
+        "en": "🖥️ You",
+        "de": "🖥️ Sie"
+      }
+    },
+    "status.checking": {
+      "context": "Translation for 'status.checking'",
+      "category": "data.status",
+      "priority": "normal",
+      "values": {
+        "en": "Checking...",
+        "de": "Prüfe..."
+      }
+    },
+    "status.error": {
+      "context": "Translation for 'status.error'",
+      "category": "data.status",
+      "priority": "normal",
+      "values": {
+        "en": "Error",
+        "de": "Fehler"
+      }
+    },
+    "status.loading": {
+      "context": "Translation for 'status.loading'",
+      "category": "data.status",
+      "priority": "normal",
+      "values": {
+        "en": "Loading...",
+        "de": "Wird geladen..."
+      }
+    },
+    "status.local": {
+      "context": "Translation for 'status.local'",
+      "category": "data.status",
+      "priority": "normal",
+      "values": {
+        "en": "Local",
+        "de": "Lokal"
+      }
+    },
+    "status.timeout": {
+      "context": "Translation for 'status.timeout'",
+      "category": "data.status",
+      "priority": "normal",
+      "values": {
+        "en": "Timeout",
+        "de": "Zeitüberschreitung"
+      }
+    },
+    "status.unknown": {
+      "context": "Translation for 'status.unknown'",
+      "category": "data.status",
+      "priority": "normal",
+      "values": {
+        "en": "Unknown",
+        "de": "Unbekannt"
+      }
+    },
+    "tabs.cockpit": {
+      "context": "Translation for 'tabs.cockpit'",
+      "category": "ui.tab",
+      "priority": "critical",
+      "values": {
+        "en": "Cockpit",
+        "de": "Cockpit"
+      }
+    },
+    "tabs.media_commander": {
+      "context": "Translation for 'tabs.media_commander'",
+      "category": "ui.tab",
+      "priority": "critical",
+      "values": {
+        "en": "Media Commander",
+        "de": "Media Commander"
+      }
+    },
+    "time.calendar_week": {
+      "context": "Translation for 'time.calendar_week'",
+      "category": "data.time",
+      "priority": "normal",
+      "values": {
+        "en": "Calendar Week",
+        "de": "Kalenderwoche"
+      }
+    },
+    "time.day_of_year": {
+      "context": "Translation for 'time.day_of_year'",
+      "category": "data.time",
+      "priority": "normal",
+      "values": {
+        "en": "Day of Year",
+        "de": "Day of Year"
+      }
+    },
+    "time.day_of_year_full": {
+      "context": "Translation for 'time.day_of_year_full'",
+      "category": "data.time",
+      "priority": "normal",
+      "values": {
+        "en": "Day {day} of the Year",
+        "de": "{day}. Tag des Jahres"
+      }
+    },
+    "time.gmt_offset": {
+      "context": "Translation for 'time.gmt_offset'",
+      "category": "data.time",
+      "priority": "normal",
+      "values": {
+        "en": "GMT: {time} ({offset})",
+        "de": "GMT: {time} ({offset})"
+      }
+    },
+    "time.summer_time": {
+      "context": "Translation for 'time.summer_time'",
+      "category": "data.time",
+      "priority": "normal",
+      "values": {
+        "en": "Summer Time (DST)",
+        "de": "Sommerzeit (MESZ)"
+      }
+    },
+    "time.timezone_label": {
+      "context": "Translation for 'time.timezone_label'",
+      "category": "data.time",
+      "priority": "normal",
+      "values": {
+        "en": "Time Zone: {name}",
+        "de": "Zeitzone: {name}"
+      }
+    },
+    "time.week_day": {
+      "context": "Translation for 'time.week_day'",
+      "category": "data.time",
+      "priority": "normal",
+      "values": {
+        "en": "Week {week} • Day {day}",
+        "de": "Kalenderwoche {week} • Tag {day}"
+      }
+    },
+    "time.winter_time": {
+      "context": "Translation for 'time.winter_time'",
+      "category": "data.time",
+      "priority": "normal",
+      "values": {
+        "en": "Standard Time",
+        "de": "Winterzeit (MEZ)"
+      }
+    },
+    "time.zone": {
+      "context": "Translation for 'time.zone'",
+      "category": "data.time",
+      "priority": "normal",
+      "values": {
+        "en": "Time Zone",
+        "de": "Zeitzone"
+      }
+    },
+    "tooltips.tooltips.edit_redo": {
+      "context": "Translation for 'tooltips.tooltips.edit_redo'",
+      "category": "ui.tooltip",
+      "priority": "normal",
+      "values": {
+        "en": "Redo the previously undone action.",
+        "de": "Wiederholen: Die zuvor rückgängig gemachte Aktion erneut ausführen."
+      }
+    },
+    "tooltips.tooltips.edit_undo": {
+      "context": "Translation for 'tooltips.tooltips.edit_undo'",
+      "category": "ui.tooltip",
+      "priority": "normal",
+      "values": {
+        "en": "Revert the last action.",
+        "de": "Rückgängig: Letzte Aktion ungeschehen machen."
+      }
+    },
+    "tooltips.tooltips.file_exit": {
+      "context": "Translation for 'tooltips.tooltips.file_exit'",
+      "category": "ui.tooltip",
+      "priority": "normal",
+      "values": {
+        "en": "Close the application and exit.",
+        "de": "Beenden: Anwendung schließen und verlassen."
+      }
+    },
+    "tooltips.tooltips.file_new": {
+      "context": "Translation for 'tooltips.tooltips.file_new'",
+      "category": "ui.tooltip",
+      "priority": "normal",
+      "values": {
+        "en": "Create a new file or start a fresh project from scratch.",
+        "de": "Neu erstellen: Leeres Projekt starten, neue Datei anlegen, frisch beginnen (Strg+N)."
+      }
+    },
+    "tooltips.tooltips.file_open": {
+      "context": "Translation for 'tooltips.tooltips.file_open'",
+      "category": "ui.tooltip",
+      "priority": "normal",
+      "values": {
+        "en": "Open an existing file or project from your computer.",
+        "de": "Öffnen: Vorhandene Datei oder Projekt vom Computer laden."
+      }
+    },
+    "tooltips.tooltips.file_save": {
+      "context": "Translation for 'tooltips.tooltips.file_save'",
+      "category": "ui.tooltip",
+      "priority": "normal",
+      "values": {
+        "en": "Save your current work to disk.",
+        "de": "Speichern: Aktuelle Arbeit auf der Festplatte sichern."
+      }
+    },
+    "tooltips.tooltips.menu_cockpit": {
+      "context": "Translation for 'tooltips.tooltips.menu_cockpit'",
+      "category": "ui.tooltip",
+      "priority": "normal",
+      "values": {
+        "en": "System monitoring dashboard with customizable widgets and real-time data.",
+        "de": "Cockpit öffnen: Dashboard mit Widgets (CPU, RAM, Festplatte), Echtzeit-Monitoring, anpassbar."
+      }
+    },
+    "tooltips.tooltips.menu_edit": {
+      "context": "Translation for 'tooltips.tooltips.menu_edit'",
+      "category": "ui.tooltip",
+      "priority": "normal",
+      "values": {
+        "en": "Edit content, undo and redo recent changes.",
+        "de": "Bearbeiten: Text/Inhalte ändern, Rückgängig machen (Strg+Z), Wiederholen (Strg+Y), Kopieren, Einfügen."
+      }
+    },
+    "tooltips.tooltips.menu_file": {
+      "context": "Translation for 'tooltips.tooltips.menu_file'",
+      "category": "ui.tooltip",
+      "priority": "normal",
+      "values": {
+        "en": "Create, open, save, and manage your files and projects.",
+        "de": "Dateiverwaltung: Neue Projekte erstellen, bestehende öffnen, Änderungen speichern, Dateien schließen."
+      }
+    },
+    "tooltips.tooltips.menu_german_dialects": {
+      "context": "Translation for 'tooltips.tooltips.menu_german_dialects'",
+      "category": "ui.tooltip",
+      "priority": "normal",
+      "values": {
+        "en": "Select a regional German dialect variant.",
+        "de": "Deutsche Dialekte: 38 Varianten von Bairisch über Kölsch bis Mittelhochdeutsch auswählen."
+      }
+    },
+    "tooltips.tooltips.menu_help": {
+      "context": "Translation for 'tooltips.tooltips.menu_help'",
+      "category": "ui.tooltip",
+      "priority": "normal",
+      "values": {
+        "en": "Get help, view documentation, and learn about this application.",
+        "de": "Hilfe & Infos: Bedienungsanleitung öffnen, Tipps anzeigen, Über-Dialog mit Versionsnummer."
+      }
+    },
+    "tooltips.tooltips.menu_languages": {
+      "context": "Translation for 'tooltips.tooltips.menu_languages'",
+      "category": "ui.tooltip",
+      "priority": "normal",
+      "values": {
+        "en": "Choose your preferred language from numerous options.",
+        "de": "Sprache auswählen: Aus 147 Varianten wählen - Hauptsprachen, regionale Dialekte, Bonus-Sprachen."
+      }
+    },
+    "tooltips.tooltips.menu_media": {
+      "context": "Translation for 'tooltips.tooltips.menu_media'",
+      "category": "ui.tooltip",
+      "priority": "normal",
+      "values": {
+        "en": "Media player with advanced controls, equalizer, and streaming support.",
+        "de": "Media Player öffnen: Audio/Video abspielen, Equalizer nutzen, Playlists verwalten, Streaming."
+      }
+    },
+    "tooltips.tooltips.menu_settings": {
+      "context": "Translation for 'tooltips.tooltips.menu_settings'",
+      "category": "ui.tooltip",
+      "priority": "normal",
+      "values": {
+        "en": "Configure application preferences, language, and appearance.",
+        "de": "Einstellungen anpassen: Sprache wählen, Theme ändern (Hell/Dunkel), Präferenzen festlegen."
+      }
+    },
+    "tooltips.tooltips.menu_tabs": {
+      "context": "Translation for 'tooltips.tooltips.menu_tabs'",
+      "category": "ui.tooltip",
+      "priority": "normal",
+      "values": {
+        "en": "Manage open tabs and organize your workspace efficiently.",
+        "de": "Tabs verwalten: Zwischen geöffneten Modulen wechseln, schließen, neue hinzufügen, sortieren."
+      }
+    },
+    "tooltips.tooltips.menu_tools": {
+      "context": "Translation for 'tooltips.tooltips.menu_tools'",
+      "category": "ui.tooltip",
+      "priority": "normal",
+      "values": {
+        "en": "Access powerful utility tools including dashboard, media player, and more.",
+        "de": "Werkzeuge öffnen: Cockpit-Dashboard, Mediaplayer, System-Tools, Dienstprogramme und Module."
+      }
+    },
+    "tooltips.tooltips.menu_view": {
+      "context": "Translation for 'tooltips.tooltips.menu_view'",
+      "category": "ui.tooltip",
+      "priority": "normal",
+      "values": {
+        "en": "Change the visual appearance and theme of the application.",
+        "de": "Ansicht ändern: Zwischen hellem und dunklem Theme wechseln, Farbschema anpassen."
+      }
+    },
+    "tooltips.tooltips.tab_close": {
+      "context": "Translation for 'tooltips.tooltips.tab_close'",
+      "category": "ui.tooltip",
+      "priority": "normal",
+      "values": {
+        "en": "Close this tab.",
+        "de": "Diesen Tab schließen."
+      }
+    },
+    "tooltips.tooltips.theme_dark": {
+      "context": "Translation for 'tooltips.tooltips.theme_dark'",
+      "category": "ui.tooltip",
+      "priority": "normal",
+      "values": {
+        "en": "Switch to the dark, eye-friendly appearance.",
+        "de": "Dunkles Design: Augenfreundliches dunkles Erscheinungsbild verwenden."
+      }
+    },
+    "tooltips.tooltips.theme_light": {
+      "context": "Translation for 'tooltips.tooltips.theme_light'",
+      "category": "ui.tooltip",
+      "priority": "normal",
+      "values": {
+        "en": "Switch to the bright, standard macOS appearance.",
+        "de": "Helles Design: Standard macOS-Erscheinungsbild verwenden."
+      }
+    },
+    "tooltips.tooltips.widget_add": {
+      "context": "Translation for 'tooltips.tooltips.widget_add'",
+      "category": "ui.tooltip",
+      "priority": "normal",
+      "values": {
+        "en": "Add a new widget to your dashboard.",
+        "de": "Widget hinzufügen: Neues Element zum Dashboard hinzufügen."
+      }
+    },
+    "units.bytes": {
+      "context": "Translation for 'units.bytes'",
+      "category": "data.units",
+      "priority": "normal",
+      "values": {
+        "en": "B",
+        "de": "B"
+      }
+    },
+    "units.celsius": {
+      "context": "Translation for 'units.celsius'",
+      "category": "data.units",
+      "priority": "normal",
+      "values": {
+        "en": "°C",
+        "de": "°C"
+      }
+    },
+    "units.gigabytes": {
+      "context": "Translation for 'units.gigabytes'",
+      "category": "data.units",
+      "priority": "normal",
+      "values": {
+        "en": "GB",
+        "de": "GB"
+      }
+    },
+    "units.kbps": {
+      "context": "Translation for 'units.kbps'",
+      "category": "data.units",
+      "priority": "normal",
+      "values": {
+        "en": "KB/s",
+        "de": "KB/s"
+      }
+    },
+    "units.kilobytes": {
+      "context": "Translation for 'units.kilobytes'",
+      "category": "data.units",
+      "priority": "normal",
+      "values": {
+        "en": "KB",
+        "de": "KB"
+      }
+    },
+    "units.mbps": {
+      "context": "Translation for 'units.mbps'",
+      "category": "data.units",
+      "priority": "normal",
+      "values": {
+        "en": "Mbps",
+        "de": "Mbps"
+      }
+    },
+    "units.megabytes": {
+      "context": "Translation for 'units.megabytes'",
+      "category": "data.units",
+      "priority": "normal",
+      "values": {
+        "en": "MB",
+        "de": "MB"
+      }
+    },
+    "units.ms": {
+      "context": "Translation for 'units.ms'",
+      "category": "data.units",
+      "priority": "normal",
+      "values": {
+        "en": "ms",
+        "de": "ms"
+      }
+    },
+    "units.percent": {
+      "context": "Translation for 'units.percent'",
+      "category": "data.units",
+      "priority": "normal",
+      "values": {
+        "en": "%",
+        "de": "%"
+      }
+    },
+    "units.terabytes": {
+      "context": "Translation for 'units.terabytes'",
+      "category": "data.units",
+      "priority": "normal",
+      "values": {
+        "en": "TB",
+        "de": "TB"
+      }
+    },
+    "weather.feels_like": {
+      "context": "Translation for 'weather.feels_like'",
+      "category": "data.weather",
+      "priority": "normal",
+      "values": {
+        "en": "Feels Like",
+        "de": "Gefühlt"
+      }
+    },
+    "weather.forecast": {
+      "context": "Translation for 'weather.forecast'",
+      "category": "data.weather",
+      "priority": "normal",
+      "values": {
+        "en": "3-Day Forecast",
+        "de": "3-Tage-Vorhersage"
+      }
+    },
+    "weather.humidity": {
+      "context": "Translation for 'weather.humidity'",
+      "category": "data.weather",
+      "priority": "normal",
+      "values": {
+        "en": "Humidity",
+        "de": "Luftfeuchtigkeit"
+      }
+    },
+    "weather.loading": {
+      "context": "Translation for 'weather.loading'",
+      "category": "data.weather",
+      "priority": "normal",
+      "values": {
+        "en": "Loading...",
+        "de": "Wird geladen..."
+      }
+    },
+    "weather.loading_data": {
+      "context": "Translation for 'weather.loading_data'",
+      "category": "data.weather",
+      "priority": "normal",
+      "values": {
+        "en": "Loading weather data...",
+        "de": "Wetterdaten werden geladen..."
+      }
+    },
+    "weather.unknown": {
+      "context": "Translation for 'weather.unknown'",
+      "category": "data.weather",
+      "priority": "normal",
+      "values": {
+        "en": "Unknown",
+        "de": "Unbekannt"
+      }
+    },
+    "weather.wind": {
+      "context": "Translation for 'weather.wind'",
+      "category": "data.weather",
+      "priority": "normal",
+      "values": {
+        "en": "Wind",
+        "de": "Wind"
+      }
+    },
+    "widgets.active_connections": {
+      "context": "Translation for 'widgets.active_connections'",
+      "category": "ui.widget",
+      "priority": "normal",
+      "values": {
+        "en": "Active Connections",
+        "de": "Aktive Verbindungen"
+      }
+    },
+    "widgets.clock": {
+      "context": "Translation for 'widgets.clock'",
+      "category": "ui.widget",
+      "priority": "normal",
+      "values": {
+        "en": "World Clock",
+        "de": "Weltzeituhr"
+      }
+    },
+    "widgets.connection_status": {
+      "context": "Translation for 'widgets.connection_status'",
+      "category": "ui.widget",
+      "priority": "normal",
+      "values": {
+        "en": "Connection",
+        "de": "Verbindung"
+      }
+    },
+    "widgets.directory_browser": {
+      "context": "Translation for 'widgets.directory_browser'",
+      "category": "ui.widget",
+      "priority": "normal",
+      "values": {
+        "en": "File Manager",
+        "de": "Dateiverwaltung"
+      }
+    },
+    "widgets.directory_browser_title": {
+      "context": "Translation for 'widgets.directory_browser_title'",
+      "category": "ui.widget",
+      "priority": "normal",
+      "values": {
+        "en": "File Manager",
+        "de": "Dateiverwaltung"
+      }
+    },
+    "widgets.disk_io_monitor": {
+      "context": "Translation for 'widgets.disk_io_monitor'",
+      "category": "ui.widget",
+      "priority": "normal",
+      "values": {
+        "en": "Disk I/O",
+        "de": "Datenträger I/O"
+      }
+    },
+    "widgets.file_stats": {
+      "context": "Translation for 'widgets.file_stats'",
+      "category": "ui.widget",
+      "priority": "normal",
+      "values": {
+        "en": "Statistics",
+        "de": "Statistik"
+      }
+    },
+    "widgets.file_stats_storage": {
+      "context": "Translation for 'widgets.file_stats_storage'",
+      "category": "ui.widget",
+      "priority": "normal",
+      "values": {
+        "en": "Storage",
+        "de": "Speicher"
+      }
+    },
+    "widgets.file_stats_title": {
+      "context": "Translation for 'widgets.file_stats_title'",
+      "category": "ui.widget",
+      "priority": "normal",
+      "values": {
+        "en": "Statistics",
+        "de": "Statistik"
+      }
+    },
+    "widgets.gpu_monitor": {
+      "context": "Translation for 'widgets.gpu_monitor'",
+      "category": "ui.widget",
+      "priority": "normal",
+      "values": {
+        "en": "GPU Monitor",
+        "de": "GPU-Monitor"
+      }
+    },
+    "widgets.network_monitor": {
+      "context": "Translation for 'widgets.network_monitor'",
+      "category": "ui.widget",
+      "priority": "normal",
+      "values": {
+        "en": "Network Traffic",
+        "de": "Netzwerk-Traffic"
+      }
+    },
+    "widgets.network_path": {
+      "context": "Translation for 'widgets.network_path'",
+      "category": "ui.widget",
+      "priority": "normal",
+      "values": {
+        "en": "Network Path",
+        "de": "Netzwerkpfad"
+      }
+    },
+    "widgets.ping": {
+      "context": "Translation for 'widgets.ping'",
+      "category": "ui.widget",
+      "priority": "normal",
+      "values": {
+        "en": "Ping",
+        "de": "Ping"
+      }
+    },
+    "widgets.quick_access": {
+      "context": "Translation for 'widgets.quick_access'",
+      "category": "ui.widget",
+      "priority": "normal",
+      "values": {
+        "en": "Quick Access",
+        "de": "Schnellzugriff"
+      }
+    },
+    "widgets.quick_access_title": {
+      "context": "Translation for 'widgets.quick_access_title'",
+      "category": "ui.widget",
+      "priority": "normal",
+      "values": {
+        "en": "Quick Access",
+        "de": "Schnellzugriff"
+      }
+    },
+    "widgets.recent_files": {
+      "context": "Translation for 'widgets.recent_files'",
+      "category": "ui.widget",
+      "priority": "normal",
+      "values": {
+        "en": "Recent Files",
+        "de": "Zuletzt verwendet"
+      }
+    },
+    "widgets.recent_files_title": {
+      "context": "Translation for 'widgets.recent_files_title'",
+      "category": "ui.widget",
+      "priority": "normal",
+      "values": {
+        "en": "Recent Files",
+        "de": "Zuletzt verwendet"
+      }
+    },
+    "widgets.speed_test": {
+      "context": "Translation for 'widgets.speed_test'",
+      "category": "ui.widget",
+      "priority": "normal",
+      "values": {
+        "en": "Speed Test",
+        "de": "Speed Test"
+      }
+    },
+    "widgets.system_monitor": {
+      "context": "Translation for 'widgets.system_monitor'",
+      "category": "ui.widget",
+      "priority": "normal",
+      "values": {
+        "en": "System Monitor",
+        "de": "System Monitor"
+      }
+    },
+    "widgets.temp_monitor": {
+      "context": "Translation for 'widgets.temp_monitor'",
+      "category": "ui.widget",
+      "priority": "normal",
+      "values": {
+        "en": "Temperature",
+        "de": "Temperatur"
+      }
+    }
+  }
+}

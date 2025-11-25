@@ -1,0 +1,336 @@
+{
+    "menu": {
+        "file": "Skedar",
+        "edit": "Redakto",
+        "view": "Pamje",
+        "tools": "Mjete",
+        "settings": "Cilësimet",
+        "help": "Ndihmë",
+        "languages": "Gjuhët",
+        "german_dialects": "Gjermanisht",
+        "system_monitor": "System Monitor",
+        "clock": "World Clock",
+        "network_traffic": "Network Traffic",
+        "gpu_monitor": "GPU Monitor",
+        "temperature": "Temperature",
+        "disk_io": "Disk I/O",
+        "media_controls": "Media Controls",
+        "video_screen": "Video Screen",
+        "media_explorer": "Media Explorer",
+        "stream": "Online Stream",
+        "equalizer": "Equalizer",
+        "file_manager": "File Manager",
+        "network_diag": "Network Diagnostics"
+    },
+    "menu_file": {
+        "new": "E re",
+        "open": "Hap...",
+        "save": "Ruaj",
+        "exit": "Dalje"
+    },
+    "menu_edit": {
+        "undo": "Zhbëj",
+        "redo": "Ribëj"
+    },
+    "menu_view": {
+        "theme_light": "Temë e çelët",
+        "theme_dark": "Temë e errët"
+    },
+    "menu_tools": {
+        "cockpit": "Kabina",
+        "media": "Media",
+        "tabs": "Skeda",
+        "add_widget": "➕ Shto Widget...",
+        "system_monitor": "Monitoruesi i Sistemit",
+        "clock": "Ora Botërore",
+        "network_traffic": "Trafiku i Rrjetit",
+        "gpu_monitor": "Monitoruesi GPU",
+        "temperature": "Temperatura",
+        "disk_io": "Disku I/O",
+        "media_controls": "Kontrollet e Medias",
+        "video_screen": "Ekrani i Videos",
+        "media_explorer": "Eksploruesi i Medias",
+        "stream": "Transmetim Online",
+        "equalizer": "Barazuesi",
+        "file_manager": "Menaxheri i Skedarëve",
+        "network_diag": "Diagnostikimi i Rrjetit"
+    },
+    "widgets": {
+        "clock": "Ora Botërore",
+        "system_monitor": "Monitoruesi i Sistemit",
+        "network_monitor": "Trafiku i Rrjetit",
+        "gpu_monitor": "Monitoruesi GPU",
+        "temp_monitor": "Temperatura",
+        "disk_io_monitor": "Disku I/O",
+        "directory_browser": "Menaxheri i Skedarëve",
+        "quick_access": "Qasje e Shpejtë",
+        "file_stats": "Statistika",
+        "recent_files": "Skedarët e Fundit",
+        "ping": "Ping",
+        "connection_status": "Lidhja",
+        "speed_test": "Testi i Shpejtësisë",
+        "active_connections": "Lidhjet Aktive",
+        "network_path": "Rruga e Rrjetit",
+        "directory_browser_title": "Menaxheri i Skedarëve",
+        "quick_access_title": "Qasje e Shpejtë",
+        "file_stats_title": "Statistika",
+        "file_stats_storage": "Hapësira",
+        "recent_files_title": "Skedarët e Fundit"
+    },
+    "dialogs": {
+        "about": {
+            "title": "Rreth MacGyver Multi-Tool",
+            "version": "Versioni 1.0 (Ndërtimi MVP)",
+            "description": "Një mjet modular shërbimi me dizajn macOS.",
+            "copyright": "© 2025 Jan Friske – Të gjitha të drejtat e rezervuara.",
+            "license": "Liçencë falas (jo-komerciale)."
+        },
+        "widget_selector": {
+            "title": "Shto Widget",
+            "preview": "Pamje paraprake",
+            "size_select": "Zgjidh madhësinë:",
+            "add_button": "Shto në Panel",
+            "sizes": {
+                "compact": "Kompakt",
+                "wide": "I gjerë",
+                "extra_wide": "Ekstra i gjerë",
+                "full_width": "Gjerësi e plotë",
+                "tall": "I lartë",
+                "large": "I madh",
+                "extra_large": "Ekstra i madh",
+                "maximum": "Maksimum"
+            },
+            "scale": "Shkalla",
+            "error": "Gabim në pamje paraprake"
+        }
+    },
+    "tabs": {
+        "cockpit": "Kabina",
+        "media_commander": "Komandanti i Medias"
+    },
+    "weather": {
+        "loading": "Duke ngarkuar...",
+        "loading_data": "Duke ngarkuar të dhënat e motit...",
+        "forecast": "Parashikimi 3-ditor",
+        "feels_like": "Ndjehet si",
+        "humidity": "Lagështia",
+        "wind": "Era",
+        "unknown": "E panjohur"
+    },
+    "time": {
+        "zone": "Zona Kohore",
+        "calendar_week": "Java Kalendarike",
+        "day_of_year": "Dita e Vitit",
+        "day_of_year_full": "Dita {day} e Vitit",
+        "summer_time": "Ora Verore",
+        "winter_time": "Ora Dimërore",
+        "gmt_offset": "GMT: {time} ({offset})",
+        "timezone_label": "Zona Kohore: {name}",
+        "week_day": "Java {week} • Dita {day}"
+    },
+    "gauges": {
+        "cpu": "CPU",
+        "ram": "RAM",
+        "upload": "Ngarkim",
+        "download": "Shkarkim",
+        "gpu": "GPU",
+        "system": "Sistemi"
+    },
+    "disk_io": {
+        "disk_label": "Disku: {name}",
+        "read": "L",
+        "write": "Sh"
+    },
+    "file_manager": {
+        "up": "⬆️ Lart",
+        "folders": "Dosjet",
+        "files": "Skedarët",
+        "headers": {
+            "name": "Emri",
+            "size": "Madhësia",
+            "modified": "Modifikuar"
+        },
+        "places": {
+            "desktop": "Desktop",
+            "documents": "Dokumente",
+            "downloads": "Shkarkime",
+            "pictures": "Foto",
+            "music": "Muzikë",
+            "videos": "Video",
+            "home": "Kryefaqja"
+        },
+        "stats": {
+            "files_count": "{count} skedarë",
+            "storage": "Hapësira"
+        },
+        "up_button": "⬆️ Lart"
+    },
+    "network": {
+        "ping": {
+            "btn": "🌐 Ping",
+            "placeholder": "Emri i hostit ose IP",
+            "pinging": "Duke bërë ping {host}...",
+            "failed": "❌ Ping dështoi",
+            "timeout": "❌ Koha mbaroi"
+        },
+        "connection": {
+            "checking": "Duke kontrolluar...",
+            "connected": "E lidhur",
+            "disconnected": "E shkëputur",
+            "no_connection": "Pa lidhje",
+            "ip_label": "IP: {ip}"
+        },
+        "speed_test": {
+            "btn": "🚀 Testi i Shpejtësisë",
+            "testing": "Duke testuar...",
+            "download": "Shkarkim",
+            "upload": "Ngarkim"
+        },
+        "active_connections": {
+            "protocol": "Protokolli",
+            "refresh": "🔄 Rifresko",
+            "all": "Të gjitha",
+            "headers": {
+                "process": "Procesi",
+                "protocol": "Protokolli",
+                "local": "Lokale",
+                "remote": "Në distancë",
+                "status": "Statusi"
+            }
+        },
+        "trace": {
+            "target": "Objektivi:",
+            "btn": "🗺️ Gjurmo Rrugën",
+            "placeholder": "Emri i hostit ose IP",
+            "tracing": "Duke gjurmuar...",
+            "start_msg": "🗺️ Rruga drejt objektivit do të shfaqet këtu.\nShkruani një objektiv dhe klikoni 'Gjurmo Rrugën'.",
+            "loading": "⏳ Duke përcaktuar rrugën...",
+            "you": "🖥️ Ti",
+            "destination": "🎯 Destinacioni",
+            "timeout": "Koha mbaroi: Nuk mund të përcaktohet rruga e plotë.",
+            "error": "Gabim: {error}",
+            "no_route": "Asnjë rrugë nuk u gjet ose gabim gjurmimi."
+        }
+    },
+    "units": {
+        "celsius": "°C",
+        "percent": "%",
+        "mbps": "Mbps",
+        "kbps": "KB/s",
+        "ms": "ms",
+        "bytes": "B",
+        "kilobytes": "KB",
+        "megabytes": "MB",
+        "gigabytes": "GB",
+        "terabytes": "TB"
+    },
+    "status": {
+        "loading": "Duke ngarkuar...",
+        "error": "Gabim",
+        "unknown": "E panjohur",
+        "timeout": "Koha mbaroi",
+        "local": "Lokale",
+        "checking": "Duke kontrolluar..."
+    },
+    "media": {
+        "open_button": "Hap",
+        "equalizer_preset_label": "Paracaktimi:",
+        "equalizer_presets": {
+            "flat": "E sheshtë",
+            "rock": "Rock",
+            "pop": "Pop",
+            "jazz": "Jazz",
+            "classical": "Klasike",
+            "bass_boost": "Përforcim Basi"
+        }
+    },
+    "tooltips": {
+        "tooltips.menu_file": "Create, open, save, and manage your files and projects.",
+        "tooltips.menu_edit": "Edit content, undo and redo recent changes.",
+        "tooltips.menu_tools": "Access powerful utility tools including dashboard, media player, and more.",
+        "tooltips.menu_settings": "Configure application preferences, language, and appearance.",
+        "tooltips.menu_help": "Get help, view documentation, and learn about this application.",
+        "tooltips.menu_view": "Change the visual appearance and theme of the application.",
+        "tooltips.menu_languages": "Choose your preferred language from numerous options.",
+        "tooltips.menu_german_dialects": "Select a regional German dialect variant.",
+        "tooltips.menu_cockpit": "System monitoring dashboard with customizable widgets and real-time data.",
+        "tooltips.menu_media": "Media player with advanced controls, equalizer, and streaming support.",
+        "tooltips.menu_tabs": "Manage open tabs and organize your workspace efficiently.",
+        "tooltips.file_new": "Create a new file or start a fresh project from scratch.",
+        "tooltips.file_open": "Open and load an existing file from your filesystem.",
+        "tooltips.file_save": "Save all current changes to the active file.",
+        "tooltips.file_exit": "Close the application and exit completely.",
+        "tooltips.edit_undo": "Undo the most recent action or change.",
+        "tooltips.edit_redo": "Redo the last action that was undone.",
+        "tooltips.help_about": "Display version information and credits for this application.",
+        "tooltips.theme_light": "Switch to the bright, light-colored theme for daytime use.",
+        "tooltips.theme_dark": "Switch to the dark theme for reduced eye strain in low-light conditions.",
+        "tooltips.open_tool": "Open and activate the {tool} utility tool.",
+        "tooltips.add_widget": "Add a new customizable widget to your dashboard.",
+        "tooltips.widget_add": "Add a new widget to your dashboard.",
+        "tooltips.tab_close": "Close this tab."
+    },
+    "menu_languages": {
+        "german": "🇩🇪 German",
+        "main": "🌍 Main Languages",
+        "standard": "Standard & Historical",
+        "east": "East German",
+        "north": "North German",
+        "west": "West German",
+        "south": "South German",
+        "austria": "Austria & Switzerland",
+        "other": "Other",
+        "european": "European",
+        "asian": "Asian",
+        "middle_east": "Middle East & Africa",
+        "bonus": "Bonus",
+        "east_legacy": "East German (GDR Heritage)",
+        "historical_east": "Historical Eastern Territories",
+        "diaspora": "Diaspora & Emigrants",
+        "south_alpine": "South German / Alpine",
+        "north_west": "North / West German",
+        "urban": "Urban Dialects",
+        "abroad": "German Abroad (AT/CH/LU)"
+    },
+    "lang": {
+        "de": "Standard German",
+        "de_middlehigh": "Middle High German (1050-1350)",
+        "de_brandenburg": "Brandenburgish",
+        "de_thuringia": "Thuringian",
+        "de_uppersaxon": "Upper Saxon",
+        "de_lusatian": "Lusatian",
+        "de_pomeranian": "Pomeranian",
+        "de_sudeten": "Sudeten German",
+        "de_silesian": "Silesian",
+        "de_lowprussia": "Low Prussian",
+        "de_eastprussia": "High Prussian",
+        "de_volga": "Volga German",
+        "de_banat": "Banat Swabian",
+        "de_sathmar": "Sathmar Swabian",
+        "de_bavaria": "Bavarian",
+        "de_swabian": "Swabian",
+        "de_allgaeu": "Allgäu Dialect",
+        "de_southtyrol": "South Tyrolean",
+        "de_alemannic": "Alemannic",
+        "de_baden": "Baden Dialect",
+        "de_franconian": "Franconian",
+        "de_vorarlberg": "Vorarlberg Dialect",
+        "de_palatinate": "Palatine",
+        "de_lowgerman": "Low German",
+        "de_mecklenburg": "Mecklenburg Low German",
+        "de_holstein": "Holstein Low German",
+        "de_westphalian": "Westphalian",
+        "de_ripuarian": "Ripuarian / Colognian",
+        "de_moselfranken": "Moselle Franconian",
+        "de_ruhr": "Ruhr German",
+        "de_berlin": "Berlin Dialect",
+        "de_saxony": "Saxon",
+        "de_frankfurt": "Frankfurt Dialect",
+        "de_rhine": "Rhenish",
+        "de_hessian": "Hessian",
+        "de_at": "Austrian German",
+        "de_ch": "Swiss German",
+        "de_luxembourg": "Luxembourgish",
+        "de_transylvania": "Transylvanian Saxon"
+    }
+}

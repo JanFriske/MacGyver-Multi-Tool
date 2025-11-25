@@ -1,0 +1,336 @@
+{
+    "menu": {
+        "file": "Arquivo",
+        "edit": "Editar",
+        "view": "Ver",
+        "tools": "Ferramentas",
+        "settings": "Configurações",
+        "help": "Ajuda",
+        "languages": "Idiomas",
+        "german_dialects": "Alemão",
+        "system_monitor": "System Monitor",
+        "clock": "World Clock",
+        "network_traffic": "Network Traffic",
+        "gpu_monitor": "GPU Monitor",
+        "temperature": "Temperature",
+        "disk_io": "Disk I/O",
+        "media_controls": "Media Controls",
+        "video_screen": "Video Screen",
+        "media_explorer": "Media Explorer",
+        "stream": "Online Stream",
+        "equalizer": "Equalizer",
+        "file_manager": "File Manager",
+        "network_diag": "Network Diagnostics"
+    },
+    "menu_file": {
+        "new": "Novo",
+        "open": "Abrir...",
+        "save": "Salvar",
+        "exit": "Sair"
+    },
+    "menu_edit": {
+        "undo": "Desfazer",
+        "redo": "Refazer"
+    },
+    "menu_view": {
+        "theme_light": "Tema claro",
+        "theme_dark": "Tema escuro"
+    },
+    "menu_tools": {
+        "cockpit": "Cockpit",
+        "media": "Mídia",
+        "tabs": "Abas",
+        "add_widget": "➕ Adicionar widget...",
+        "system_monitor": "Monitor do sistema",
+        "clock": "Relógio mundial",
+        "network_traffic": "Tráfego de rede",
+        "gpu_monitor": "Monitor GPU",
+        "temperature": "Temperatura",
+        "disk_io": "E/S de disco",
+        "media_controls": "Controles de mídia",
+        "video_screen": "Tela de vídeo",
+        "media_explorer": "Explorador de mídia",
+        "stream": "Stream online",
+        "equalizer": "Equalizador",
+        "file_manager": "Gerenciador de arquivos",
+        "network_diag": "Diagnóstico de rede"
+    },
+    "widgets": {
+        "clock": "Relógio mundial",
+        "system_monitor": "Monitor do sistema",
+        "network_monitor": "Tráfego de rede",
+        "gpu_monitor": "Monitor GPU",
+        "temp_monitor": "Temperatura",
+        "disk_io_monitor": "E/S de disco",
+        "directory_browser": "Gerenciador de arquivos",
+        "quick_access": "Acesso rápido",
+        "file_stats": "Estatísticas",
+        "recent_files": "Arquivos recentes",
+        "ping": "Ping",
+        "connection_status": "Conexão",
+        "speed_test": "Teste de velocidade",
+        "active_connections": "Conexões ativas",
+        "network_path": "Caminho de rede",
+        "directory_browser_title": "Gerenciador de arquivos",
+        "quick_access_title": "Acesso rápido",
+        "file_stats_title": "Estatísticas",
+        "file_stats_storage": "Armazenamento",
+        "recent_files_title": "Arquivos recentes"
+    },
+    "dialogs": {
+        "about": {
+            "title": "Sobre MacGyver Multi-Tool",
+            "version": "Versão 1.0 (Build MVP)",
+            "description": "Uma ferramenta utilitária modular com design macOS.",
+            "copyright": "© 2025 Jan Friske – Todos os direitos reservados.",
+            "license": "Licença freeware (não comercial)."
+        },
+        "widget_selector": {
+            "title": "Adicionar widget",
+            "preview": "Pré-visualização",
+            "size_select": "Selecionar tamanho:",
+            "add_button": "Adicionar ao painel",
+            "sizes": {
+                "compact": "Compacto",
+                "wide": "Largo",
+                "extra_wide": "Extra largo",
+                "full_width": "Largura total",
+                "tall": "Alto",
+                "large": "Grande",
+                "extra_large": "Extra grande",
+                "maximum": "Máximo"
+            },
+            "scale": "Escala",
+            "error": "Erro de pré-visualização"
+        }
+    },
+    "tabs": {
+        "cockpit": "Cockpit",
+        "media_commander": "Comandante de mídia"
+    },
+    "weather": {
+        "loading": "Carregando...",
+        "loading_data": "Carregando dados meteorológicos...",
+        "forecast": "Previsão de 3 dias",
+        "feels_like": "Sensação térmica",
+        "humidity": "Umidade",
+        "wind": "Vento",
+        "unknown": "Desconhecido"
+    },
+    "time": {
+        "zone": "Fuso horário",
+        "calendar_week": "Semana",
+        "day_of_year": "Dia do ano",
+        "day_of_year_full": "Dia {day} do ano",
+        "summer_time": "Horário de verão",
+        "winter_time": "Horário padrão",
+        "gmt_offset": "GMT: {time} ({offset})",
+        "timezone_label": "Fuso horário: {name}",
+        "week_day": "Semana {week} • Dia {day}"
+    },
+    "gauges": {
+        "cpu": "CPU",
+        "ram": "RAM",
+        "upload": "Upload",
+        "download": "Download",
+        "gpu": "GPU",
+        "system": "Sistema"
+    },
+    "disk_io": {
+        "disk_label": "Disco: {name}",
+        "read": "L",
+        "write": "E"
+    },
+    "file_manager": {
+        "up": "⬆️ Acima",
+        "folders": "Pastas",
+        "files": "Arquivos",
+        "headers": {
+            "name": "Nome",
+            "size": "Tamanho",
+            "modified": "Modificado"
+        },
+        "places": {
+            "desktop": "Área de trabalho",
+            "documents": "Documentos",
+            "downloads": "Downloads",
+            "pictures": "Imagens",
+            "music": "Música",
+            "videos": "Vídeos",
+            "home": "Início"
+        },
+        "stats": {
+            "files_count": "{count} arquivos",
+            "storage": "Armazenamento"
+        },
+        "up_button": "⬆️ Acima"
+    },
+    "network": {
+        "ping": {
+            "btn": "🌐 Ping",
+            "placeholder": "Nome do host ou IP",
+            "pinging": "Fazendo ping em {host}...",
+            "failed": "❌ Ping falhou",
+            "timeout": "❌ Tempo esgotado"
+        },
+        "connection": {
+            "checking": "Verificando...",
+            "connected": "Conectado",
+            "disconnected": "Desconectado",
+            "no_connection": "Sem conexão",
+            "ip_label": "IP: {ip}"
+        },
+        "speed_test": {
+            "btn": "🚀 Testar velocidade",
+            "testing": "Testando...",
+            "download": "Download",
+            "upload": "Upload"
+        },
+        "active_connections": {
+            "protocol": "Protocolo",
+            "refresh": "🔄 Atualizar",
+            "all": "Todos",
+            "headers": {
+                "process": "Processo",
+                "protocol": "Protocolo",
+                "local": "Local",
+                "remote": "Remoto",
+                "status": "Status"
+            }
+        },
+        "trace": {
+            "target": "Destino:",
+            "btn": "🗺️ Rastrear rota",
+            "placeholder": "Nome do host ou IP",
+            "tracing": "Rastreando...",
+            "start_msg": "🗺️ A rota para o destino será exibida aqui.\nInsira um destino e clique em 'Rastrear rota'.",
+            "loading": "⏳ Determinando rota...",
+            "you": "🖥️ Você",
+            "destination": "🎯 Destino",
+            "timeout": "Tempo esgotado: Não foi possível determinar a rota completa.",
+            "error": "Erro: {error}",
+            "no_route": "Nenhuma rota encontrada ou erro ao rastrear."
+        }
+    },
+    "units": {
+        "celsius": "°C",
+        "percent": "%",
+        "mbps": "Mbps",
+        "kbps": "KB/s",
+        "ms": "ms",
+        "bytes": "B",
+        "kilobytes": "KB",
+        "megabytes": "MB",
+        "gigabytes": "GB",
+        "terabytes": "TB"
+    },
+    "status": {
+        "loading": "Carregando...",
+        "error": "Erro",
+        "unknown": "Desconhecido",
+        "timeout": "Tempo esgotado",
+        "local": "Local",
+        "checking": "Verificando..."
+    },
+    "media": {
+        "open_button": "Abrir",
+        "equalizer_preset_label": "Predefinição:",
+        "equalizer_presets": {
+            "flat": "Plano",
+            "rock": "Rock",
+            "pop": "Pop",
+            "jazz": "Jazz",
+            "classical": "Clássica",
+            "bass_boost": "Reforço de graves"
+        }
+    },
+    "tooltips": {
+        "tooltips.menu_file": "Create, open, save, and manage your files and projects.",
+        "tooltips.menu_edit": "Edit content, undo and redo recent changes.",
+        "tooltips.menu_tools": "Access powerful utility tools including dashboard, media player, and more.",
+        "tooltips.menu_settings": "Configure application preferences, language, and appearance.",
+        "tooltips.menu_help": "Get help, view documentation, and learn about this application.",
+        "tooltips.menu_view": "Change the visual appearance and theme of the application.",
+        "tooltips.menu_languages": "Choose your preferred language from numerous options.",
+        "tooltips.menu_german_dialects": "Select a regional German dialect variant.",
+        "tooltips.menu_cockpit": "System monitoring dashboard with customizable widgets and real-time data.",
+        "tooltips.menu_media": "Media player with advanced controls, equalizer, and streaming support.",
+        "tooltips.menu_tabs": "Manage open tabs and organize your workspace efficiently.",
+        "tooltips.file_new": "Create a new file or start a fresh project from scratch.",
+        "tooltips.file_open": "Open and load an existing file from your filesystem.",
+        "tooltips.file_save": "Save all current changes to the active file.",
+        "tooltips.file_exit": "Close the application and exit completely.",
+        "tooltips.edit_undo": "Undo the most recent action or change.",
+        "tooltips.edit_redo": "Redo the last action that was undone.",
+        "tooltips.help_about": "Display version information and credits for this application.",
+        "tooltips.theme_light": "Switch to the bright, light-colored theme for daytime use.",
+        "tooltips.theme_dark": "Switch to the dark theme for reduced eye strain in low-light conditions.",
+        "tooltips.open_tool": "Open and activate the {tool} utility tool.",
+        "tooltips.add_widget": "Add a new customizable widget to your dashboard.",
+        "tooltips.widget_add": "Add a new widget to your dashboard.",
+        "tooltips.tab_close": "Close this tab."
+    },
+    "menu_languages": {
+        "german": "🇩🇪 German",
+        "main": "🌍 Main Languages",
+        "standard": "Standard & Historical",
+        "east": "East German",
+        "north": "North German",
+        "west": "West German",
+        "south": "South German",
+        "austria": "Austria & Switzerland",
+        "other": "Other",
+        "european": "European",
+        "asian": "Asian",
+        "middle_east": "Middle East & Africa",
+        "bonus": "Bonus",
+        "east_legacy": "East German (GDR Heritage)",
+        "historical_east": "Historical Eastern Territories",
+        "diaspora": "Diaspora & Emigrants",
+        "south_alpine": "South German / Alpine",
+        "north_west": "North / West German",
+        "urban": "Urban Dialects",
+        "abroad": "German Abroad (AT/CH/LU)"
+    },
+    "lang": {
+        "de": "Standard German",
+        "de_middlehigh": "Middle High German (1050-1350)",
+        "de_brandenburg": "Brandenburgish",
+        "de_thuringia": "Thuringian",
+        "de_uppersaxon": "Upper Saxon",
+        "de_lusatian": "Lusatian",
+        "de_pomeranian": "Pomeranian",
+        "de_sudeten": "Sudeten German",
+        "de_silesian": "Silesian",
+        "de_lowprussia": "Low Prussian",
+        "de_eastprussia": "High Prussian",
+        "de_volga": "Volga German",
+        "de_banat": "Banat Swabian",
+        "de_sathmar": "Sathmar Swabian",
+        "de_bavaria": "Bavarian",
+        "de_swabian": "Swabian",
+        "de_allgaeu": "Allgäu Dialect",
+        "de_southtyrol": "South Tyrolean",
+        "de_alemannic": "Alemannic",
+        "de_baden": "Baden Dialect",
+        "de_franconian": "Franconian",
+        "de_vorarlberg": "Vorarlberg Dialect",
+        "de_palatinate": "Palatine",
+        "de_lowgerman": "Low German",
+        "de_mecklenburg": "Mecklenburg Low German",
+        "de_holstein": "Holstein Low German",
+        "de_westphalian": "Westphalian",
+        "de_ripuarian": "Ripuarian / Colognian",
+        "de_moselfranken": "Moselle Franconian",
+        "de_ruhr": "Ruhr German",
+        "de_berlin": "Berlin Dialect",
+        "de_saxony": "Saxon",
+        "de_frankfurt": "Frankfurt Dialect",
+        "de_rhine": "Rhenish",
+        "de_hessian": "Hessian",
+        "de_at": "Austrian German",
+        "de_ch": "Swiss German",
+        "de_luxembourg": "Luxembourgish",
+        "de_transylvania": "Transylvanian Saxon"
+    }
+}

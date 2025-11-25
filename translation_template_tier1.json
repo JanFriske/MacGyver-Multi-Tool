@@ -1,0 +1,242 @@
+{
+  "metadata": {
+    "tier": 1,
+    "languages": {
+      "ko": "Korean (한국어)",
+      "id": "Indonesian (Bahasa Indonesia)",
+      "th": "Thai (ภาษาไทย)",
+      "bn": "Bengali (বাংলা)",
+      "ur": "Urdu (اردو)",
+      "ps": "Pashto (پښتو)",
+      "fa_AF": "Dari (دری)"
+    },
+    "total_keys": 40,
+    "total_translations": 280
+  },
+  "translations": {
+    "menu.file": {
+      "en": "File",
+      "de": "Datei",
+      "description": "File menu",
+      "languages": {
+        "ko": "",
+        "id": "",
+        "th": "",
+        "bn": "",
+        "ur": "",
+        "ps": "",
+        "fa_AF": ""
+      }
+    },
+    "menu.edit": {
+      "en": "Edit",
+      "de": "Bearbeiten",
+      "description": "Edit menu",
+      "languages": {
+        "ko": "",
+        "id": "",
+        "th": "",
+        "bn": "",
+        "ur": "",
+        "ps": "",
+        "fa_AF": ""
+      }
+    },
+    "menu.view": {
+      "en": "View",
+      "de": "Ansicht",
+      "description": "View menu",
+      "languages": {
+        "ko": "",
+        "id": "",
+        "th": "",
+        "bn": "",
+        "ur": "",
+        "ps": "",
+        "fa_AF": ""
+      }
+    },
+    "dialogs.about.title": {
+      "en": "About MacGyver Multi-Tool",
+      "de": "Über MacGyver Multi-Tool",
+      "description": "About dialog title",
+      "languages": {
+        "ko": "",
+        "id": "",
+        "th": "",
+        "bn": "",
+        "ur": "",
+        "ps": "",
+        "fa_AF": ""
+      }
+    },
+    "dialogs.about.version": {
+      "en": "Version 1.0 (MVP Build)",
+      "de": "Version 1.0 (MVP-Build)",
+      "description": "Version string",
+      "languages": {
+        "ko": "",
+        "id": "",
+        "th": "",
+        "bn": "",
+        "ur": "",
+        "ps": "",
+        "fa_AF": ""
+      }
+    },
+    "dialogs.about.description": {
+      "en": "A modular utility tool with macOS design.",
+      "de": "Ein modulares Dienstprogramm im macOS-Design.",
+      "description": "Application description",
+      "languages": {
+        "ko": "",
+        "id": "",
+        "th": "",
+        "bn": "",
+        "ur": "",
+        "ps": "",
+        "fa_AF": ""
+      }
+    },
+    "dialogs.about.copyright": {
+      "en": "© 2025 Jan Friske – All rights reserved.",
+      "de": "© 2025 Jan Friske – Alle Rechte vorbehalten.",
+      "description": "Copyright notice",
+      "languages": {
+        "ko": "",
+        "id": "",
+        "th": "",
+        "bn": "",
+        "ur": "",
+        "ps": "",
+        "fa_AF": ""
+      }
+    },
+    "dialogs.about.license": {
+      "en": "Freeware License (non-commercial).",
+      "de": "Freeware-Lizenz (nicht kommerziell).",
+      "description": "License information",
+      "languages": {
+        "ko": "",
+        "id": "",
+        "th": "",
+        "bn": "",
+        "ur": "",
+        "ps": "",
+        "fa_AF": ""
+      }
+    },
+    "tabs.cockpit": {
+      "en": "Cockpit",
+      "de": "Cockpit",
+      "description": "Cockpit tab",
+      "languages": {
+        "ko": "",
+        "id": "",
+        "th": "",
+        "bn": "",
+        "ur": "",
+        "ps": "",
+        "fa_AF": ""
+      }
+    },
+    "tabs.media_commander": {
+      "en": "Media Commander",
+      "de": "Media Commander",
+      "description": "Media Commander tab",
+      "languages": {
+        "ko": "",
+        "id": "",
+        "th": "",
+        "bn": "",
+        "ur": "",
+        "ps": "",
+        "fa_AF": ""
+      }
+    },
+    "dialogs.widget_selector.title": {
+      "en": "Add Widget",
+      "de": "Widget hinzufügen",
+      "description": "Widget selector title",
+      "languages": {
+        "ko": "",
+        "id": "",
+        "th": "",
+        "bn": "",
+        "ur": "",
+        "ps": "",
+        "fa_AF": ""
+      }
+    },
+    "dialogs.widget_selector.preview": {
+      "en": "Preview",
+      "de": "Vorschau",
+      "description": "Preview label",
+      "languages": {
+        "ko": "",
+        "id": "",
+        "th": "",
+        "bn": "",
+        "ur": "",
+        "ps": "",
+        "fa_AF": ""
+      }
+    },
+    "dialogs.widget_selector.size_select": {
+      "en": "Select Size:",
+      "de": "Größe wählen:",
+      "description": "Size selection label",
+      "languages": {
+        "ko": "",
+        "id": "",
+        "th": "",
+        "bn": "",
+        "ur": "",
+        "ps": "",
+        "fa_AF": ""
+      }
+    },
+    "dialogs.widget_selector.add_button": {
+      "en": "Add to Dashboard",
+      "de": "Zum Dashboard hinzufügen",
+      "description": "Add button text",
+      "languages": {
+        "ko": "",
+        "id": "",
+        "th": "",
+        "bn": "",
+        "ur": "",
+        "ps": "",
+        "fa_AF": ""
+      }
+    },
+    "dialogs.widget_selector.scale": {
+      "en": "Scale",
+      "de": "Skalierung",
+      "description": "Scale label",
+      "languages": {
+        "ko": "",
+        "id": "",
+        "th": "",
+        "bn": "",
+        "ur": "",
+        "ps": "",
+        "fa_AF": ""
+      }
+    },
+    "dialogs.widget_selector.error": {
+      "en": "Preview Error",
+      "de": "Vorschau-Fehler",
+      "description": "Error message",
+      "languages": {
+        "ko": "",
+        "id": "",
+        "th": "",
+        "bn": "",
+        "ur": "",
+        "ps": "",
+        "fa_AF": ""
+      }
+    }
+  }
+}

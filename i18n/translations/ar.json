@@ -1,0 +1,336 @@
+{
+    "menu": {
+        "file": "ملف",
+        "edit": "تحرير",
+        "view": "عرض",
+        "tools": "أدوات",
+        "settings": "إعدادات",
+        "help": "مساعدة",
+        "languages": "اللغات",
+        "german_dialects": "الألمانية",
+        "system_monitor": "System Monitor",
+        "clock": "World Clock",
+        "network_traffic": "Network Traffic",
+        "gpu_monitor": "GPU Monitor",
+        "temperature": "Temperature",
+        "disk_io": "Disk I/O",
+        "media_controls": "Media Controls",
+        "video_screen": "Video Screen",
+        "media_explorer": "Media Explorer",
+        "stream": "Online Stream",
+        "equalizer": "Equalizer",
+        "file_manager": "File Manager",
+        "network_diag": "Network Diagnostics"
+    },
+    "menu_file": {
+        "new": "جديد",
+        "open": "فتح...",
+        "save": "حفظ",
+        "exit": "خروج"
+    },
+    "menu_edit": {
+        "undo": "تراجع",
+        "redo": "إعادة"
+    },
+    "menu_view": {
+        "theme_light": "السمة الفاتحة",
+        "theme_dark": "السمة الداكنة"
+    },
+    "menu_tools": {
+        "cockpit": "قمرة القيادة",
+        "media": "الوسائط",
+        "tabs": "علامات التبويب",
+        "add_widget": "➕ إضافة عنصر واجهة...",
+        "system_monitor": "مراقب النظام",
+        "clock": "ساعة عالمية",
+        "network_traffic": "حركة الشبكة",
+        "gpu_monitor": "مراقب GPU",
+        "temperature": "درجة الحرارة",
+        "disk_io": "إدخال/إخراج القرص",
+        "media_controls": "عناصر تحكم الوسائط",
+        "video_screen": "شاشة الفيديو",
+        "media_explorer": "مستكشف الوسائط",
+        "stream": "البث المباشر",
+        "equalizer": "معادل الصوت",
+        "file_manager": "مدير الملفات",
+        "network_diag": "تشخيص الشبكة"
+    },
+    "widgets": {
+        "clock": "ساعة عالمية",
+        "system_monitor": "مراقب النظام",
+        "network_monitor": "حركة الشبكة",
+        "gpu_monitor": "مراقب GPU",
+        "temp_monitor": "درجة الحرارة",
+        "disk_io_monitor": "إدخال/إخراج القرص",
+        "directory_browser": "مدير الملفات",
+        "quick_access": "وصول سريع",
+        "file_stats": "إحصائيات",
+        "recent_files": "الملفات الأخيرة",
+        "ping": "بينغ",
+        "connection_status": "الاتصال",
+        "speed_test": "اختبار السرعة",
+        "active_connections": "الاتصالات النشطة",
+        "network_path": "مسار الشبكة",
+        "directory_browser_title": "مدير الملفات",
+        "quick_access_title": "وصول سريع",
+        "file_stats_title": "إحصائيات",
+        "file_stats_storage": "تخزين",
+        "recent_files_title": "الملفات الأخيرة"
+    },
+    "dialogs": {
+        "about": {
+            "title": "حول MacGyver Multi-Tool",
+            "version": "الإصدار 1.0 (بناء MVP)",
+            "description": "أداة مساعدة معيارية بتصميم macOS.",
+            "copyright": "© 2025 Jan Friske – جميع الحقوق محفوظة.",
+            "license": "ترخيص مجاني (غير تجاري)."
+        },
+        "widget_selector": {
+            "title": "إضافة عنصر واجهة",
+            "preview": "معاينة",
+            "size_select": "اختر الحجم:",
+            "add_button": "إضافة إلى لوحة المعلومات",
+            "sizes": {
+                "compact": "مدمج",
+                "wide": "عريض",
+                "extra_wide": "عريض جداً",
+                "full_width": "عرض كامل",
+                "tall": "طويل",
+                "large": "كبير",
+                "extra_large": "كبير جداً",
+                "maximum": "أقصى"
+            },
+            "scale": "المقياس",
+            "error": "خطأ في المعاينة"
+        }
+    },
+    "tabs": {
+        "cockpit": "قمرة القيادة",
+        "media_commander": "قائد الوسائط"
+    },
+    "weather": {
+        "loading": "جاري التحميل...",
+        "loading_data": "جاري تحميل بيانات الطقس...",
+        "forecast": "توقعات 3 أيام",
+        "feels_like": "يشعر كـ",
+        "humidity": "الرطوبة",
+        "wind": "الرياح",
+        "unknown": "غير معروف"
+    },
+    "time": {
+        "zone": "المنطقة الزمنية",
+        "calendar_week": "الأسبوع",
+        "day_of_year": "يوم السنة",
+        "day_of_year_full": "اليوم {day} من السنة",
+        "summer_time": "التوقيت الصيفي",
+        "winter_time": "التوقيت الشتوي",
+        "gmt_offset": "GMT: {time} ({offset})",
+        "timezone_label": "المنطقة الزمنية: {name}",
+        "week_day": "الأسبوع {week} • اليوم {day}"
+    },
+    "gauges": {
+        "cpu": "المعالج",
+        "ram": "الذاكرة",
+        "upload": "رفع",
+        "download": "تنزيل",
+        "gpu": "GPU",
+        "system": "النظام"
+    },
+    "disk_io": {
+        "disk_label": "القرص: {name}",
+        "read": "ق",
+        "write": "ك"
+    },
+    "file_manager": {
+        "up": "⬆️ أعلى",
+        "folders": "المجلدات",
+        "files": "الملفات",
+        "headers": {
+            "name": "الاسم",
+            "size": "الحجم",
+            "modified": "معدل"
+        },
+        "places": {
+            "desktop": "سطح المكتب",
+            "documents": "المستندات",
+            "downloads": "التنزيلات",
+            "pictures": "الصور",
+            "music": "الموسيقى",
+            "videos": "الفيديوهات",
+            "home": "الرئيسية"
+        },
+        "stats": {
+            "files_count": "{count} ملفات",
+            "storage": "التخزين"
+        },
+        "up_button": "⬆️ أعلى"
+    },
+    "network": {
+        "ping": {
+            "btn": "🌐 بينغ",
+            "placeholder": "اسم المضيف أو IP",
+            "pinging": "جاري بينغ {host}...",
+            "failed": "❌ فشل البينغ",
+            "timeout": "❌ انتهت المهلة"
+        },
+        "connection": {
+            "checking": "جاري الفحص...",
+            "connected": "متصل",
+            "disconnected": "غير متصل",
+            "no_connection": "لا يوجد اتصال",
+            "ip_label": "IP: {ip}"
+        },
+        "speed_test": {
+            "btn": "🚀 اختبار السرعة",
+            "testing": "جاري الاختبار...",
+            "download": "تنزيل",
+            "upload": "رفع"
+        },
+        "active_connections": {
+            "protocol": "البروتوكول",
+            "refresh": "🔄 تحديث",
+            "all": "الكل",
+            "headers": {
+                "process": "العملية",
+                "protocol": "البروتوكول",
+                "local": "محلي",
+                "remote": "بعيد",
+                "status": "الحالة"
+            }
+        },
+        "trace": {
+            "target": "الهدف:",
+            "btn": "🗺️ تتبع المسار",
+            "placeholder": "اسم المضيف أو IP",
+            "tracing": "جاري التتبع...",
+            "start_msg": "🗺️ سيتم عرض المسار إلى الهدف هنا.\nأدخل هدفاً وانقر على 'تتبع المسار'.",
+            "loading": "⏳ جاري تحديد المسار...",
+            "you": "🖥️ أنت",
+            "destination": "🎯 الوجهة",
+            "timeout": "انتهت المهلة: تعذر تحديد المسار الكامل.",
+            "error": "خطأ: {error}",
+            "no_route": "لم يتم العثور على مسار أو خطأ في التتبع."
+        }
+    },
+    "units": {
+        "celsius": "°م",
+        "percent": "%",
+        "mbps": "ميجابت/ث",
+        "kbps": "كيلوبايت/ث",
+        "ms": "مللي ث",
+        "bytes": "بايت",
+        "kilobytes": "كيلوبايت",
+        "megabytes": "ميجابايت",
+        "gigabytes": "جيجابايت",
+        "terabytes": "تيرابايت"
+    },
+    "status": {
+        "loading": "جاري التحميل...",
+        "error": "خطأ",
+        "unknown": "غير معروف",
+        "timeout": "انتهت المهلة",
+        "local": "محلي",
+        "checking": "جاري الفحص..."
+    },
+    "media": {
+        "open_button": "فتح",
+        "equalizer_preset_label": "الإعداد المسبق:",
+        "equalizer_presets": {
+            "flat": "مسطح",
+            "rock": "روك",
+            "pop": "بوب",
+            "jazz": "جاز",
+            "classical": "كلاسيكي",
+            "bass_boost": "تعزيز الجهير"
+        }
+    },
+    "tooltips": {
+        "tooltips.menu_file": "Create, open, save, and manage your files and projects.",
+        "tooltips.menu_edit": "Edit content, undo and redo recent changes.",
+        "tooltips.menu_tools": "Access powerful utility tools including dashboard, media player, and more.",
+        "tooltips.menu_settings": "Configure application preferences, language, and appearance.",
+        "tooltips.menu_help": "Get help, view documentation, and learn about this application.",
+        "tooltips.menu_view": "Change the visual appearance and theme of the application.",
+        "tooltips.menu_languages": "Choose your preferred language from numerous options.",
+        "tooltips.menu_german_dialects": "Select a regional German dialect variant.",
+        "tooltips.menu_cockpit": "System monitoring dashboard with customizable widgets and real-time data.",
+        "tooltips.menu_media": "Media player with advanced controls, equalizer, and streaming support.",
+        "tooltips.menu_tabs": "Manage open tabs and organize your workspace efficiently.",
+        "tooltips.file_new": "Create a new file or start a fresh project from scratch.",
+        "tooltips.file_open": "Open and load an existing file from your filesystem.",
+        "tooltips.file_save": "Save all current changes to the active file.",
+        "tooltips.file_exit": "Close the application and exit completely.",
+        "tooltips.edit_undo": "Undo the most recent action or change.",
+        "tooltips.edit_redo": "Redo the last action that was undone.",
+        "tooltips.help_about": "Display version information and credits for this application.",
+        "tooltips.theme_light": "Switch to the bright, light-colored theme for daytime use.",
+        "tooltips.theme_dark": "Switch to the dark theme for reduced eye strain in low-light conditions.",
+        "tooltips.open_tool": "Open and activate the {tool} utility tool.",
+        "tooltips.add_widget": "Add a new customizable widget to your dashboard.",
+        "tooltips.widget_add": "Add a new widget to your dashboard.",
+        "tooltips.tab_close": "Close this tab."
+    },
+    "menu_languages": {
+        "german": "🇩🇪 German",
+        "main": "🌍 Main Languages",
+        "standard": "Standard & Historical",
+        "east": "East German",
+        "north": "North German",
+        "west": "West German",
+        "south": "South German",
+        "austria": "Austria & Switzerland",
+        "other": "Other",
+        "european": "European",
+        "asian": "Asian",
+        "middle_east": "Middle East & Africa",
+        "bonus": "Bonus",
+        "east_legacy": "East German (GDR Heritage)",
+        "historical_east": "Historical Eastern Territories",
+        "diaspora": "Diaspora & Emigrants",
+        "south_alpine": "South German / Alpine",
+        "north_west": "North / West German",
+        "urban": "Urban Dialects",
+        "abroad": "German Abroad (AT/CH/LU)"
+    },
+    "lang": {
+        "de": "Standard German",
+        "de_middlehigh": "Middle High German (1050-1350)",
+        "de_brandenburg": "Brandenburgish",
+        "de_thuringia": "Thuringian",
+        "de_uppersaxon": "Upper Saxon",
+        "de_lusatian": "Lusatian",
+        "de_pomeranian": "Pomeranian",
+        "de_sudeten": "Sudeten German",
+        "de_silesian": "Silesian",
+        "de_lowprussia": "Low Prussian",
+        "de_eastprussia": "High Prussian",
+        "de_volga": "Volga German",
+        "de_banat": "Banat Swabian",
+        "de_sathmar": "Sathmar Swabian",
+        "de_bavaria": "Bavarian",
+        "de_swabian": "Swabian",
+        "de_allgaeu": "Allgäu Dialect",
+        "de_southtyrol": "South Tyrolean",
+        "de_alemannic": "Alemannic",
+        "de_baden": "Baden Dialect",
+        "de_franconian": "Franconian",
+        "de_vorarlberg": "Vorarlberg Dialect",
+        "de_palatinate": "Palatine",
+        "de_lowgerman": "Low German",
+        "de_mecklenburg": "Mecklenburg Low German",
+        "de_holstein": "Holstein Low German",
+        "de_westphalian": "Westphalian",
+        "de_ripuarian": "Ripuarian / Colognian",
+        "de_moselfranken": "Moselle Franconian",
+        "de_ruhr": "Ruhr German",
+        "de_berlin": "Berlin Dialect",
+        "de_saxony": "Saxon",
+        "de_frankfurt": "Frankfurt Dialect",
+        "de_rhine": "Rhenish",
+        "de_hessian": "Hessian",
+        "de_at": "Austrian German",
+        "de_ch": "Swiss German",
+        "de_luxembourg": "Luxembourgish",
+        "de_transylvania": "Transylvanian Saxon"
+    }
+}

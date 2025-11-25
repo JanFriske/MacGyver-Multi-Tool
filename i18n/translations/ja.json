@@ -1,0 +1,336 @@
+{
+    "menu": {
+        "file": "ファイル",
+        "edit": "編集",
+        "view": "表示",
+        "tools": "ツール",
+        "settings": "設定",
+        "help": "ヘルプ",
+        "languages": "言語",
+        "german_dialects": "ドイツ語",
+        "system_monitor": "System Monitor",
+        "clock": "World Clock",
+        "network_traffic": "Network Traffic",
+        "gpu_monitor": "GPU Monitor",
+        "temperature": "Temperature",
+        "disk_io": "Disk I/O",
+        "media_controls": "Media Controls",
+        "video_screen": "Video Screen",
+        "media_explorer": "Media Explorer",
+        "stream": "Online Stream",
+        "equalizer": "Equalizer",
+        "file_manager": "File Manager",
+        "network_diag": "Network Diagnostics"
+    },
+    "menu_file": {
+        "new": "新規",
+        "open": "開く...",
+        "save": "保存",
+        "exit": "終了"
+    },
+    "menu_edit": {
+        "undo": "元に戻す",
+        "redo": "やり直す"
+    },
+    "menu_view": {
+        "theme_light": "ライトテーマ",
+        "theme_dark": "ダークテーマ"
+    },
+    "menu_tools": {
+        "cockpit": "コックピット",
+        "media": "メディア",
+        "tabs": "タブ",
+        "add_widget": "➕ ウィジェットを追加...",
+        "system_monitor": "システムモニター",
+        "clock": "世界時計",
+        "network_traffic": "ネットワークトラフィック",
+        "gpu_monitor": "GPUモニター",
+        "temperature": "温度",
+        "disk_io": "ディスクI/O",
+        "media_controls": "メディアコントロール",
+        "video_screen": "ビデオ画面",
+        "media_explorer": "メディアエクスプローラー",
+        "stream": "オンラインストリーム",
+        "equalizer": "イコライザー",
+        "file_manager": "ファイルマネージャー",
+        "network_diag": "ネットワーク診断"
+    },
+    "widgets": {
+        "clock": "世界時計",
+        "system_monitor": "システムモニター",
+        "network_monitor": "ネットワークトラフィック",
+        "gpu_monitor": "GPUモニター",
+        "temp_monitor": "温度",
+        "disk_io_monitor": "ディスクI/O",
+        "directory_browser": "ファイルマネージャー",
+        "quick_access": "クイックアクセス",
+        "file_stats": "統計",
+        "recent_files": "最近使用したファイル",
+        "ping": "Ping",
+        "connection_status": "接続",
+        "speed_test": "速度テスト",
+        "active_connections": "アクティブな接続",
+        "network_path": "ネットワークパス",
+        "directory_browser_title": "ファイルマネージャー",
+        "quick_access_title": "クイックアクセス",
+        "file_stats_title": "統計",
+        "file_stats_storage": "ストレージ",
+        "recent_files_title": "最近使用したファイル"
+    },
+    "dialogs": {
+        "about": {
+            "title": "MacGyver Multi-Toolについて",
+            "version": "バージョン 1.0 (MVPビルド)",
+            "description": "macOSデザインのモジュール式ユーティリティツール。",
+            "copyright": "© 2025 Jan Friske – 全著作権所有。",
+            "license": "フリーウェアライセンス（非商用）。"
+        },
+        "widget_selector": {
+            "title": "ウィジェットを追加",
+            "preview": "プレビュー",
+            "size_select": "サイズを選択:",
+            "add_button": "ダッシュボードに追加",
+            "sizes": {
+                "compact": "コンパクト",
+                "wide": "ワイド",
+                "extra_wide": "エクストラワイド",
+                "full_width": "フル幅",
+                "tall": "トール",
+                "large": "ラージ",
+                "extra_large": "エクストララージ",
+                "maximum": "最大"
+            },
+            "scale": "スケール",
+            "error": "プレビューエラー"
+        }
+    },
+    "tabs": {
+        "cockpit": "コックピット",
+        "media_commander": "メディアコマンダー"
+    },
+    "weather": {
+        "loading": "読み込み中...",
+        "loading_data": "天気データを読み込み中...",
+        "forecast": "3日間の予報",
+        "feels_like": "体感温度",
+        "humidity": "湿度",
+        "wind": "風",
+        "unknown": "不明"
+    },
+    "time": {
+        "zone": "タイムゾーン",
+        "calendar_week": "週",
+        "day_of_year": "年の日",
+        "day_of_year_full": "年の{day}日目",
+        "summer_time": "夏時間",
+        "winter_time": "冬時間",
+        "gmt_offset": "GMT: {time} ({offset})",
+        "timezone_label": "タイムゾーン: {name}",
+        "week_day": "第{week}週 • {day}日目"
+    },
+    "gauges": {
+        "cpu": "CPU",
+        "ram": "RAM",
+        "upload": "アップロード",
+        "download": "ダウンロード",
+        "gpu": "GPU",
+        "system": "システム"
+    },
+    "disk_io": {
+        "disk_label": "ディスク: {name}",
+        "read": "読",
+        "write": "書"
+    },
+    "file_manager": {
+        "up": "⬆️ 上へ",
+        "folders": "フォルダ",
+        "files": "ファイル",
+        "headers": {
+            "name": "名前",
+            "size": "サイズ",
+            "modified": "更新日時"
+        },
+        "places": {
+            "desktop": "デスクトップ",
+            "documents": "ドキュメント",
+            "downloads": "ダウンロード",
+            "pictures": "ピクチャ",
+            "music": "ミュージック",
+            "videos": "ビデオ",
+            "home": "ホーム"
+        },
+        "stats": {
+            "files_count": "{count}個のファイル",
+            "storage": "ストレージ"
+        },
+        "up_button": "⬆️ 上へ"
+    },
+    "network": {
+        "ping": {
+            "btn": "🌐 Ping",
+            "placeholder": "ホスト名またはIP",
+            "pinging": "{host}にPing中...",
+            "failed": "❌ Ping失敗",
+            "timeout": "❌ タイムアウト"
+        },
+        "connection": {
+            "checking": "確認中...",
+            "connected": "接続済み",
+            "disconnected": "切断",
+            "no_connection": "接続なし",
+            "ip_label": "IP: {ip}"
+        },
+        "speed_test": {
+            "btn": "🚀 速度テスト",
+            "testing": "テスト中...",
+            "download": "ダウンロード",
+            "upload": "アップロード"
+        },
+        "active_connections": {
+            "protocol": "プロトコル",
+            "refresh": "🔄 更新",
+            "all": "すべて",
+            "headers": {
+                "process": "プロセス",
+                "protocol": "プロトコル",
+                "local": "ローカル",
+                "remote": "リモート",
+                "status": "ステータス"
+            }
+        },
+        "trace": {
+            "target": "ターゲット:",
+            "btn": "🗺️ ルートをトレース",
+            "placeholder": "ホスト名またはIP",
+            "tracing": "トレース中...",
+            "start_msg": "🗺️ ターゲットへのルートがここに表示されます。\nターゲットを入力して「ルートをトレース」をクリックしてください。",
+            "loading": "⏳ ルートを特定中...",
+            "you": "🖥️ あなた",
+            "destination": "🎯 目的地",
+            "timeout": "タイムアウト: 完全なルートを特定できませんでした。",
+            "error": "エラー: {error}",
+            "no_route": "ルートが見つからないか、トレースエラー。"
+        }
+    },
+    "units": {
+        "celsius": "°C",
+        "percent": "%",
+        "mbps": "Mbps",
+        "kbps": "KB/秒",
+        "ms": "ms",
+        "bytes": "B",
+        "kilobytes": "KB",
+        "megabytes": "MB",
+        "gigabytes": "GB",
+        "terabytes": "TB"
+    },
+    "status": {
+        "loading": "読み込み中...",
+        "error": "エラー",
+        "unknown": "不明",
+        "timeout": "タイムアウト",
+        "local": "ローカル",
+        "checking": "確認中..."
+    },
+    "media": {
+        "open_button": "開く",
+        "equalizer_preset_label": "プリセット:",
+        "equalizer_presets": {
+            "flat": "フラット",
+            "rock": "ロック",
+            "pop": "ポップ",
+            "jazz": "ジャズ",
+            "classical": "クラシック",
+            "bass_boost": "低音ブースト"
+        }
+    },
+    "tooltips": {
+        "tooltips.menu_file": "Create, open, save, and manage your files and projects.",
+        "tooltips.menu_edit": "Edit content, undo and redo recent changes.",
+        "tooltips.menu_tools": "Access powerful utility tools including dashboard, media player, and more.",
+        "tooltips.menu_settings": "Configure application preferences, language, and appearance.",
+        "tooltips.menu_help": "Get help, view documentation, and learn about this application.",
+        "tooltips.menu_view": "Change the visual appearance and theme of the application.",
+        "tooltips.menu_languages": "Choose your preferred language from numerous options.",
+        "tooltips.menu_german_dialects": "Select a regional German dialect variant.",
+        "tooltips.menu_cockpit": "System monitoring dashboard with customizable widgets and real-time data.",
+        "tooltips.menu_media": "Media player with advanced controls, equalizer, and streaming support.",
+        "tooltips.menu_tabs": "Manage open tabs and organize your workspace efficiently.",
+        "tooltips.file_new": "Create a new file or start a fresh project from scratch.",
+        "tooltips.file_open": "Open and load an existing file from your filesystem.",
+        "tooltips.file_save": "Save all current changes to the active file.",
+        "tooltips.file_exit": "Close the application and exit completely.",
+        "tooltips.edit_undo": "Undo the most recent action or change.",
+        "tooltips.edit_redo": "Redo the last action that was undone.",
+        "tooltips.help_about": "Display version information and credits for this application.",
+        "tooltips.theme_light": "Switch to the bright, light-colored theme for daytime use.",
+        "tooltips.theme_dark": "Switch to the dark theme for reduced eye strain in low-light conditions.",
+        "tooltips.open_tool": "Open and activate the {tool} utility tool.",
+        "tooltips.add_widget": "Add a new customizable widget to your dashboard.",
+        "tooltips.widget_add": "Add a new widget to your dashboard.",
+        "tooltips.tab_close": "Close this tab."
+    },
+    "menu_languages": {
+        "german": "🇩🇪 German",
+        "main": "🌍 Main Languages",
+        "standard": "Standard & Historical",
+        "east": "East German",
+        "north": "North German",
+        "west": "West German",
+        "south": "South German",
+        "austria": "Austria & Switzerland",
+        "other": "Other",
+        "european": "European",
+        "asian": "Asian",
+        "middle_east": "Middle East & Africa",
+        "bonus": "Bonus",
+        "east_legacy": "East German (GDR Heritage)",
+        "historical_east": "Historical Eastern Territories",
+        "diaspora": "Diaspora & Emigrants",
+        "south_alpine": "South German / Alpine",
+        "north_west": "North / West German",
+        "urban": "Urban Dialects",
+        "abroad": "German Abroad (AT/CH/LU)"
+    },
+    "lang": {
+        "de": "Standard German",
+        "de_middlehigh": "Middle High German (1050-1350)",
+        "de_brandenburg": "Brandenburgish",
+        "de_thuringia": "Thuringian",
+        "de_uppersaxon": "Upper Saxon",
+        "de_lusatian": "Lusatian",
+        "de_pomeranian": "Pomeranian",
+        "de_sudeten": "Sudeten German",
+        "de_silesian": "Silesian",
+        "de_lowprussia": "Low Prussian",
+        "de_eastprussia": "High Prussian",
+        "de_volga": "Volga German",
+        "de_banat": "Banat Swabian",
+        "de_sathmar": "Sathmar Swabian",
+        "de_bavaria": "Bavarian",
+        "de_swabian": "Swabian",
+        "de_allgaeu": "Allgäu Dialect",
+        "de_southtyrol": "South Tyrolean",
+        "de_alemannic": "Alemannic",
+        "de_baden": "Baden Dialect",
+        "de_franconian": "Franconian",
+        "de_vorarlberg": "Vorarlberg Dialect",
+        "de_palatinate": "Palatine",
+        "de_lowgerman": "Low German",
+        "de_mecklenburg": "Mecklenburg Low German",
+        "de_holstein": "Holstein Low German",
+        "de_westphalian": "Westphalian",
+        "de_ripuarian": "Ripuarian / Colognian",
+        "de_moselfranken": "Moselle Franconian",
+        "de_ruhr": "Ruhr German",
+        "de_berlin": "Berlin Dialect",
+        "de_saxony": "Saxon",
+        "de_frankfurt": "Frankfurt Dialect",
+        "de_rhine": "Rhenish",
+        "de_hessian": "Hessian",
+        "de_at": "Austrian German",
+        "de_ch": "Swiss German",
+        "de_luxembourg": "Luxembourgish",
+        "de_transylvania": "Transylvanian Saxon"
+    }
+}

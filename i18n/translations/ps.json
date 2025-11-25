@@ -1,0 +1,336 @@
+{
+    "menu": {
+        "file": "فایل",
+        "edit": "سمون",
+        "view": "کتل",
+        "system_monitor": "System Monitor",
+        "clock": "World Clock",
+        "network_traffic": "Network Traffic",
+        "gpu_monitor": "GPU Monitor",
+        "temperature": "Temperature",
+        "disk_io": "Disk I/O",
+        "media_controls": "Media Controls",
+        "video_screen": "Video Screen",
+        "media_explorer": "Media Explorer",
+        "stream": "Online Stream",
+        "equalizer": "Equalizer",
+        "file_manager": "File Manager",
+        "network_diag": "Network Diagnostics",
+        "tools": "Tools",
+        "settings": "Settings",
+        "help": "Help",
+        "languages": "Languages",
+        "german_dialects": "German Dialects"
+    },
+    "widgets": {
+        "clock": "World Clock",
+        "system_monitor": "System Monitor",
+        "network_monitor": "Network Traffic",
+        "gpu_monitor": "GPU Monitor",
+        "temp_monitor": "Temperature",
+        "disk_io_monitor": "Disk I/O",
+        "directory_browser": "File Manager",
+        "quick_access": "Quick Access",
+        "file_stats": "Statistics",
+        "recent_files": "Recent Files",
+        "ping": "Ping",
+        "connection_status": "Connection",
+        "speed_test": "Speed Test",
+        "active_connections": "Active Connections",
+        "network_path": "Network Path",
+        "directory_browser_title": "File Manager",
+        "quick_access_title": "Quick Access",
+        "file_stats_title": "Statistics",
+        "file_stats_storage": "Storage",
+        "recent_files_title": "Recent Files"
+    },
+    "dialogs": {
+        "about": {
+            "title": "د MacGyver Multi-Tool په اړه",
+            "version": "Version 1.0 (MVP Build)",
+            "description": "د macOS ډیزاین سره یو ماډلر وسیله",
+            "copyright": "© 2025 Jan Friske – ټول حقونه خوندي دي",
+            "license": "د وړیا نرم افزار جواز (غیر تجارتي)"
+        },
+        "widget_selector": {
+            "title": "Add Widget",
+            "preview": "Preview",
+            "size_select": "Select Size:",
+            "add_button": "Add to Dashboard",
+            "sizes": {
+                "compact": "Compact",
+                "wide": "Wide",
+                "extra_wide": "Extra Wide",
+                "full_width": "Full Width",
+                "tall": "Tall",
+                "large": "Large",
+                "extra_large": "Extra Large",
+                "maximum": "Maximum"
+            },
+            "scale": "Scale",
+            "error": "Preview Error"
+        }
+    },
+    "tabs": {
+        "cockpit": "کاکپټ",
+        "media_commander": "میډیا کمانډر"
+    },
+    "weather": {
+        "loading": "Loading...",
+        "loading_data": "Loading weather data...",
+        "forecast": "3-Day Forecast",
+        "feels_like": "Feels Like",
+        "humidity": "Humidity",
+        "wind": "Wind",
+        "unknown": "Unknown"
+    },
+    "time": {
+        "zone": "Time Zone",
+        "calendar_week": "Calendar Week",
+        "day_of_year": "Day of Year",
+        "day_of_year_full": "Day {day} of the Year",
+        "summer_time": "Summer Time (DST)",
+        "winter_time": "Standard Time",
+        "gmt_offset": "GMT: {time} ({offset})",
+        "timezone_label": "Time Zone: {name}",
+        "week_day": "Week {week} • Day {day}"
+    },
+    "gauges": {
+        "cpu": "CPU",
+        "ram": "RAM",
+        "upload": "Upload",
+        "download": "Download",
+        "gpu": "GPU",
+        "system": "System"
+    },
+    "disk_io": {
+        "disk_label": "Disk: {name}",
+        "read": "R",
+        "write": "W"
+    },
+    "file_manager": {
+        "up": "⬆️ Up",
+        "folders": "Folders",
+        "files": "Files",
+        "headers": {
+            "name": "Name",
+            "size": "Size",
+            "modified": "Modified"
+        },
+        "places": {
+            "desktop": "Desktop",
+            "documents": "Documents",
+            "downloads": "Downloads",
+            "pictures": "Pictures",
+            "music": "Music",
+            "videos": "Videos",
+            "home": "Home"
+        },
+        "stats": {
+            "files_count": "{count} files",
+            "storage": "Storage"
+        },
+        "up_button": "⬆️ Up"
+    },
+    "network": {
+        "ping": {
+            "btn": "🌐 Ping",
+            "placeholder": "Hostname or IP",
+            "pinging": "Pinging {host}...",
+            "failed": "❌ Ping failed",
+            "timeout": "❌ Timeout"
+        },
+        "connection": {
+            "checking": "Checking...",
+            "connected": "Connected",
+            "disconnected": "Disconnected",
+            "no_connection": "No Connection",
+            "ip_label": "IP: {ip}"
+        },
+        "speed_test": {
+            "btn": "🚀 Test Speed",
+            "testing": "Testing...",
+            "download": "Download",
+            "upload": "Upload"
+        },
+        "active_connections": {
+            "protocol": "Protocol",
+            "refresh": "🔄 Refresh",
+            "all": "All",
+            "headers": {
+                "process": "Process",
+                "protocol": "Protocol",
+                "local": "Local",
+                "remote": "Remote",
+                "status": "Status"
+            }
+        },
+        "trace": {
+            "target": "Target:",
+            "btn": "🗺️ Trace Route",
+            "placeholder": "Hostname or IP",
+            "tracing": "Tracing...",
+            "start_msg": "🗺️ Route to target will be displayed here.\nEnter a target and click 'Trace Route'.",
+            "loading": "⏳ Determining route...",
+            "you": "🖥️ You",
+            "destination": "🎯 Destination",
+            "timeout": "Timeout: Could not determine complete route.",
+            "error": "Error: {error}",
+            "no_route": "No route found or trace error."
+        }
+    },
+    "units": {
+        "celsius": "°C",
+        "percent": "%",
+        "mbps": "Mbps",
+        "kbps": "KB/s",
+        "ms": "ms",
+        "bytes": "B",
+        "kilobytes": "KB",
+        "megabytes": "MB",
+        "gigabytes": "GB",
+        "terabytes": "TB"
+    },
+    "status": {
+        "loading": "Loading...",
+        "error": "Error",
+        "unknown": "Unknown",
+        "timeout": "Timeout",
+        "local": "Local",
+        "checking": "Checking..."
+    },
+    "media": {
+        "open_button": "Open",
+        "equalizer_preset_label": "Preset:",
+        "equalizer_presets": {
+            "flat": "Flat",
+            "rock": "Rock",
+            "pop": "Pop",
+            "jazz": "Jazz",
+            "classical": "Classical",
+            "bass_boost": "Bass Boost"
+        }
+    },
+    "tooltips": {
+        "tooltips.menu_file": "Create, open, save, and manage your files and projects.",
+        "tooltips.menu_edit": "Edit content, undo and redo recent changes.",
+        "tooltips.menu_tools": "Access powerful utility tools including dashboard, media player, and more.",
+        "tooltips.menu_settings": "Configure application preferences, language, and appearance.",
+        "tooltips.menu_help": "Get help, view documentation, and learn about this application.",
+        "tooltips.menu_view": "Change the visual appearance and theme of the application.",
+        "tooltips.menu_languages": "Choose your preferred language from numerous options.",
+        "tooltips.menu_german_dialects": "Select a regional German dialect variant.",
+        "tooltips.menu_cockpit": "System monitoring dashboard with customizable widgets and real-time data.",
+        "tooltips.menu_media": "Media player with advanced controls, equalizer, and streaming support.",
+        "tooltips.menu_tabs": "Manage open tabs and organize your workspace efficiently.",
+        "tooltips.file_new": "Create a new file or start a fresh project from scratch.",
+        "tooltips.file_open": "Open and load an existing file from your filesystem.",
+        "tooltips.file_save": "Save all current changes to the active file.",
+        "tooltips.file_exit": "Close the application and exit completely.",
+        "tooltips.edit_undo": "Undo the most recent action or change.",
+        "tooltips.edit_redo": "Redo the last action that was undone.",
+        "tooltips.help_about": "Display version information and credits for this application.",
+        "tooltips.theme_light": "Switch to the bright, light-colored theme for daytime use.",
+        "tooltips.theme_dark": "Switch to the dark theme for reduced eye strain in low-light conditions.",
+        "tooltips.open_tool": "Open and activate the {tool} utility tool.",
+        "tooltips.add_widget": "Add a new customizable widget to your dashboard.",
+        "tooltips.widget_add": "Add a new widget to your dashboard.",
+        "tooltips.tab_close": "Close this tab."
+    },
+    "menu_file": {
+        "new": "Neu",
+        "open": "Öffnen...",
+        "save": "Speichern",
+        "exit": "Beenden"
+    },
+    "menu_edit": {
+        "undo": "Rückgängig",
+        "redo": "Wiederholen"
+    },
+    "menu_view": {
+        "theme_light": "Helles Design",
+        "theme_dark": "Dunkles Design"
+    },
+    "menu_tools": {
+        "cockpit": "Cockpit",
+        "media": "Medien",
+        "tabs": "Tabs",
+        "add_widget": "Widget hinzufügen...",
+        "system_monitor": "System Monitor",
+        "clock": "Weltzeituhr",
+        "network_traffic": "Netzwerk-Traffic",
+        "gpu_monitor": "GPU-Monitor",
+        "temperature": "Temperatur",
+        "disk_io": "Datenträger I/O",
+        "media_controls": "Medien-Steuerung",
+        "video_screen": "Video-Screen",
+        "media_explorer": "Medien-Explorer",
+        "stream": "Online Stream",
+        "equalizer": "Equalizer",
+        "file_manager": "Dateiverwaltung",
+        "network_diag": "Netzwerkdiagnose"
+    },
+    "menu_languages": {
+        "german": "🇩🇪 German",
+        "main": "🌍 Main Languages",
+        "standard": "Standard & Historical",
+        "east": "East German",
+        "north": "North German",
+        "west": "West German",
+        "south": "South German",
+        "austria": "Austria & Switzerland",
+        "other": "Other",
+        "european": "European",
+        "asian": "Asian",
+        "middle_east": "Middle East & Africa",
+        "bonus": "Bonus",
+        "east_legacy": "East German (GDR Heritage)",
+        "historical_east": "Historical Eastern Territories",
+        "diaspora": "Diaspora & Emigrants",
+        "south_alpine": "South German / Alpine",
+        "north_west": "North / West German",
+        "urban": "Urban Dialects",
+        "abroad": "German Abroad (AT/CH/LU)"
+    },
+    "lang": {
+        "de": "Standard German",
+        "de_middlehigh": "Middle High German (1050-1350)",
+        "de_brandenburg": "Brandenburgish",
+        "de_thuringia": "Thuringian",
+        "de_uppersaxon": "Upper Saxon",
+        "de_lusatian": "Lusatian",
+        "de_pomeranian": "Pomeranian",
+        "de_sudeten": "Sudeten German",
+        "de_silesian": "Silesian",
+        "de_lowprussia": "Low Prussian",
+        "de_eastprussia": "High Prussian",
+        "de_volga": "Volga German",
+        "de_banat": "Banat Swabian",
+        "de_sathmar": "Sathmar Swabian",
+        "de_bavaria": "Bavarian",
+        "de_swabian": "Swabian",
+        "de_allgaeu": "Allgäu Dialect",
+        "de_southtyrol": "South Tyrolean",
+        "de_alemannic": "Alemannic",
+        "de_baden": "Baden Dialect",
+        "de_franconian": "Franconian",
+        "de_vorarlberg": "Vorarlberg Dialect",
+        "de_palatinate": "Palatine",
+        "de_lowgerman": "Low German",
+        "de_mecklenburg": "Mecklenburg Low German",
+        "de_holstein": "Holstein Low German",
+        "de_westphalian": "Westphalian",
+        "de_ripuarian": "Ripuarian / Colognian",
+        "de_moselfranken": "Moselle Franconian",
+        "de_ruhr": "Ruhr German",
+        "de_berlin": "Berlin Dialect",
+        "de_saxony": "Saxon",
+        "de_frankfurt": "Frankfurt Dialect",
+        "de_rhine": "Rhenish",
+        "de_hessian": "Hessian",
+        "de_at": "Austrian German",
+        "de_ch": "Swiss German",
+        "de_luxembourg": "Luxembourgish",
+        "de_transylvania": "Transylvanian Saxon"
+    }
+}

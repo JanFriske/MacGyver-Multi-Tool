@@ -1,0 +1,252 @@
+/* ===============================================
+   MacGyver Multi-Tool – macOS Theme Stylesheet
+   © 2025 Jan Friske – Freeware / non-commercial
+   =============================================== */
+
+/* --- Basis --- */
+QMainWindow {
+    background-color: #ECECEC;
+    color: #222222;
+    selection-background-color: #007AFF;
+    selection-color: white;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+/* --- macOS-style title bar --- */
+QMainWindow::title {
+    background-color: #f5f5f7;
+    color: #333;
+    padding: 8px;
+    font-size: 14px;
+}
+
+/* --- Toolbar (glasartig) --- */
+QToolBar {
+    background: qlineargradient(
+        x1:0, y1:0, x2:0, y2:1,
+        stop:0 rgba(255,255,255,0.8),
+        stop:1 rgba(230,230,230,0.7)
+    );
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    spacing: 6px;
+    padding: 4px;
+    qproperty-movable: false;
+}
+
+/* --- Toolbar Buttons --- */
+QToolButton {
+    background-color: transparent;
+    border: none;
+    border-radius: 6px;
+    padding: 6px 12px;
+    color: #222;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI";
+    font-size: 13px;
+}
+
+QToolButton:hover {
+    background-color: rgba(0,0,0,0.05);
+}
+
+QToolButton:pressed {
+    background-color: rgba(0,0,0,0.15);
+}
+
+/* --- Menüleiste --- */
+QMenuBar {
+    background-color: rgba(245, 245, 247, 0.9);
+    color: #111;
+    border: none;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI";
+    font-size: 13px;
+    padding: 2px;
+}
+
+QMenuBar::item {
+    background: transparent;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+QMenuBar::item:selected {
+    background-color: rgba(0,0,0,0.1);
+}
+
+QMenuBar::item:pressed {
+    background-color: rgba(0,0,0,0.15);
+}
+
+/* --- Menü --- */
+QMenu {
+    background-color: #F9F9F9;
+    border: 1px solid rgba(0,0,0,0.15);
+    border-radius: 8px;
+    padding: 5px 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI";
+    font-size: 13px;
+}
+
+QMenu::item {
+    padding: 6px 30px 6px 24px;
+}
+
+QMenu::item:selected {
+    background-color: #007AFF;
+    color: white;
+}
+
+QMenu::separator {
+    height: 1px;
+    background: rgba(0,0,0,0.1);
+    margin: 5px 0;
+}
+
+/* --- Tabs --- */
+QTabWidget::pane {
+    border-top: 2px solid #C0C0C0;
+    background: #F5F5F5;
+    border-radius: 8px;
+}
+
+QTabBar::tab {
+    background: #E9E9E9;
+    color: #222;
+    padding: 6px 14px;
+    border: 1px solid #C0C0C0;
+    border-bottom: none;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin-right: 2px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI";
+    font-size: 13px;
+}
+
+QTabBar::tab:selected {
+    background: #FFFFFF;
+    border-color: #B0B0B0;
+    color: #000;
+}
+
+/* --- Labels --- */
+QLabel {
+    font-size: 13px;
+    color: #222;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial;
+}
+
+/* --- Buttons --- */
+QPushButton {
+    background-color: #007AFF;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    padding: 6px 16px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI";
+    font-size: 13px;
+}
+
+QPushButton:hover {
+    background-color: #0066D6;
+}
+
+QPushButton:pressed {
+    background-color: #0051B3;
+}
+
+QPushButton:disabled {
+    background-color: rgba(0, 122, 255, 0.3);
+}
+
+/* --- Dark Mode Overrides --- */
+QMainWindow[theme="dark"],
+QWidget[theme="dark"] {
+    background-color: #2B2B2B;
+    color: #EEEEEE;
+}
+
+QMainWindow::title[theme="dark"] {
+    background-color: #3c3c3c;
+    color: #ffffff;
+}
+
+QToolBar[theme="dark"] {
+    background: qlineargradient(
+        x1:0, y1:0, x2:0, y2:1,
+        stop:0 rgba(60,60,60,0.9),
+        stop:1 rgba(40,40,40,0.9)
+    );
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+QToolButton[theme="dark"] {
+    color: #ffffff;
+}
+
+QMenuBar[theme="dark"] {
+    background-color: rgba(59, 59, 59, 0.9);
+    color: #ffffff;
+}
+
+QMenu[theme="dark"] {
+    background-color: #3c3c3c;
+    border: 1px solid rgba(255,255,255,0.1);
+    color: #ffffff;
+}
+
+QMenu::item[theme="dark"] {
+    color: #ffffff;
+}
+
+QMenu::item:selected[theme="dark"] {
+    background-color: #0A84FF;
+}
+
+/* Title Bar Label */
+#TitleLabel {
+    color: #333;
+}
+
+#TitleLabel[theme="dark"] {
+    color: #ffffff;
+}
+
+QTabBar::tab[theme="dark"] {
+    background: #3C3C3C;
+    color: #E0E0E0;
+    border: 1px solid #555;
+    border-bottom: none; /* Match light theme */
+}
+
+QTabBar::tab:selected[theme="dark"] {
+    background: #4B4B4B;
+    color: #FFF;
+    border-color: #666;
+}
+
+QLabel[theme="dark"] {
+    color: #ffffff;
+}
+
+QPushButton[theme="dark"] {
+    background-color: #0A84FF;
+}
+
+QPushButton:hover[theme="dark"] {
+    background-color: #007AFF;
+}
+
+/* --- Scrollbars, minimalistisch --- */
+QScrollBar:vertical {
+    width: 10px;
+    background: transparent;
+    margin: 0;
+}
+
+QScrollBar::handle:vertical {
+    background: rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background: rgba(0,0,0,0.35);
+}

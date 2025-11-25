@@ -1,0 +1,336 @@
+{
+    "menu": {
+        "file": "Súbor",
+        "edit": "Upraviť",
+        "view": "Zobraziť",
+        "tools": "Nástroje",
+        "settings": "Nastavenia",
+        "help": "Pomoc",
+        "languages": "Jazyky",
+        "german_dialects": "Nemčina",
+        "system_monitor": "System Monitor",
+        "clock": "World Clock",
+        "network_traffic": "Network Traffic",
+        "gpu_monitor": "GPU Monitor",
+        "temperature": "Temperature",
+        "disk_io": "Disk I/O",
+        "media_controls": "Media Controls",
+        "video_screen": "Video Screen",
+        "media_explorer": "Media Explorer",
+        "stream": "Online Stream",
+        "equalizer": "Equalizer",
+        "file_manager": "File Manager",
+        "network_diag": "Network Diagnostics"
+    },
+    "menu_file": {
+        "new": "Nový",
+        "open": "Otvoriť...",
+        "save": "Uložiť",
+        "exit": "Ukončiť"
+    },
+    "menu_edit": {
+        "undo": "Späť",
+        "redo": "Znova"
+    },
+    "menu_view": {
+        "theme_light": "Svetlý motív",
+        "theme_dark": "Tmavý motív"
+    },
+    "menu_tools": {
+        "cockpit": "Kokpit",
+        "media": "Médiá",
+        "tabs": "Karty",
+        "add_widget": "➕ Pridať widget...",
+        "system_monitor": "Monitor systému",
+        "clock": "Svetový čas",
+        "network_traffic": "Sieťová prevádzka",
+        "gpu_monitor": "Monitor GPU",
+        "temperature": "Teplota",
+        "disk_io": "Disk I/O",
+        "media_controls": "Ovládanie médií",
+        "video_screen": "Video obrazovka",
+        "media_explorer": "Prieskumník médií",
+        "stream": "Online stream",
+        "equalizer": "Ekvalizér",
+        "file_manager": "Správca súborov",
+        "network_diag": "Sieťová diagnostika"
+    },
+    "widgets": {
+        "clock": "Svetový čas",
+        "system_monitor": "Monitor systému",
+        "network_monitor": "Sieťová prevádzka",
+        "gpu_monitor": "Monitor GPU",
+        "temp_monitor": "Teplota",
+        "disk_io_monitor": "Disk I/O",
+        "directory_browser": "Správca súborov",
+        "quick_access": "Rýchly prístup",
+        "file_stats": "Štatistiky",
+        "recent_files": "Posledné súbory",
+        "ping": "Ping",
+        "connection_status": "Pripojenie",
+        "speed_test": "Test rýchlosti",
+        "active_connections": "Aktívne pripojenia",
+        "network_path": "Sieťová cesta",
+        "directory_browser_title": "Správca súborov",
+        "quick_access_title": "Rýchly prístup",
+        "file_stats_title": "Štatistiky",
+        "file_stats_storage": "Úložisko",
+        "recent_files_title": "Posledné súbory"
+    },
+    "dialogs": {
+        "about": {
+            "title": "O aplikácii MacGyver Multi-Tool",
+            "version": "Verzia 1.0 (MVP Build)",
+            "description": "Modulárny nástroj s dizajnom macOS.",
+            "copyright": "© 2025 Jan Friske – Všetky práva vyhradené.",
+            "license": "Freeware licencia (nekomerčná)."
+        },
+        "widget_selector": {
+            "title": "Pridať widget",
+            "preview": "Náhľad",
+            "size_select": "Vybrať veľkosť:",
+            "add_button": "Pridať na panel",
+            "sizes": {
+                "compact": "Kompaktný",
+                "wide": "Široký",
+                "extra_wide": "Extra široký",
+                "full_width": "Plná šírka",
+                "tall": "Vysoký",
+                "large": "Veľký",
+                "extra_large": "Extra veľký",
+                "maximum": "Maximum"
+            },
+            "scale": "Mierka",
+            "error": "Chyba náhľadu"
+        }
+    },
+    "tabs": {
+        "cockpit": "Kokpit",
+        "media_commander": "Media Commander"
+    },
+    "weather": {
+        "loading": "Načítava sa...",
+        "loading_data": "Načítavajú sa údaje o počasí...",
+        "forecast": "3-dňová predpoveď",
+        "feels_like": "Pocitovo",
+        "humidity": "Vlhkosť",
+        "wind": "Vietor",
+        "unknown": "Neznáme"
+    },
+    "time": {
+        "zone": "Časové pásmo",
+        "calendar_week": "Kalendárny týždeň",
+        "day_of_year": "Deň v roku",
+        "day_of_year_full": "{day}. deň v roku",
+        "summer_time": "Letný čas",
+        "winter_time": "Zimný čas",
+        "gmt_offset": "GMT: {time} ({offset})",
+        "timezone_label": "Časové pásmo: {name}",
+        "week_day": "Týždeň {week} • Deň {day}"
+    },
+    "gauges": {
+        "cpu": "CPU",
+        "ram": "RAM",
+        "upload": "Odosielanie",
+        "download": "Sťahovanie",
+        "gpu": "GPU",
+        "system": "Systém"
+    },
+    "disk_io": {
+        "disk_label": "Disk: {name}",
+        "read": "Č",
+        "write": "Z"
+    },
+    "file_manager": {
+        "up": "⬆️ Hore",
+        "folders": "Priečinky",
+        "files": "Súbory",
+        "headers": {
+            "name": "Názov",
+            "size": "Veľkosť",
+            "modified": "Zmenené"
+        },
+        "places": {
+            "desktop": "Pracovná plocha",
+            "documents": "Dokumenty",
+            "downloads": "Stiahnuté súbory",
+            "pictures": "Obrázky",
+            "music": "Hudba",
+            "videos": "Videá",
+            "home": "Domov"
+        },
+        "stats": {
+            "files_count": "{count} súborov",
+            "storage": "Úložisko"
+        },
+        "up_button": "⬆️ Hore"
+    },
+    "network": {
+        "ping": {
+            "btn": "🌐 Ping",
+            "placeholder": "Názov hostiteľa alebo IP",
+            "pinging": "Pingovanie {host}...",
+            "failed": "❌ Ping zlyhal",
+            "timeout": "❌ Časový limit"
+        },
+        "connection": {
+            "checking": "Kontrola...",
+            "connected": "Pripojené",
+            "disconnected": "Odpojené",
+            "no_connection": "Žiadne pripojenie",
+            "ip_label": "IP: {ip}"
+        },
+        "speed_test": {
+            "btn": "🚀 Test rýchlosti",
+            "testing": "Testovanie...",
+            "download": "Sťahovanie",
+            "upload": "Odosielanie"
+        },
+        "active_connections": {
+            "protocol": "Protokol",
+            "refresh": "🔄 Obnoviť",
+            "all": "Všetko",
+            "headers": {
+                "process": "Proces",
+                "protocol": "Protokol",
+                "local": "Lokálne",
+                "remote": "Vzdialené",
+                "status": "Stav"
+            }
+        },
+        "trace": {
+            "target": "Cieľ:",
+            "btn": "🗺️ Trasovať cestu",
+            "placeholder": "Názov hostiteľa alebo IP",
+            "tracing": "Trasovanie...",
+            "start_msg": "🗺️ Cesta k cieľu sa zobrazí tu.\nZadajte cieľ a kliknite na 'Trasovať cestu'.",
+            "loading": "⏳ Určovanie cesty...",
+            "you": "🖥️ Vy",
+            "destination": "🎯 Cieľ",
+            "timeout": "Časový limit: Nie je možné určiť úplnú cestu.",
+            "error": "Chyba: {error}",
+            "no_route": "Nebola nájdená žiadna cesta alebo chyba trasovania."
+        }
+    },
+    "units": {
+        "celsius": "°C",
+        "percent": "%",
+        "mbps": "Mbps",
+        "kbps": "KB/s",
+        "ms": "ms",
+        "bytes": "B",
+        "kilobytes": "KB",
+        "megabytes": "MB",
+        "gigabytes": "GB",
+        "terabytes": "TB"
+    },
+    "status": {
+        "loading": "Načítava sa...",
+        "error": "Chyba",
+        "unknown": "Neznáme",
+        "timeout": "Časový limit",
+        "local": "Lokálne",
+        "checking": "Kontrola..."
+    },
+    "media": {
+        "open_button": "Otvoriť",
+        "equalizer_preset_label": "Predvoľba:",
+        "equalizer_presets": {
+            "flat": "Ploché",
+            "rock": "Rock",
+            "pop": "Pop",
+            "jazz": "Jazz",
+            "classical": "Klasická",
+            "bass_boost": "Zvýraznenie basov"
+        }
+    },
+    "tooltips": {
+        "tooltips.menu_file": "Create, open, save, and manage your files and projects.",
+        "tooltips.menu_edit": "Edit content, undo and redo recent changes.",
+        "tooltips.menu_tools": "Access powerful utility tools including dashboard, media player, and more.",
+        "tooltips.menu_settings": "Configure application preferences, language, and appearance.",
+        "tooltips.menu_help": "Get help, view documentation, and learn about this application.",
+        "tooltips.menu_view": "Change the visual appearance and theme of the application.",
+        "tooltips.menu_languages": "Choose your preferred language from numerous options.",
+        "tooltips.menu_german_dialects": "Select a regional German dialect variant.",
+        "tooltips.menu_cockpit": "System monitoring dashboard with customizable widgets and real-time data.",
+        "tooltips.menu_media": "Media player with advanced controls, equalizer, and streaming support.",
+        "tooltips.menu_tabs": "Manage open tabs and organize your workspace efficiently.",
+        "tooltips.file_new": "Create a new file or start a fresh project from scratch.",
+        "tooltips.file_open": "Open and load an existing file from your filesystem.",
+        "tooltips.file_save": "Save all current changes to the active file.",
+        "tooltips.file_exit": "Close the application and exit completely.",
+        "tooltips.edit_undo": "Undo the most recent action or change.",
+        "tooltips.edit_redo": "Redo the last action that was undone.",
+        "tooltips.help_about": "Display version information and credits for this application.",
+        "tooltips.theme_light": "Switch to the bright, light-colored theme for daytime use.",
+        "tooltips.theme_dark": "Switch to the dark theme for reduced eye strain in low-light conditions.",
+        "tooltips.open_tool": "Open and activate the {tool} utility tool.",
+        "tooltips.add_widget": "Add a new customizable widget to your dashboard.",
+        "tooltips.widget_add": "Add a new widget to your dashboard.",
+        "tooltips.tab_close": "Close this tab."
+    },
+    "menu_languages": {
+        "german": "🇩🇪 German",
+        "main": "🌍 Main Languages",
+        "standard": "Standard & Historical",
+        "east": "East German",
+        "north": "North German",
+        "west": "West German",
+        "south": "South German",
+        "austria": "Austria & Switzerland",
+        "other": "Other",
+        "european": "European",
+        "asian": "Asian",
+        "middle_east": "Middle East & Africa",
+        "bonus": "Bonus",
+        "east_legacy": "East German (GDR Heritage)",
+        "historical_east": "Historical Eastern Territories",
+        "diaspora": "Diaspora & Emigrants",
+        "south_alpine": "South German / Alpine",
+        "north_west": "North / West German",
+        "urban": "Urban Dialects",
+        "abroad": "German Abroad (AT/CH/LU)"
+    },
+    "lang": {
+        "de": "Standard German",
+        "de_middlehigh": "Middle High German (1050-1350)",
+        "de_brandenburg": "Brandenburgish",
+        "de_thuringia": "Thuringian",
+        "de_uppersaxon": "Upper Saxon",
+        "de_lusatian": "Lusatian",
+        "de_pomeranian": "Pomeranian",
+        "de_sudeten": "Sudeten German",
+        "de_silesian": "Silesian",
+        "de_lowprussia": "Low Prussian",
+        "de_eastprussia": "High Prussian",
+        "de_volga": "Volga German",
+        "de_banat": "Banat Swabian",
+        "de_sathmar": "Sathmar Swabian",
+        "de_bavaria": "Bavarian",
+        "de_swabian": "Swabian",
+        "de_allgaeu": "Allgäu Dialect",
+        "de_southtyrol": "South Tyrolean",
+        "de_alemannic": "Alemannic",
+        "de_baden": "Baden Dialect",
+        "de_franconian": "Franconian",
+        "de_vorarlberg": "Vorarlberg Dialect",
+        "de_palatinate": "Palatine",
+        "de_lowgerman": "Low German",
+        "de_mecklenburg": "Mecklenburg Low German",
+        "de_holstein": "Holstein Low German",
+        "de_westphalian": "Westphalian",
+        "de_ripuarian": "Ripuarian / Colognian",
+        "de_moselfranken": "Moselle Franconian",
+        "de_ruhr": "Ruhr German",
+        "de_berlin": "Berlin Dialect",
+        "de_saxony": "Saxon",
+        "de_frankfurt": "Frankfurt Dialect",
+        "de_rhine": "Rhenish",
+        "de_hessian": "Hessian",
+        "de_at": "Austrian German",
+        "de_ch": "Swiss German",
+        "de_luxembourg": "Luxembourgish",
+        "de_transylvania": "Transylvanian Saxon"
+    }
+}

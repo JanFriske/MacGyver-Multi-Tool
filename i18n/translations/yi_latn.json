@@ -1,0 +1,336 @@
+{
+    "menu": {
+        "file": "Teke",
+        "edit": "Redaktirn",
+        "view": "Ojszen",
+        "tools": "Geczajg",
+        "settings": "Ajnschtelungen",
+        "help": "Hilf",
+        "languages": "Schprochn",
+        "german_dialects": "Daitsh",
+        "system_monitor": "System Monitor",
+        "clock": "World Clock",
+        "network_traffic": "Network Traffic",
+        "gpu_monitor": "GPU Monitor",
+        "temperature": "Temperature",
+        "disk_io": "Disk I/O",
+        "media_controls": "Media Controls",
+        "video_screen": "Video Screen",
+        "media_explorer": "Media Explorer",
+        "stream": "Online Stream",
+        "equalizer": "Equalizer",
+        "file_manager": "File Manager",
+        "network_diag": "Network Diagnostics"
+    },
+    "menu_file": {
+        "new": "Naj",
+        "open": "Efenen...",
+        "save": "Ojfhitn",
+        "exit": "Arojsgehn"
+    },
+    "menu_edit": {
+        "undo": "Umkern",
+        "redo": "Wiederton"
+    },
+    "menu_view": {
+        "theme_light": "Lichtiker Teme",
+        "theme_dark": "Tunkeler Teme"
+    },
+    "menu_tools": {
+        "cockpit": "Kokpit",
+        "media": "Medie",
+        "tabs": "Tabs",
+        "add_widget": "➕ Zulejgn Widschet...",
+        "system_monitor": "System Monitor",
+        "clock": "Welt Zejger",
+        "network_traffic": "Nez Trafik",
+        "gpu_monitor": "GPU Monitor",
+        "temperature": "Temperatur",
+        "disk_io": "Disk Ajn/Ojs",
+        "media_controls": "Medie Kontroln",
+        "video_screen": "Video Ekran",
+        "media_explorer": "Medie Eksplorer",
+        "stream": "Onlajn Strim",
+        "equalizer": "Ikwalajzer",
+        "file_manager": "Teke Farwalter",
+        "network_diag": "Nez Diagnostik"
+    },
+    "widgets": {
+        "clock": "Welt Zejger",
+        "system_monitor": "System Monitor",
+        "network_monitor": "Nez Trafik",
+        "gpu_monitor": "GPU Monitor",
+        "temp_monitor": "Temperatur",
+        "disk_io_monitor": "Disk Ajn/Ojs",
+        "directory_browser": "Teke Farwalter",
+        "quick_access": "Schneler Zutrit",
+        "file_stats": "Statistik",
+        "recent_files": "Lecte Tekes",
+        "ping": "Ping",
+        "connection_status": "Farbindung",
+        "speed_test": "Gichkajt Test",
+        "active_connections": "Aktiwwe Farbindungen",
+        "network_path": "Nez Weg",
+        "directory_browser_title": "Tek farmaltung",
+        "quick_access_title": "Gikher tsutrit",
+        "file_stats_title": "Statistik",
+        "file_stats_storage": "Shpaycher",
+        "recent_files_title": "Letste tekes"
+    },
+    "dialogs": {
+        "about": {
+            "title": "Wegn MacGyver Multi-Tool",
+            "version": "Wersie 1.0 (MVP Bild)",
+            "description": "A modular Geczajg mit macOS Disajn.",
+            "copyright": "© 2025 Jan Friske – Ale Rechtn reservirt.",
+            "license": "Fraje Licenz (nischt komerziell)."
+        },
+        "widget_selector": {
+            "title": "Zulejgn Widschet",
+            "preview": "Forojsike Onkuk",
+            "size_select": "Ojsklajbn Grojs:",
+            "add_button": "Zulejgn zum Top",
+            "sizes": {
+                "compact": "Kompakt",
+                "wide": "Brajt",
+                "extra_wide": "Ekstre Brajt",
+                "full_width": "Fule Brajt",
+                "tall": "Hojch",
+                "large": "Grojs",
+                "extra_large": "Ekstre Grojs",
+                "maximum": "Maksimum"
+            },
+            "scale": "Skale",
+            "error": "Forojsike Onkuk Toes"
+        }
+    },
+    "tabs": {
+        "cockpit": "Kokpit",
+        "media_commander": "Medie Komandir"
+    },
+    "weather": {
+        "loading": "Lodt...",
+        "loading_data": "Lodt Weter Datn...",
+        "forecast": "3-Tog Forojszog",
+        "feels_like": "Filt sich wi",
+        "humidity": "Fajchtikajt",
+        "wind": "Wint",
+        "unknown": "Umbawust"
+    },
+    "time": {
+        "zone": "Czajt Zone",
+        "calendar_week": "Kalendar Woch",
+        "day_of_year": "Tog funem Jor",
+        "day_of_year_full": "Tog {day} funem Jor",
+        "summer_time": "Zumer Czajt",
+        "winter_time": "Winter Czajt",
+        "gmt_offset": "GMT: {time} ({offset})",
+        "timezone_label": "Czajt Zone: {name}",
+        "week_day": "Woch {week} • Tog {day}"
+    },
+    "gauges": {
+        "cpu": "CPU",
+        "ram": "RAM",
+        "upload": "Arojflodn",
+        "download": "Aroplodn",
+        "gpu": "GPU",
+        "system": "System"
+    },
+    "disk_io": {
+        "disk_label": "Disk: {name}",
+        "read": "L",
+        "write": "Sch"
+    },
+    "file_manager": {
+        "up": "⬆️ Arojf",
+        "folders": "Teklech",
+        "files": "Tekes",
+        "headers": {
+            "name": "Nomen",
+            "size": "Grojs",
+            "modified": "Geendert"
+        },
+        "places": {
+            "desktop": "Desktip",
+            "documents": "Dokumentn",
+            "downloads": "Daunlods",
+            "pictures": "Bilder",
+            "music": "Musik",
+            "videos": "Videos",
+            "home": "Hajm"
+        },
+        "stats": {
+            "files_count": "{count} Tekes",
+            "storage": "Schpajcherung"
+        },
+        "up_button": "⬆️ AFreiden"
+    },
+    "network": {
+        "ping": {
+            "btn": "🌐 Ping",
+            "placeholder": "Host Nomen oder IP",
+            "pinging": "Pingt {host}...",
+            "failed": "❌ Ping durchgefaln",
+            "timeout": "❌ Czajt ojs"
+        },
+        "connection": {
+            "checking": "Tschekt...",
+            "connected": "Farbundn",
+            "disconnected": "Opgeschejdt",
+            "no_connection": "Kajn Farbindung",
+            "ip_label": "IP: {ip}"
+        },
+        "speed_test": {
+            "btn": "🚀 Gichkajt Test",
+            "testing": "Testirt...",
+            "download": "Aroplodn",
+            "upload": "Arojflodn"
+        },
+        "active_connections": {
+            "protocol": "Protokol",
+            "refresh": "🔄 Derfischn",
+            "all": "Ale",
+            "headers": {
+                "process": "Proces",
+                "protocol": "Protokol",
+                "local": "Lokal",
+                "remote": "Wajt",
+                "status": "Status"
+            }
+        },
+        "trace": {
+            "target": "Cil:",
+            "btn": "🗺️ Schpur Weg",
+            "placeholder": "Host Nomen oder IP",
+            "tracing": "Schpurt...",
+            "start_msg": "🗺️ Weg zum Cil wet gewizn wern do.\nArajnlejgn a Cil un klikn 'Schpur Weg'.",
+            "loading": "⏳ Baschtim Weg...",
+            "you": "🖥️ Ir",
+            "destination": "🎯 Cil",
+            "timeout": "Czajt ojs: Ken nischt baschtimen gancn Weg.",
+            "error": "Toes: {error}",
+            "no_route": "Kajn Weg gefunen oder Schpur Toes."
+        }
+    },
+    "units": {
+        "celsius": "°C",
+        "percent": "%",
+        "mbps": "Mbps",
+        "kbps": "KB/s",
+        "ms": "ms",
+        "bytes": "B",
+        "kilobytes": "KB",
+        "megabytes": "MB",
+        "gigabytes": "GB",
+        "terabytes": "TB"
+    },
+    "status": {
+        "loading": "Lodt...",
+        "error": "Toes",
+        "unknown": "Umbawust",
+        "timeout": "Czajt ojs",
+        "local": "Lokal",
+        "checking": "Tschekt..."
+    },
+    "media": {
+        "open_button": "Efenen",
+        "equalizer_preset_label": "Foraynshteling:",
+        "equalizer_presets": {
+            "flat": "Flach",
+            "rock": "Rok",
+            "pop": "Pop",
+            "jazz": "Dzhaz",
+            "classical": "Klasish",
+            "bass_boost": "Bas farshtarkung"
+        }
+    },
+    "tooltips": {
+        "tooltips.menu_file": "Create, open, save, and manage your files and projects.",
+        "tooltips.menu_edit": "Edit content, undo and redo recent changes.",
+        "tooltips.menu_tools": "Access powerful utility tools including dashboard, media player, and more.",
+        "tooltips.menu_settings": "Configure application preferences, language, and appearance.",
+        "tooltips.menu_help": "Get help, view documentation, and learn about this application.",
+        "tooltips.menu_view": "Change the visual appearance and theme of the application.",
+        "tooltips.menu_languages": "Choose your preferred language from numerous options.",
+        "tooltips.menu_german_dialects": "Select a regional German dialect variant.",
+        "tooltips.menu_cockpit": "System monitoring dashboard with customizable widgets and real-time data.",
+        "tooltips.menu_media": "Media player with advanced controls, equalizer, and streaming support.",
+        "tooltips.menu_tabs": "Manage open tabs and organize your workspace efficiently.",
+        "tooltips.file_new": "Create a new file or start a fresh project from scratch.",
+        "tooltips.file_open": "Open and load an existing file from your filesystem.",
+        "tooltips.file_save": "Save all current changes to the active file.",
+        "tooltips.file_exit": "Close the application and exit completely.",
+        "tooltips.edit_undo": "Undo the most recent action or change.",
+        "tooltips.edit_redo": "Redo the last action that was undone.",
+        "tooltips.help_about": "Display version information and credits for this application.",
+        "tooltips.theme_light": "Switch to the bright, light-colored theme for daytime use.",
+        "tooltips.theme_dark": "Switch to the dark theme for reduced eye strain in low-light conditions.",
+        "tooltips.open_tool": "Open and activate the {tool} utility tool.",
+        "tooltips.add_widget": "Add a new customizable widget to your dashboard.",
+        "tooltips.widget_add": "Add a new widget to your dashboard.",
+        "tooltips.tab_close": "Close this tab."
+    },
+    "menu_languages": {
+        "german": "🇩🇪 German",
+        "main": "🌍 Main Languages",
+        "standard": "Standard & Historical",
+        "east": "East German",
+        "north": "North German",
+        "west": "West German",
+        "south": "South German",
+        "austria": "Austria & Switzerland",
+        "other": "Other",
+        "european": "European",
+        "asian": "Asian",
+        "middle_east": "Middle East & Africa",
+        "bonus": "Bonus",
+        "east_legacy": "East German (GDR Heritage)",
+        "historical_east": "Historical Eastern Territories",
+        "diaspora": "Diaspora & Emigrants",
+        "south_alpine": "South German / Alpine",
+        "north_west": "North / West German",
+        "urban": "Urban Dialects",
+        "abroad": "German Abroad (AT/CH/LU)"
+    },
+    "lang": {
+        "de": "Standard German",
+        "de_middlehigh": "Middle High German (1050-1350)",
+        "de_brandenburg": "Brandenburgish",
+        "de_thuringia": "Thuringian",
+        "de_uppersaxon": "Upper Saxon",
+        "de_lusatian": "Lusatian",
+        "de_pomeranian": "Pomeranian",
+        "de_sudeten": "Sudeten German",
+        "de_silesian": "Silesian",
+        "de_lowprussia": "Low Prussian",
+        "de_eastprussia": "High Prussian",
+        "de_volga": "Volga German",
+        "de_banat": "Banat Swabian",
+        "de_sathmar": "Sathmar Swabian",
+        "de_bavaria": "Bavarian",
+        "de_swabian": "Swabian",
+        "de_allgaeu": "Allgäu Dialect",
+        "de_southtyrol": "South Tyrolean",
+        "de_alemannic": "Alemannic",
+        "de_baden": "Baden Dialect",
+        "de_franconian": "Franconian",
+        "de_vorarlberg": "Vorarlberg Dialect",
+        "de_palatinate": "Palatine",
+        "de_lowgerman": "Low German",
+        "de_mecklenburg": "Mecklenburg Low German",
+        "de_holstein": "Holstein Low German",
+        "de_westphalian": "Westphalian",
+        "de_ripuarian": "Ripuarian / Colognian",
+        "de_moselfranken": "Moselle Franconian",
+        "de_ruhr": "Ruhr German",
+        "de_berlin": "Berlin Dialect",
+        "de_saxony": "Saxon",
+        "de_frankfurt": "Frankfurt Dialect",
+        "de_rhine": "Rhenish",
+        "de_hessian": "Hessian",
+        "de_at": "Austrian German",
+        "de_ch": "Swiss German",
+        "de_luxembourg": "Luxembourgish",
+        "de_transylvania": "Transylvanian Saxon"
+    }
+}

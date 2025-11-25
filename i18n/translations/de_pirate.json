@@ -1,0 +1,314 @@
+{
+    "menu": {
+        "file": "Schatzkarte",
+        "edit": "Plündern",
+        "view": "Fernrohr",
+        "tools": "Waffen",
+        "settings": "Steuerrad",
+        "help": "Parley",
+        "languages": "Zungen",
+        "german_dialects": "Deutsche Dialekte",
+        "system_monitor": "Logbuch",
+        "clock": "Sanduhr",
+        "network_traffic": "Flaschenpost",
+        "gpu_monitor": "Kanonen-Monitor",
+        "temperature": "Hitze",
+        "disk_io": "Frachtraum",
+        "media_controls": "Shanty-Steuerung",
+        "video_screen": "Zauberspiegel",
+        "media_explorer": "Beute-Explorer",
+        "stream": "Strom",
+        "equalizer": "Stimmung",
+        "file_manager": "Truhen-Verwalter",
+        "network_diag": "Kompass-Diagnose"
+    },
+    "menu_file": {
+        "new": "Neue Kaperfahrt",
+        "open": "Ausgraben...",
+        "save": "Vergraben",
+        "exit": "Schiff verlassen"
+    },
+    "menu_edit": {
+        "undo": "Zurückrudern",
+        "redo": "Nochmal"
+    },
+    "menu_view": {
+        "theme_light": "Tageswache",
+        "theme_dark": "Nachtwache"
+    },
+    "menu_tools": {
+        "cockpit": "Kapitänskajüte",
+        "media": "Shanties",
+        "tabs": "Decks",
+        "add_widget": "Gerät hinzufügen...",
+        "system_monitor": "Logbuch",
+        "clock": "Sanduhr",
+        "network_traffic": "Flaschenpost",
+        "gpu_monitor": "Kanonen-Monitor",
+        "temperature": "Hitze",
+        "disk_io": "Frachtraum",
+        "media_controls": "Shanty-Steuerung",
+        "video_screen": "Zauberspiegel",
+        "media_explorer": "Beute-Explorer",
+        "stream": "Strom",
+        "equalizer": "Stimmung",
+        "file_manager": "Truhen-Verwalter",
+        "network_diag": "Kompass-Diagnose"
+    },
+    "widgets": {
+        "clock": "Sanduhr",
+        "system_monitor": "Logbuch",
+        "network_monitor": "Flaschenpost",
+        "gpu_monitor": "Kanonen-Monitor",
+        "temp_monitor": "Hitze",
+        "disk_io_monitor": "Frachtraum",
+        "directory_browser": "Truhen-Verwalter",
+        "quick_access": "Schnellzugriff",
+        "file_stats": "Kerbholz",
+        "recent_files": "Letzte Beute",
+        "ping": "Kanonenschuss",
+        "connection_status": "Ankerstatus",
+        "speed_test": "Windgeschwindigkeit",
+        "active_connections": "Aktive Mannschaft",
+        "network_path": "Seeweg",
+        "directory_browser_title": "Truhen-Verwalter",
+        "quick_access_title": "Schnellzugriff",
+        "file_stats_title": "Kerbholz",
+        "file_stats_storage": "Laderaum",
+        "recent_files_title": "Letzte Beute"
+    },
+    "dialogs": {
+        "about": {
+            "title": "Über MacGyvers Schiff",
+            "version": "Version 1.0 (MVP-Build)",
+            "description": "Ein modulares Werkzeug für die sieben Weltmeere.",
+            "copyright": "© 2025 Jan Friske – Alle Rechte vorbehalten.",
+            "license": "Freibeuter-Lizenz (nicht kommerziell)."
+        },
+        "widget_selector": {
+            "title": "Gerät hinzufügen",
+            "preview": "Vorschau",
+            "size_select": "Größe wählen:",
+            "add_button": "Aufs Deck stellen",
+            "sizes": {
+                "compact": "Winzig",
+                "wide": "Breit",
+                "extra_wide": "Extra Breit",
+                "full_width": "Volles Deck",
+                "tall": "Hoch",
+                "large": "Groß",
+                "extra_large": "Extra Groß",
+                "maximum": "Maximum"
+            },
+            "scale": "Skalierung",
+            "error": "Fernrohr kaputt"
+        }
+    },
+    "tabs": {
+        "cockpit": "Kapitänskajüte",
+        "media_commander": "Shanty-Kommandant"
+    },
+    "weather": {
+        "loading": "Segel setzen...",
+        "loading_data": "Wetterdaten lesen...",
+        "forecast": "3-Tage-Aussicht",
+        "feels_like": "Gefühlt",
+        "humidity": "Feuchtigkeit",
+        "wind": "Sturm",
+        "unknown": "Unbekannte Gewässer"
+    },
+    "time": {
+        "zone": "Zeitzone",
+        "calendar_week": "Woche",
+        "day_of_year": "Tag des Jahres",
+        "day_of_year_full": "{day}. Tag des Jahres",
+        "summer_time": "Sommerzeit",
+        "winter_time": "Winterzeit",
+        "gmt_offset": "GMT: {time} ({offset})",
+        "timezone_label": "Zone: {name}",
+        "week_day": "Woche {week} • Tag {day}"
+    },
+    "gauges": {
+        "cpu": "Hirn",
+        "ram": "Gedächtnis",
+        "upload": "Hissen",
+        "download": "Senken",
+        "gpu": "Kanone",
+        "system": "Schiff"
+    },
+    "disk_io": {
+        "disk_label": "Disk: {name}",
+        "read": "L",
+        "write": "S"
+    },
+    "file_manager": {
+        "up": "⬆️ Mast hoch",
+        "folders": "Truhen",
+        "files": "Schriftrollen",
+        "headers": {
+            "name": "Name",
+            "size": "Gewicht",
+            "modified": "Berührt"
+        },
+        "places": {
+            "desktop": "Deck",
+            "documents": "Schriftrollen",
+            "downloads": "Beute",
+            "pictures": "Gemälde",
+            "music": "Shanties",
+            "videos": "Bewegtbilder",
+            "home": "Kajüte"
+        },
+        "stats": {
+            "files_count": "{count} Schriftrollen",
+            "storage": "Laderaum"
+        },
+        "up_button": "⬆️ Mast hoch"
+    },
+    "network": {
+        "ping": {
+            "btn": "🌐 Feuern",
+            "placeholder": "Zielschiff",
+            "pinging": "Feuere auf {host}...",
+            "failed": "❌ Daneben",
+            "timeout": "❌ Außer Reichweite"
+        },
+        "connection": {
+            "checking": "Prüfe...",
+            "connected": "Vor Anker",
+            "disconnected": "Treibend",
+            "no_connection": "Flaute",
+            "ip_label": "IP: {ip}"
+        },
+        "speed_test": {
+            "btn": "🚀 Wind messen",
+            "testing": "Messe...",
+            "download": "Senken",
+            "upload": "Hissen"
+        },
+        "active_connections": {
+            "protocol": "Kodex",
+            "refresh": "🔄 Deck schrubben",
+            "all": "Alle Mann",
+            "headers": {
+                "process": "Mannschaft",
+                "protocol": "Kodex",
+                "local": "Hier",
+                "remote": "Dort",
+                "status": "Zustand"
+            }
+        },
+        "trace": {
+            "target": "Ziel:",
+            "btn": "🗺️ Kurs setzen",
+            "placeholder": "Zielinsel",
+            "tracing": "Navigiere...",
+            "start_msg": "🗺️ Kurs zum Ziel wird hier angezeigt.\nZiel eingeben und 'Kurs setzen' klicken.",
+            "loading": "⏳ Berechne Kurs...",
+            "you": "🖥️ Du",
+            "destination": "🎯 Das X",
+            "timeout": "Timeout: Verschollen.",
+            "error": "Fehler: {error}",
+            "no_route": "Kein Kurs gefunden."
+        }
+    },
+    "units": {
+        "celsius": "°C",
+        "percent": "%",
+        "mbps": "Mbps",
+        "kbps": "KB/s",
+        "ms": "ms",
+        "bytes": "B",
+        "kilobytes": "KB",
+        "megabytes": "MB",
+        "gigabytes": "GB",
+        "terabytes": "TB"
+    },
+    "status": {
+        "loading": "Hisse Segel...",
+        "error": "Fluch",
+        "unknown": "Unbekannt",
+        "timeout": "Flaute",
+        "local": "Lokal",
+        "checking": "Spähe..."
+    },
+    "media": {
+        "open_button": "Truhe öffnen",
+        "equalizer_preset_label": "Laune:",
+        "equalizer_presets": {
+            "flat": "Ruhige See",
+            "rock": "Stürmisch",
+            "pop": "Lebhaft",
+            "jazz": "Geschmeidig",
+            "classical": "Königlich",
+            "bass_boost": "Donner"
+        }
+    },
+    "tooltips": {
+        "tooltips.menu_file": "Verwalte deine Schatzkarten und Schriftrollen.",
+        "tooltips.menu_edit": "Plündern und Fehler korrigieren.",
+        "tooltips.menu_tools": "Waffen und Werkzeuge für die Reise.",
+        "tooltips.menu_settings": "Das Schiff steuern.",
+        "tooltips.menu_help": "Um Parley bitten.",
+        "tooltips.menu_view": "Durchs Fernrohr schauen.",
+        "tooltips.menu_languages": "In fremden Zungen sprechen.",
+        "tooltips.menu_german_dialects": "Wie ein deutscher Pirat sprechen.",
+        "tooltips.menu_cockpit": "Zur Kapitänskajüte gehen.",
+        "tooltips.menu_media": "Shanties spielen.",
+        "tooltips.menu_tabs": "Decks verwalten.",
+        "tooltips.file_new": "Neues Abenteuer beginnen.",
+        "tooltips.file_open": "Alten Schatz ausgraben.",
+        "tooltips.file_save": "Beute vergraben.",
+        "tooltips.file_exit": "Schiff verlassen!",
+        "tooltips.edit_undo": "Zeit zurückdrehen.",
+        "tooltips.edit_redo": "Nochmal machen.",
+        "tooltips.theme_light": "Tageswache.",
+        "tooltips.theme_dark": "Nachtwache.",
+        "tooltips.widget_add": "Neues Gerät anbringen.",
+        "tooltips.tab_close": "Dieses Deck versenken."
+    },
+    "menu_languages": {
+        "german": "🇩🇪 Deutsch",
+        "main": "🌍 Hauptzungen",
+        "standard": "Standard",
+        "east_legacy": "Osten",
+        "historical_east": "Alter Osten",
+        "diaspora": "Verbannte",
+        "south_alpine": "Süden",
+        "north_west": "Nord/West",
+        "urban": "Stadt",
+        "abroad": "Fremde",
+        "european": "Europäisch",
+        "asian": "Asiatisch",
+        "middle_east": "Wüste",
+        "bonus": "Bonus",
+        "other": "Sonstige"
+    },
+    "stats": {
+        "title": "Übersetzungsstatistik",
+        "header": "Abdeckung",
+        "column_language": "Zunge",
+        "column_code": "Code",
+        "column_native": "Nativ",
+        "column_fallback_de": "FB: DE",
+        "column_fallback_en": "FB: EN",
+        "column_missing": "Fehlend",
+        "column_coverage": "Abdeckung",
+        "total_languages": "Zungen gesamt",
+        "fully_native": "Nativ",
+        "using_fallbacks": "Fallbacks",
+        "with_missing": "Fehlend",
+        "tooltip_native": "Nativ",
+        "tooltip_fallback_de": "Deutsch",
+        "tooltip_fallback_en": "Englisch",
+        "tooltip_missing": "Fehlt"
+    },
+    "dialog": {
+        "close": "Schließen"
+    },
+    "lang": {
+        "de": "Hochdeutsch",
+        "en_pirate": "🏴‍☠️ Pirate English",
+        "de_pirate": "🏴‍☠️ Piraten-Deutsch"
+    }
+}

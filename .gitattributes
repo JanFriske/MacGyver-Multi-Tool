@@ -1,0 +1,60 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Python files
+*.py text eol=lf
+*.pyw text eol=lf
+*.pyx text eol=lf
+*.pxd text eol=lf
+*.pxi text eol=lf
+
+# JSON files
+*.json text eol=lf
+
+# Markdown files
+*.md text eol=lf
+
+# QSS (Qt Style Sheets)
+*.qss text eol=lf
+
+# Configuration files
+*.ini text eol=lf
+*.cfg text eol=lf
+*.conf text eol=lf
+*.config text eol=lf
+*.txt text eol=lf
+
+# Shell scripts
+*.sh text eol=lf
+*.bash text eol=lf
+
+# Batch scripts
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.icns binary
+*.svg binary
+*.webp binary
+*.pdf binary
+*.zip binary
+*.tar binary
+*.gz binary
+*.7z binary
+*.rar binary
+
+# Qt UI files
+*.ui text eol=lf
+
+# Linguist overrides (for GitHub language statistics)
+*.qss linguist-language=CSS
+*.ui linguist-language=XML
+scripts/* linguist-vendored=false
+i18n/translations/* linguist-documentation=false
+assets/* linguist-vendored=true
