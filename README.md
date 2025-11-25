@@ -91,15 +91,6 @@
 
 ---
 
-## 🤝 Contributing
-
-We welcome contributions from the community! Whether you're fixing bugs, adding new features, or improving documentation, your help is appreciated.
-
-Please read our [Contributing Guidelines](CONTRIBUTING.md) to get started.
-
-
----
-
 ## 📜 License
 
 This project is licensed under the **GNU Lesser General Public License v3.0 (LGPL-3.0)**.
