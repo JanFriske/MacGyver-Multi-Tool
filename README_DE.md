@@ -1,6 +1,8 @@
 # MacGyver Multi-Tool
 
-![MacGyver Multi-Tool Logo](assets/images/logo.png)
+<p align="center">
+  <img src="assets/images/logo.png" alt="MacGyver Multi-Tool Logo" width="400">
+</p>
 
 [![Lizenz: LGPL v3](https://img.shields.io/badge/Lizenz-LGPL%20v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)
 [![Plattform](https://img.shields.io/badge/Plattform-Windows-blue.svg)](https://www.microsoft.com/store)
