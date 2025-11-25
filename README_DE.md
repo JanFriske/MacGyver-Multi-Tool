@@ -67,103 +67,7 @@
 
 ---
 
-## 🚀 Erste Schritte
 
-### Voraussetzungen
-- Windows 10/11
-- Python 3.8 oder höher
-- PySide6 (Qt für Python)
-
-### Installation
-
-1. **Repository klonen**
-```bash
-git clone https://github.com/JanFriske/MacGyver-Multi-Tool.git
-cd MacGyver-Multi-Tool
-```
-
-2. **Abhängigkeiten installieren**
-```bash
-pip install -r requirements.txt
-```
-
-3. **Anwendung starten**
-```bash
-python app.py
-```
-
----
-
-## 📖 Verwendung
-
-### Sprache wechseln
-1. Navigieren Sie zu **Einstellungen → Sprachen**
-2. Durchsuchen Sie das hierarchische Menü, organisiert nach Kontinenten
-3. Wählen Sie Ihre bevorzugte Sprache oder Dialekt
-4. Die gesamte Benutzeroberfläche wird sofort aktualisiert
-
-### Widgets zum Dashboard hinzufügen
-1. Öffnen Sie **Werkzeuge → Cockpit → Dashboard**
-2. Klicken Sie auf **Widget hinzufügen**
-3. Wählen Sie aus verfügbaren Widgets (Uhr, Systemmonitor, Netzwerk, GPU, Temperatur, etc.)
-4. Ziehen und ablegen, um auf dem Raster anzuordnen
-5. Größe der Widgets durch Ändern ihrer Spanne anpassen
-
-### Benutzerdefinierte Übersetzungen erstellen
-1. Gehen Sie zu **Einstellungen → Sprachen → Übersetzungen bearbeiten**
-2. Wählen Sie die Sprache aus, die Sie anpassen möchten
-3. Bearbeiten Sie jeden Übersetzungsschlüssel
-4. Änderungen werden automatisch gespeichert und sofort angewendet
-
-### Eine neue Sprache erstellen
-1. Navigieren Sie zu **Einstellungen → Sprachen → Neue Sprache erstellen**
-2. Geben Sie Sprachcode und Anzeigename ein
-3. Optional: Übersetzungen aus einer vorhandenen Sprache importieren
-4. Beginnen Sie mit der Anpassung der Übersetzungen
-
----
-
-## 🏗️ Projektstruktur
-
-```
-MacGyver Multi-Tool/
-├── app.py                      # Haupteinstiegspunkt der Anwendung
-├── core/                       # Kern-Geschäftslogik
-│   ├── model.py               # Datenmodelle
-│   └── services/              # Service-Schicht
-│       ├── i18n_service.py    # Internationalisierungsdienst (260+ Sprachen)
-│       ├── weather_service.py # Wetterdatenintegration
-│       └── user_override_service.py # Benutzer-Übersetzungsüberschreibungen
-├── presenter/                  # Controller-Schicht (MVP-Muster)
-│   └── controller.py          # Haupt-Anwendungscontroller
-├── ui/                        # Benutzeroberflächen-Schicht
-│   ├── view.py                # Hauptfenster und UI-Logik
-│   ├── components/            # Wiederverwendbare UI-Komponenten
-│   │   ├── command_palette.py # Schneller Befehlszugriff
-│   │   └── title_bar.py       # Benutzerdefinierte Fenstertitelleiste
-│   ├── dialogs/               # Dialogfenster
-│   ├── tools/                 # Tool-Implementierungen
-│   │   ├── dashboard.py       # Widget-Dashboard
-│   │   ├── gadgets.py         # Systemüberwachungs-Widgets
-│   │   ├── media_player.py    # Medienwiedergabe
-│   │   ├── network_widgets.py # Netzwerküberwachung
-│   │   └── widget_selector.py # Widget-Auswahldialog
-│   └── styles/                # QSS-Stylesheets
-│       ├── mac_light.qss      # Helles Theme
-│       ├── mac_dark.qss       # Dunkles Theme
-│       └── mac_klingon.qss    # Klingonisches Theme
-├── i18n/                      # Internationalisierung
-│   ├── translations/          # 260+ Sprach-JSON-Dateien
-│   ├── flags.json             # Sprache-zu-Flagge-Zuordnungen
-│   └── translation_master.json # Master-Übersetzungsdatenbank
-├── assets/                    # Ressourcen
-│   ├── icons/                 # Anwendungssymbole
-│   ├── images/                # Bilder und Logos
-│   └── flags/                 # Länder-/Sprachflaggen (SVG & PNG)
-└── scripts/                   # Hilfsskripte für die Entwicklung
-```
-
----
 
 ## 🎯 Roadmap
 
@@ -192,13 +96,6 @@ MacGyver Multi-Tool/
 Wir begrüßen Beiträge aus der Community! Ob Sie Fehler beheben, neue Funktionen hinzufügen oder die Dokumentation verbessern - Ihre Hilfe wird geschätzt.
 
 Bitte lesen Sie unsere [Beitragsrichtlinien](CONTRIBUTING.md), um loszulegen.
-
-### Wie Sie beitragen können
-1. Repository forken
-2. Feature-Branch erstellen (`git checkout -b feature/TollesFunktion`)
-3. Änderungen committen (`git commit -m 'Füge tolle Funktion hinzu'`)
-4. Zum Branch pushen (`git push origin feature/TollesFunktion`)
-5. Pull Request öffnen
 
 ### Neue Sprachen hinzufügen
 Wir sind immer auf der Suche nach Erweiterung unserer Sprachunterstützung! Wenn Sie eine neue Sprache oder einen Dialekt hinzufügen möchten:
